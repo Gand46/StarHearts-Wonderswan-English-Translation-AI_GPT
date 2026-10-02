@@ -1,0 +1,47 @@
+{
+  "version": "13BG-F33",
+  "base": "F32",
+  "date": "2026-09-28",
+  "base_sha256": "8b7afc0975bdaa91c25aad5b9b5aa722af310421db472bbc917752432ebdbc7a",
+  "target_sha256": "c202d65c5c4a8da0247cb1051b03d3bb50d7c69c1dd6ea41f906caedab380e03",
+  "wonderswan_checksum": "3CF1",
+  "changes": [
+    {
+      "offset": 1803058,
+      "size": 48,
+      "before_hex": "826b8289828bf019001a8143f02ef01ef030828f0d0a8297f052f024f039f05df044f0a9f023f085f01cf02ff047f0d5",
+      "after_hex": "826b8289828bf019001a8143f02ef01ef030828f0d0a8297f052f024f039f05df044f0a9f023f04a8286f0c4f047f0d5",
+      "reason": "Shorten ending second line to fit native window; preserve first line, newline, slot and terminator.",
+      "translation_second_line": "was a messenger of stars."
+    },
+    {
+      "offset": 1803188,
+      "size": 52,
+      "before_hex": "f0caf048f025f037f031f0368294f053f01df08d8140f0a482850d0af025f01bf064f0438285f0d8f06df088828df062f03c8143",
+      "after_hex": "f0caf048f025f037f031f0368294f053f01df08d8140f0a482850d0af025f01bf064f043f019f088828df0628281828e82848143",
+      "reason": "Shorten ending second line to fit native window; preserve first line, newline, slot and terminator.",
+      "translation_second_line": "in the Inde homeland,"
+    },
+    {
+      "offset": 1803324,
+      "size": 54,
+      "before_hex": "8260f043f01bf07ff0b38296f0a2f0ba0d0af0d3f0538284f0318299f01bf06cf07b815d829382818296f0268140826ef04482928143",
+      "after_hex": "8260f043f01bf07ff0b38296f0a2f0ba0d0af0d3f0538284f031f02b826ef04482928143f02af041f07bf02e828182968289f0418143",
+      "reason": "Shorten ending second line to fit native window; preserve first line, newline, slot and terminator.",
+      "translation_second_line": "ruled by Oser, world savior,"
+    },
+    {
+      "offset": 4194302,
+      "size": 2,
+      "before_hex": "993d",
+      "after_hex": "f13c",
+      "reason": "WonderSwan checksum"
+    }
+  ],
+  "dictionary_changed": false,
+  "pointers_changed": false,
+  "control_bytes_changed": false,
+  "synthetic_warp_integrated": false,
+  "effective_changed_bytes": 39,
+  "translation_changes": 3
+}

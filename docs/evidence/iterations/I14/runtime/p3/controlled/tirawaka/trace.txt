@@ -1,0 +1,32 @@
+BEFORE_REDIRECT frame=110 pc=9000:3151 es:si=2000:3B96 bank=D9 scene=0005 reads=0
+REDIRECTED frame=110 pc=9000:3151 es:si=2000:5800 bank=D9 scene=0005 reads=0
+PERIODIC frame=120 pc=9000:0173 es:si=0000:583C bank=D9 scene=0005 reads=0
+PERIODIC frame=240 pc=9000:0173 es:si=0000:583C bank=D9 scene=0005 reads=0
+PERIODIC frame=360 pc=9000:0176 es:si=0000:5840 bank=D9 scene=0005 reads=0
+PERIODIC frame=480 pc=9000:0176 es:si=0000:5850 bank=D9 scene=0005 reads=0
+PERIODIC frame=600 pc=9000:0176 es:si=0000:5856 bank=D9 scene=0005 reads=0
+TARGET_READ frame=650 phys=195892
+EXEC_SPEAKER frame=650 pc=9000:3564 es:si=2000:5894 bank=D9 scene=0005 reads=1
+TARGET_READ frame=650 phys=195894
+TARGET_READ frame=650 phys=195895
+TARGET_READ frame=650 phys=195896
+TARGET_READ frame=650 phys=195897
+TARGET_READ frame=650 phys=195898
+TARGET_READ frame=650 phys=195899
+TARGET_READ frame=650 phys=19589A
+TARGET_READ frame=650 phys=19589B
+TARGET_READ frame=650 phys=19589C
+TARGET_READ frame=650 phys=19589D
+TARGET_READ frame=650 phys=19589E
+TARGET_READ frame=650 phys=19589F
+CAPTURE_TARGET frame=651 pc=9000:0179 es:si=0000:589E bank=D9 scene=0005 reads=13
+TARGET_READ frame=651 phys=19589E
+TARGET_READ frame=651 phys=1958A0
+PERIODIC frame=720 pc=9000:0176 es:si=0000:58A4 bank=D9 scene=0005 reads=15
+PERIODIC frame=840 pc=9000:0176 es:si=0000:58D6 bank=D9 scene=0005 reads=15
+PERIODIC frame=960 pc=9000:0176 es:si=0000:593C bank=D9 scene=0005 reads=15
+PERIODIC frame=1080 pc=9000:0179 es:si=0000:5972 bank=D9 scene=0005 reads=15
+PERIODIC frame=1200 pc=9000:0179 es:si=0000:5994 bank=D9 scene=0005 reads=15
+PERIODIC frame=1320 pc=9000:0179 es:si=0000:59D2 bank=D9 scene=0005 reads=15
+FINAL frame=1400 pc=9000:0176 es:si=0000:5A0A bank=D9 scene=0005 reads=15
+SUMMARY injected=true target_reads=15 step=389 renderer=0 speaker=1 award=0 transition=0

@@ -1,0 +1,32 @@
+{
+  "version": "13BG-D2",
+  "base": "13BG-D1",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "c3505a603eaa261fd2d3b8f02466cc95f9e1276b7ba6fab0f2779fad11d05781",
+  "target_sha256": "9cc47f3cb16694b11959f3eb2c90d5d31c30ef26e756f15af7ae6d21fb653c6d",
+  "size": 4194304,
+  "wonderswan_checksum": "8E88",
+  "changes": [
+    {
+      "offset": "0x386038",
+      "bytes": 14,
+      "japanese": "水上洞窟　１階",
+      "english": "Water1F",
+      "old_hex": "90858fe393b48c41814082508a4b",
+      "new_hex": "8276828182948285829282508265",
+      "method": "fixed-slot fullwidth CP932; exact 14-byte replacement; no MTE/repoint"
+    },
+    {
+      "offset": "0x38604A",
+      "bytes": 14,
+      "japanese": "水上洞窟　２階",
+      "english": "Water2F",
+      "old_hex": "90858fe393b48c41814082518a4b",
+      "new_hex": "8276828182948285829282518265",
+      "method": "fixed-slot fullwidth CP932; exact 14-byte replacement; no MTE/repoint"
+    }
+  ],
+  "scope": "Water Cave 1F-2F fixed location captions; common location renderer; no code/pointer mutation",
+  "boundary_note": "Stopped before Gnosis/Base records because the following Base 1F entry includes non-text/control bytes (0x8001) and requires separate consumer analysis.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

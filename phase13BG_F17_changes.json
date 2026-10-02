@@ -1,0 +1,15 @@
+{
+  "phase": "13BG-F17",
+  "date": "2026-09-19",
+  "base_sha256": "fbb161d7b8dd10f279c436519d738c31aa321302019d53ca22d41300bfd55460",
+  "reason": "Runtime QA checkpoint. The preserved F16 Village Rule navigation savestate was audited and found to resume inside the gravekeeper dialogue interaction rather than safely after it; repeated A input can retrigger the conversation loop. This invalidates it as a post-event navigation checkpoint, but not the F16 visual certification of Village Rule. No new translation defect requiring ROM modification was proven in this bounded F17 pass. Holy Temple/Tirawaka and the second First Trial banner remain pending. F17 therefore adds zero ROM writes and replaces the next-step route strategy with replay from certified F15 Save #2 plus a clean event exit checkpoint.",
+  "changes": [],
+  "runtime": {
+    "f16_village_rule_visual_pass": "PRESERVED",
+    "f16_post_event_savestate_navigation": "REJECTED_AS_UNSAFE_MID_DIALOGUE",
+    "author_bacchan": "PENDING",
+    "holy_temple": "PENDING",
+    "tirawaka": "PENDING",
+    "first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING"
+  }
+}

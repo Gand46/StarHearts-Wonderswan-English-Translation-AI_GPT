@@ -1,0 +1,60 @@
+{
+  "phase": "F32",
+  "f31_sha256": "fbf949271412eb023cb94765782126a689eead61e8c6a56b2a12b85ed23acd52",
+  "f32_sha256": "8b7afc0975bdaa91c25aad5b9b5aa722af310421db472bbc917752432ebdbc7a",
+  "checksum": "3D99",
+  "size": 4194304,
+  "changed_bytes": 1226,
+  "unexpected_changed_offsets": 0,
+  "changes": [
+    {
+      "offset": 3189398,
+      "size": 1402,
+      "label": "e-Pet 22 label occurrences",
+      "preimage_sha256": "e1adc496f6a2f936da8729cc2849aa3739a27647684d35ef96577e00eac85c1a",
+      "after_sha256": "df672d8eebf852b73ed8c4b5add363b3454a38db84ce112cd6e61937539e83c5",
+      "asset": "assets/F32/epet_body_resource.bin"
+    },
+    {
+      "offset": 3699766,
+      "size": 26,
+      "label": "Shared Gnome-type fairy description; 20 native table references",
+      "preimage_sha256": "91834e72756126a2ff09be8aa5f38f8f4ca009347d814f5a522393e682b8bfe0",
+      "after_sha256": "b7cd492a5463bcda322b68c6b40676d79457b1640f8bd2fc5215b487a5ec5667",
+      "replacement_hex": "8266828e828f828d828581468140827282948292817b82500000"
+    },
+    {
+      "offset": 3837677,
+      "size": 1,
+      "label": "e-Pet left elemental value x=140 -> 144; number format unchanged",
+      "preimage_sha256": "9defb0a9e163278be0e05aa01b312ec78cfa3726869503385e76e3a4b7950648",
+      "after_sha256": "9e076ceaf246b6003d9c2680a2b4cf0bffd069805902b0b5edeebf49039fe4bd",
+      "replacement_hex": "90"
+    },
+    {
+      "offset": 3837686,
+      "size": 1,
+      "label": "e-Pet right elemental value x=188 -> 192; number format unchanged",
+      "preimage_sha256": "26e5bfe4b0686167e3e4e0aac40cbae03515171d375f91ea563c9c044e9c5cc7",
+      "after_sha256": "e4ff5e7d7a7f08e9800a3e25cb774533cb20040df30b6ba10f956f9acd0eb3f7",
+      "replacement_hex": "c0"
+    },
+    {
+      "offset": 4194302,
+      "size": 2,
+      "label": "checksum",
+      "preimage_sha256": "e4074460c7c32fc943729bf3a8c9fe8ba11c457f4b85be05fb10759d435cce35",
+      "after_sha256": "32acab8ce60767635f76979fe355d85ddfce4c34ef6e1a4d8616190067ab5316",
+      "replacement_hex": "993d"
+    }
+  ],
+  "synthetic_warp_integrated": false,
+  "description": {
+    "source": "ノームタイプ　つよさ＋１",
+    "english": "Gnome: Str+1",
+    "cp932_fullwidth": "Ｇｎｏｍｅ：　Ｓｔｒ＋１",
+    "pointer_table": "3872F4",
+    "table_slots": 161,
+    "shared_pointer_count": 20
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "phase": "13BG-F9",
+  "date": "2026-09-18",
+  "base_phase": "13BG-F8",
+  "changes": [],
+  "binary_identity": true,
+  "reason": "Runtime/deep-route checkpoint. Natural Wampa/Village progression reached the First Trial event and the real save prompt; a visible runtime editorial defect ('Frst Trial') was discovered. No ROM bytes are changed until the responsible producer/string is positively typed, so the issue is preserved as an explicit F10 blocker rather than patched speculatively."
+}

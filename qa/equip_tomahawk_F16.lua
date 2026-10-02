@@ -1,0 +1,6 @@
+local out=assert(os.getenv('MESEN_OUTDIR'));local st=assert(os.getenv('MESEN_BASESTATE'));local sf=assert(os.getenv('MESEN_STATEFILE'));local frame=0;local loaded=false;local saved=false;local data=assert(io.open(st,'rb')):read('*a')
+local function cb(a,v)if not loaded then loaded=true;emu.loadSavestate(data)end end
+local function scb(a,v)if not saved then local s=emu.createSavestate();local f=assert(io.open(sf,'wb'));f:write(s);f:close();saved=true end end
+emu.addMemoryCallback(cb,emu.callbackType.exec,0,0xFFFFF,emu.cpuType.ws,emu.memType.wsMemory)
+emu.addEventCallback(function()local t={};if frame>=40 and frame<45 then t.down2=true end;if frame>=140 and frame<145 then t.down=true end;if frame>=240 and frame<245 then t.a=true end;if frame>=380 and frame<385 then t.a=true end;if frame>=500 and frame<505 then t.a=true end;if frame>=620 and frame<625 then t.b=true end;if frame>=740 and frame<745 then t.b=true end;emu.setInput(t,0)end,emu.eventType.inputPolled)
+emu.addEventCallback(function()frame=frame+1;if frame==850 then local f=assert(io.open(out..'/end.png','wb'));f:write(emu.takeScreenshot());f:close();emu.addMemoryCallback(scb,emu.callbackType.exec,0,0xFFFFF,emu.cpuType.ws,emu.memType.wsMemory)end;if saved and frame>870 then emu.stop(0)end end,emu.eventType.endFrame)

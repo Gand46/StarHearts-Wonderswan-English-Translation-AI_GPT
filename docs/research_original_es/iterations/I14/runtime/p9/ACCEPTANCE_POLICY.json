@@ -1,0 +1,32 @@
+{
+  "id": "I14P9_SYNTHETIC_WITH_EXPLICIT_LEGIBILITY",
+  "date": "2026-09-28",
+  "user_instruction_verbatim": "no vamos a esperar evidencias reales ahora bastara con las sinteticas pero quedaran pass sintetic",
+  "accepted_label": "PASS_SYNTHETIC",
+  "rule": "A native consumer and legible capture/trace may close the demonstrated translation scope even with declared synthetic state, event redirection or memory fixtures. Unseen content does not pass.",
+  "natural_progression_required": false,
+  "supported_peer_required_for_translation_acceptance": false,
+  "natural_progression_claimed": false,
+  "real_link_transport_claimed": false,
+  "rom_modification_this_iteration": true,
+  "pending_label": "PENDING_SYNTHETIC_EVIDENCE",
+  "scope_exclusions": [
+    "natural progression and unlock conditions",
+    "actual Link serial handshake/transfer",
+    "all items/pages/functions beyond documented representative samples"
+  ],
+  "overrides": [
+    "Prior mandatory external natural playtest closure policy",
+    "Prior synthetic evidence diagnostic-only acceptance restriction"
+  ],
+  "does_not_override": [
+    "truthful evidence attribution",
+    "actual visual inspection",
+    "declared synthetic modifications",
+    "hash-bound current ROM identity",
+    "no BAT/cmd/Wine requested"
+  ],
+  "legibility_rules_waived": false,
+  "expected_text_is_not_visible_evidence": true,
+  "transient_motion_frames_are_not_static_legibility_proof": true
+}

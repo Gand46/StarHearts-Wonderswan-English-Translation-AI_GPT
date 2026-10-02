@@ -1,0 +1,17 @@
+{
+  "phase": "13BG-F13",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F12",
+  "reason": "QA/runtime continuation phase. F12 was independently reproduced headlessly in Mesen 2.1.1; Wampa-route investigation confirmed the walkthrough route and identified a previously entered tutorial tent as a false-positive Wampa target. No new ROM defect was proven, so F13 intentionally adds no ROM writes.",
+  "changes": [],
+  "runtime_certification": {
+    "f12_first_trial_route_headless_replay": "PASS",
+    "event_first_trial_1": "VISUAL_PASS_REPRODUCED",
+    "normal_dialogue_first_0x193746": "VISUAL_PASS_INHERITED",
+    "wampa_route_direction": "CONFIRMED_SOUTH_WEST_WEST_DOOR",
+    "wrong_older_tent_negative_control": "PASS_IDENTIFIED_NOT_WAMPA",
+    "save_drum_acquired": "PENDING",
+    "cold_continue_cycle": "PENDING_VALID_SAVE_DRUM_SRAM",
+    "event_first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING"
+  }
+}

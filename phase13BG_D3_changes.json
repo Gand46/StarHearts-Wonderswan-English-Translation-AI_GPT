@@ -1,0 +1,43 @@
+{
+  "version": "13BG-D3",
+  "base": "13BG-D2",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "9cc47f3cb16694b11959f3eb2c90d5d31c30ef26e756f15af7ae6d21fb653c6d",
+  "target_sha256": "1ed1d90b009b0be8d582259413fa40c20184ff6148115e8f70df798454519bf9",
+  "size": 4194304,
+  "wonderswan_checksum": "8F9C",
+  "changes": [
+    {
+      "offset": "0x38605C",
+      "bytes": 8,
+      "japanese": "クノシス",
+      "english": "Knos",
+      "old_hex": "834e836d83568358",
+      "new_hex": "826a828e828f8293",
+      "method": "fixed-slot fullwidth CP932; constrained abbreviation of established project term Knosis; exact 8-byte replacement"
+    },
+    {
+      "offset": "0x386068",
+      "bytes": 10,
+      "japanese": "基地　１階",
+      "english": "Base1",
+      "old_hex": "8aee8001814082508a4b",
+      "original_hex": "8aee926e814082508a4b",
+      "new_hex": "82618281829382858250",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; repairs historical BG-B corruption 92 6E -> 80 01; no repoint"
+    },
+    {
+      "offset": "0x386076",
+      "bytes": 10,
+      "japanese": "基地　２階",
+      "english": "Base2",
+      "old_hex": "8aee926e814082518a4b",
+      "new_hex": "82618281829382858251",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; no control bytes/repoint"
+    }
+  ],
+  "scope": "Knosis/Base location captions immediately following Water Cave; fixed-slot text only; no code/pointer mutation",
+  "audit_correction": "The 13BG-B baseline already contains an unintended 80 01 substitution where the clean Japanese ROM has CP932 92 6E (地). D2 inherited and misclassified it as a control. D3 repairs the historical baseline corruption while translating the entire slot.",
+  "terminology": "クノシス follows established project spelling Knosis (BANK36 music title); constrained location label Knos.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

@@ -1,0 +1,27 @@
+{
+  "phase": "13BG-F30",
+  "parent": "13BG-F29",
+  "original_japanese_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "parent_sha256": "4704a7d4e06696455ac6017632135c03259e42783f7af095b0231246e754eadb",
+  "target_sha256": "17e4fb5eed9f8df7f1e500e9f50aecd1febf0e147545afd6a0c07ce844461eaa",
+  "wonderswan_checksum": "9487",
+  "changes": [
+    {
+      "record_id": "SHOP_BUYPRICE_TWO_GLYPH_RUNTIME_FIX",
+      "offset": "0x3769E2",
+      "field_bytes": 18,
+      "old_display": "BUYPRICE",
+      "display": "BP",
+      "reason": "The native sell panel reads the eight-cell field but visibly exposes only its first two glyphs. BP is complete within that fixed viewport."
+    },
+    {
+      "record_id": "SHOP_REPAIR_TWO_GLYPH_RUNTIME_FIX",
+      "offset": "0x3769F4",
+      "field_bytes": 18,
+      "old_display": "REPAIR",
+      "display": "RP",
+      "reason": "The native repair panel has the same two-glyph viewport. RP is complete and distinguishes repair price from BP."
+    }
+  ],
+  "validation": "Controlled native events 0014/0031 (sell) and 0014/0030 (repair) exercise the real shop consumers. F30 displays BP and RP completely, preserves the 18-byte fields, completes a weapon sale, and retains all prior cumulative changes. Natural merchant navigation remains open."
+}

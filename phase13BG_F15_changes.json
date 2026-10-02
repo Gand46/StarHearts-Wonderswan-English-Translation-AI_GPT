@@ -1,0 +1,21 @@
+{
+  "phase": "13BG-F15",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F14",
+  "reason": "Runtime certification milestone. The correct Wampa tent was reached reproducibly, Tomahawk and Save Drum were obtained and visually confirmed in English, a real in-game SAVED! was produced, two independent cold-Continue boots were completed with an intervening second in-game save, and Tomahawk presence was confirmed in the translated equipment menu. No new ROM text defect was proven, so F15 intentionally performs no additional ROM writes.",
+  "changes": [],
+  "runtime_certification": {
+    "wampa_tent_entry": "VISUAL_PASS",
+    "wampa_dialogue_english": "VISUAL_PASS",
+    "tomahawk_acquired": "VISUAL_PASS",
+    "save_drum_acquired": "VISUAL_PASS",
+    "saved_banner_1": "VISUAL_PASS",
+    "cold_continue_1": "PASS_NEW_PROCESS",
+    "saved_banner_2": "VISUAL_PASS",
+    "cold_continue_2": "PASS_NEW_PROCESS",
+    "tomahawk_equipment_menu": "VISUAL_PASS",
+    "holy_temple_route": "PENDING_F16",
+    "event_first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING",
+    "rom_writes": 0
+  }
+}

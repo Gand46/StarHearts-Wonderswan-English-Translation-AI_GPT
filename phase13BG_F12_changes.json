@@ -1,0 +1,13 @@
+{
+  "phase": "13BG-F12",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F11",
+  "reason": "Runtime/visual certification phase. Natural Mesen route visually confirms the F10/F11 First Trial repair and one normal-dialogue First composition. No new binary defect was proven, so F12 intentionally adds no ROM writes.",
+  "changes": [],
+  "runtime_certification": {
+    "event_first_trial_1": "VISUAL_PASS",
+    "normal_dialogue_first_0x193746": "VISUAL_PASS",
+    "event_first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING",
+    "save_continue_current_release": "PENDING_VALID_SAVE_DRUM_SRAM"
+  }
+}

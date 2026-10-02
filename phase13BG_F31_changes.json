@@ -1,0 +1,113 @@
+{
+  "f30_sha256": "17e4fb5eed9f8df7f1e500e9f50aecd1febf0e147545afd6a0c07ce844461eaa",
+  "f31_sha256": "fbf949271412eb023cb94765782126a689eead61e8c6a56b2a12b85ed23acd52",
+  "checksum": "4EA7",
+  "size": 4194304,
+  "changed_bytes": 4350,
+  "unexpected_changed_offsets": 0,
+  "changes": [
+    {
+      "offset": 3185238,
+      "size": 1222,
+      "preimage_sha256": "faa57ea93ea33b0e72ec180a631fe24bf034f476d1519fd1a29a57ba779d3e1a",
+      "after_sha256": "86427dd76c591f83b0e90de405b71b7e78107d144ad38e887511f1563da7c860",
+      "label": "Armor/Charms; Arms; Armor",
+      "asset": "assets/F31/repair_armor_headers.bin"
+    },
+    {
+      "offset": 3184726,
+      "size": 459,
+      "preimage_sha256": "1de5e99b82f852910b5f3765b80a131063e4a5597d589ed5d8aa20a053075162",
+      "after_sha256": "c6bb42743bb9f52d1b7688a211c604591d32d15f59771ef1be5f9e1ff9d320c3",
+      "label": "Animal Powers",
+      "asset": "assets/F31/header_03.bin"
+    },
+    {
+      "offset": 3186630,
+      "size": 365,
+      "preimage_sha256": "4a27d25933e20367412bc7c00422f39920dfaf2d23860ed41f9a7e9e3b8900ed",
+      "after_sha256": "6ad3ff7ce6b46feb27dd65acc910c8a60ebc2cb112dbd1395fd292f6523369c9",
+      "label": "Gear Items",
+      "asset": "assets/F31/header_05.bin"
+    },
+    {
+      "offset": 3187478,
+      "size": 334,
+      "preimage_sha256": "717bd4960f7964d8e4d245c5bd4eaa7059f610e1e56e5425f471ad49c2713892",
+      "after_sha256": "e5f8e0e50faee763a4ca8ed6d22181286a5e97f564a1a52b80048c57e98ebc75",
+      "label": "Charms",
+      "asset": "assets/F31/header_07.bin"
+    },
+    {
+      "offset": 3187870,
+      "size": 343,
+      "preimage_sha256": "f6e12f5d1d06e8f0fee127256a8877c780aabb9c0165ab15de26ae6712105cdd",
+      "after_sha256": "8600c977a78868b04bdf2681f7d32bcf73ee123c03043f456d85054a5366c3ea",
+      "label": "Amulets",
+      "asset": "assets/F31/header_08.bin"
+    },
+    {
+      "offset": 3188982,
+      "size": 322,
+      "preimage_sha256": "f4c56fee7db311cca9b34c2f8421447649ce09cfb826a78a99846933dedbcaab",
+      "after_sha256": "ca550c7fd97b88f6b337714996b4eced3b57d4268b6843e806e579f83c0db22c",
+      "label": "Skills",
+      "asset": "assets/F31/header_11.bin"
+    },
+    {
+      "offset": 3189398,
+      "size": 1526,
+      "preimage_sha256": "a801580923f0c1d09e51a871eedc48cb96da1375a1429a616fa4b8ca5d80b964",
+      "after_sha256": "80df573c5fdc3ef095caf29ef0d6a4d96d0c05838e03063e119a8c8073e38bb1",
+      "label": "e-Pet",
+      "asset": "assets/F31/header_12.bin"
+    },
+    {
+      "offset": 3210126,
+      "size": 129,
+      "preimage_sha256": "c458df9bcd770f7a870b3bf6fa4c6f7c19d03c5015e40b0d8dbede68a0764e54",
+      "after_sha256": "45f1a7ed911a57e29ced2e1617a92a90c1836887b354ec69faf7d4a75b80488d",
+      "label": "e-Pet unchanged palette relocation",
+      "asset": "assets/F31/epet_palette1.bin"
+    },
+    {
+      "offset": 3191366,
+      "size": 386,
+      "preimage_sha256": "ed50f31eb06e06beb740c1c1e4731396baafcaf959ba19b545f64cae9b424b65",
+      "after_sha256": "2cb66cffe8be60c4109798d90f984c052a1da42e4b99efd94e85c783bbeca54d",
+      "label": "Secret Skills",
+      "asset": "assets/F31/header_13.bin"
+    },
+    {
+      "offset": 3828222,
+      "size": 4,
+      "preimage_sha256": "cb3047a01ee1a4dea851ac559c6a7eab900547fbf6a44f167bd55c91a76916fb",
+      "after_sha256": "6eda11d2b65eb8204711b14f5d39835087db86bc8f799e9e03d100e6c4e3d9ca",
+      "label": "Def formatter call",
+      "replacement_hex": "e8ff9490"
+    },
+    {
+      "offset": 3866368,
+      "size": 18,
+      "preimage_sha256": "6acf95f515743e1c0485d811685cbf247857ba14c40318f2142915fe89a666f6",
+      "after_sha256": "b434f73b2cd03a7cf280ab3cf539ab39da16ae2816f7e4c5f8d7d3c39a4d7610",
+      "label": "Def native CP932 prefix; preserve number formatter",
+      "replacement_hex": "c7058263c745028285c74504828683c704c3"
+    },
+    {
+      "offset": 4194302,
+      "size": 2,
+      "preimage_sha256": "b33331af9493d47dede9739882c30f5f4bae1940fe319340854683403f07d06d",
+      "after_sha256": "e4074460c7c32fc943729bf3a8c9fe8ba11c457f4b85be05fb10759d435cce35",
+      "label": "checksum",
+      "replacement_hex": "a74e"
+    }
+  ],
+  "synthetic_warp_integrated": false,
+  "phase": "F31",
+  "translation_changes": 11,
+  "graphic_header_changes": 10,
+  "dynamic_label_changes": 1,
+  "natural_gate_passes_added": 0,
+  "release_candidate_authorized": false
+}

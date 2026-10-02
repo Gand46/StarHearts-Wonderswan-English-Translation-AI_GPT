@@ -1,0 +1,40 @@
+{
+  "version": "13BG-F22",
+  "base": "13BG-F21",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "00f46965177716ec459ac2a0f6e89a4e50548af205582e6d0ba176c015fc36ec",
+  "target_sha256": "3219fb1a0b49793ee7a9245e5468907c23a28f2b9125743d3cd17837e6485296",
+  "size": 4194304,
+  "wonderswan_checksum": "2157",
+  "scope": {
+    "bank": "0x38",
+    "integrated_occurrences": 8,
+    "table_slots_reaudited": 1568,
+    "original_japanese_targets_reaudited": 1396,
+    "pool_offset": "0x38FF04",
+    "pool_end_exclusive": "0x38FF72",
+    "pool_bytes": 110,
+    "method": "Repoint eight active uint16 Bank 0x38 table slots to fullwidth CP932 strings in the verified FF padding immediately after the existing English pool. Retain all Japanese source bytes."
+  },
+  "entries": [
+    {"record_id":"B38_ITEM_NAMES_DESCRIPTIONS_38024C","family":"item_names_descriptions","pointer_offset":"0x38024C","old_target":"0x38130F","new_target":"0x38FF04","japanese":"弾","display":"Ammo","encoded_display":"Ａｍｍｏ"},
+    {"record_id":"B38_ITEM_NAMES_DESCRIPTIONS_3804B8","family":"item_names_descriptions","pointer_offset":"0x3804B8","old_target":"0x381E6E","new_target":"0x38FF0E","japanese":"豆","display":"Bean","encoded_display":"Ｂｅａｎ"},
+    {"record_id":"B38_ITEM_NAMES_DESCRIPTIONS_3804C8","family":"item_names_descriptions","pointer_offset":"0x3804C8","old_target":"0x381E72","new_target":"0x38FF18","japanese":"鉄","display":"Iron","encoded_display":"Ｉｒｏｎ"},
+    {"record_id":"B38_MAGIC_NAMES_38664C","family":"magic_names","pointer_offset":"0x38664C","old_target":"0x386690","new_target":"0x38FF22","japanese":"ファイヤー","display":"Fire","encoded_display":"Ｆｉｒｅ"},
+    {"record_id":"B38_MAGIC_DESCRIPTIONS_386806","family":"magic_descriptions","pointer_offset":"0x386806","old_target":"0x38684A","new_target":"0x38FF2C","japanese":"火の玉を飛ばす","display":"Shoots fireball.","encoded_display":"Ｓｈｏｏｔｓ　ｆｉｒｅｂａｌｌ．"},
+    {"record_id":"B38_ENTITY_NAMES_386B60","family":"entity_names","pointer_offset":"0x386B60","old_target":"0x386CA2","new_target":"0x38FF4E","japanese":"アクセル","display":"Accel","encoded_display":"Ａｃｃｅｌ"},
+    {"record_id":"B38_ENTITY_NAMES_386BBE","family":"entity_names","pointer_offset":"0x386BBE","old_target":"0x386E92","new_target":"0x38FF5A","japanese":"メタリコ","display":"Metalico","encoded_display":"Ｍｅｔａｌｉｃｏ"},
+    {"record_id":"B38_ENTITY_NAMES_386C40","family":"entity_names","pointer_offset":"0x386C40","old_target":"0x38710E","new_target":"0x38FF6C","japanese":"ト","display":"To","encoded_display":"Ｔｏ"}
+  ],
+  "changes": [
+    {"record_id":"F22_PTR_AMMO","offset":"0x38024C","bytes":2,"old_hex":"0f13","new_hex":"04ff"},
+    {"record_id":"F22_PTR_BEAN","offset":"0x3804B8","bytes":2,"old_hex":"6e1e","new_hex":"0eff"},
+    {"record_id":"F22_PTR_IRON","offset":"0x3804C8","bytes":2,"old_hex":"721e","new_hex":"18ff"},
+    {"record_id":"F22_PTR_FIRE","offset":"0x38664C","bytes":2,"old_hex":"9066","new_hex":"22ff"},
+    {"record_id":"F22_PTR_FIRE_DESC","offset":"0x386806","bytes":2,"old_hex":"4a68","new_hex":"2cff"},
+    {"record_id":"F22_PTR_ACCEL","offset":"0x386B60","bytes":2,"old_hex":"a26c","new_hex":"4eff"},
+    {"record_id":"F22_PTR_METALICO","offset":"0x386BBE","bytes":2,"old_hex":"926e","new_hex":"5aff"},
+    {"record_id":"F22_PTR_TO","offset":"0x386C40","bytes":2,"old_hex":"0e71","new_hex":"6cff"},
+    {"record_id":"F22_ENGLISH_POOL","offset":"0x38FF04","bytes":110,"old_fill":"FF","new_hex":"8260828d828d828f0000826182858281828e000082688292828f828e00008265828982928285000082728288828f828f829482938140828682898292828582828281828c828c814400008260828382838285828c0000826c828582948281828c82898283828f00008273828f0000"}
+  ]
+}

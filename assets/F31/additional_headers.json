@@ -1,0 +1,94 @@
+[
+  {
+    "resource_index": 3,
+    "label": "Animal Powers",
+    "offset": 3184726,
+    "capacity": 512,
+    "size": 459,
+    "asset": "header_03.bin",
+    "sha256": "c6bb42743bb9f52d1b7688a211c604591d32d15f59771ef1be5f9e1ff9d320c3",
+    "preimage_sha256": "1de5e99b82f852910b5f3765b80a131063e4a5597d589ed5d8aa20a053075162",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  },
+  {
+    "resource_index": 5,
+    "label": "Gear Items",
+    "offset": 3186630,
+    "capacity": 432,
+    "size": 365,
+    "asset": "header_05.bin",
+    "sha256": "6ad3ff7ce6b46feb27dd65acc910c8a60ebc2cb112dbd1395fd292f6523369c9",
+    "preimage_sha256": "4a27d25933e20367412bc7c00422f39920dfaf2d23860ed41f9a7e9e3b8900ed",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  },
+  {
+    "resource_index": 7,
+    "label": "Charms",
+    "offset": 3187478,
+    "capacity": 392,
+    "size": 334,
+    "asset": "header_07.bin",
+    "sha256": "e5f8e0e50faee763a4ca8ed6d22181286a5e97f564a1a52b80048c57e98ebc75",
+    "preimage_sha256": "717bd4960f7964d8e4d245c5bd4eaa7059f610e1e56e5425f471ad49c2713892",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  },
+  {
+    "resource_index": 8,
+    "label": "Amulets",
+    "offset": 3187870,
+    "capacity": 392,
+    "size": 343,
+    "asset": "header_08.bin",
+    "sha256": "8600c977a78868b04bdf2681f7d32bcf73ee123c03043f456d85054a5366c3ea",
+    "preimage_sha256": "f6e12f5d1d06e8f0fee127256a8877c780aabb9c0165ab15de26ae6712105cdd",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  },
+  {
+    "resource_index": 11,
+    "label": "Skills",
+    "offset": 3188982,
+    "capacity": 416,
+    "size": 322,
+    "asset": "header_11.bin",
+    "sha256": "ca550c7fd97b88f6b337714996b4eced3b57d4268b6843e806e579f83c0db22c",
+    "preimage_sha256": "f4c56fee7db311cca9b34c2f8421447649ce09cfb826a78a99846933dedbcaab",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  },
+  {
+    "resource_index": 12,
+    "label": "e-Pet",
+    "offset": 3189398,
+    "capacity": 1968,
+    "size": 1526,
+    "asset": "header_12.bin",
+    "sha256": "80df573c5fdc3ef095caf29ef0d6a4d96d0c05838e03063e119a8c8073e38bb1",
+    "preimage_sha256": "a801580923f0c1d09e51a871eedc48cb96da1375a1429a616fa4b8ca5d80b964",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": [
+      {
+        "asset": "epet_palette1.bin",
+        "offset": 3210126,
+        "size": 129,
+        "sha256": "45f1a7ed911a57e29ced2e1617a92a90c1836887b354ec69faf7d4a75b80488d",
+        "precondition": "FF_FILL"
+      }
+    ]
+  },
+  {
+    "resource_index": 13,
+    "label": "Secret Skills",
+    "offset": 3191366,
+    "capacity": 400,
+    "size": 386,
+    "asset": "header_13.bin",
+    "sha256": "2cb66cffe8be60c4109798d90f984c052a1da42e4b99efd94e85c783bbeca54d",
+    "preimage_sha256": "ed50f31eb06e06beb740c1c1e4731396baafcaf959ba19b545f64cae9b424b65",
+    "only_decoded_header_rectangle_changed": true,
+    "external_chunks": []
+  }
+]

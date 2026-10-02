@@ -1,0 +1,121 @@
+{
+  "version": "13BG-E5",
+  "base": "13BG-E4",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "af09abb01df3b37af6e56a4ce998b0a484001b9e0a6d80481772fece4e544312",
+  "target_sha256": "bd10e53ffba00f6a2e87dcdaf5b4d9357443450da4999015b339c8fd47165303",
+  "size": 4194304,
+  "wonderswan_checksum": "60B4",
+  "changes": [
+    {
+      "record_id": "E5_DESC_01_SACRED_SHRINE",
+      "offset": "0x365248",
+      "end": "0x365284",
+      "bytes": 60,
+      "japanese": "聖なる神殿へ向かった　その時 / 村がモンスターに襲撃された…",
+      "e4_text": "聖なる神殿へ向かった　その時 / 村がモンスターに襲撃された…",
+      "e5_text": "Sacred shrine / Village raided",
+      "line1_glyphs": 13,
+      "line2_glyphs": 14,
+      "old_hex": "90b982c882e9905f936182d68cfc82a982c182bd814082bb82cc8e9e0d0a91ba82aa838283938358835e815b82c98f508c8282b382ea82bd81630000",
+      "new_hex": "82728281828382928285828481408293828882928289828e82850d0a82758289828c828c828182878285814082928281828982848285828400000000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_02_ALCHEMIA_FRINGE",
+      "offset": "0x365284",
+      "end": "0x3652BE",
+      "bytes": 58,
+      "japanese": "アルケミアのはずれにある村 / 犯罪者の巣窟とされているが…",
+      "e4_text": "アルケミアのはずれにある村 / 犯罪者の巣窟とされているが…",
+      "e5_text": "Alchemia fringe / Outlaw den?",
+      "line1_glyphs": 15,
+      "line2_glyphs": 11,
+      "old_hex": "8341838b8350837e834182cc82cd82b882ea82c982a082e991ba0d0a94c68ddf8ed282cc91838c4182c682b382ea82c482a282e982aa81630000",
+      "new_hex": "8260828c828382888285828d828982818140828682928289828e828782850d0a826e82958294828c82818297814082848285828e814800000000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_03_DELTA_EGG",
+      "offset": "0x3652BE",
+      "end": "0x3652EC",
+      "bytes": 46,
+      "japanese": "Δ石内部で発見したタマゴ / 中には一体何が！？",
+      "e4_text": "Δ石内部で発見したタマゴ / 中には一体何が！？",
+      "e5_text": "Delta egg / What is it?",
+      "line1_glyphs": 9,
+      "line2_glyphs": 11,
+      "old_hex": "83a290ce93e0959482c594ad8ca982b582bd835e837d83530d0a928682c982cd88ea91cc89bd82aa814981480000",
+      "new_hex": "82638285828c8294828181408285828782870d0a8276828882818294814082898293814082898294814800000000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_04_INVENTOR",
+      "offset": "0x3652EC",
+      "end": "0x365324",
+      "bytes": 56,
+      "japanese": "地形博物館にいる発明家 / 彼の望み通り発明はできるのか？",
+      "e4_text": "地形博物館にいる発明家 / 彼の望み通り発明はできるのか？",
+      "e5_text": "Inventor plan / Will it work?",
+      "line1_glyphs": 13,
+      "line2_glyphs": 13,
+      "old_hex": "926e8c60948e95a88ad982c982a282e994ad96be89c60d0a94de82cc965d82dd92ca82e894ad96be82cd82c582ab82e982cc82a981480000",
+      "new_hex": "8268828e82968285828e8294828f829281408290828c8281828e0d0a82768289828c828c81408289829481408297828f8292828b81480000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_05_PELGYPT",
+      "offset": "0x365324",
+      "end": "0x36535A",
+      "bytes": 54,
+      "japanese": "バザーの国ペルジプト / 太古のピラミッドがあるという…",
+      "e4_text": "バザーの国ペルジプト / 太古のピラミッドがあるという…",
+      "e5_text": "Pelgypt / Ancient pyramid",
+      "line1_glyphs": 7,
+      "line2_glyphs": 15,
+      "old_hex": "836f8355815b82cc8d918379838b8357837683670d0a91be8cc382cc83738389837e8362836882aa82a082e982c682a282a481630000",
+      "new_hex": "826f8285828c82878299829082940d0a8260828e828382898285828e829481408290829982928281828d828982840000000000000000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_06_EMPEROR",
+      "offset": "0x36535A",
+      "end": "0x36538E",
+      "bytes": 52,
+      "japanese": "アルケミア皇帝は生きていた / 無事救い出せるのか！？",
+      "e4_text": "アルケミア皇帝は生きていた / 無事救い出せるのか！？",
+      "e5_text": "Emperor lives / Rescue him?",
+      "line1_glyphs": 13,
+      "line2_glyphs": 11,
+      "old_hex": "8341838b8350837e83418d6392e982cd90b682ab82c482a282bd0d0a96b38e968b7e82a28f6f82b982e982cc82a9814981480000",
+      "new_hex": "8264828d829082858292828f82928140828c82898296828582930d0a827182858293828382958285814082888289828d81480000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    },
+    {
+      "record_id": "E5_DESC_07_FAIRIES",
+      "offset": "0x36538E",
+      "end": "0x3653C8",
+      "bytes": 58,
+      "japanese": "ユーラス大陸の各地には / 妖精が閉じ込められているという…",
+      "e4_text": "ユーラス大陸の各地には / 妖精が閉じ込められているという…",
+      "e5_text": "Across Euras / Fairies trapped",
+      "line1_glyphs": 12,
+      "line2_glyphs": 15,
+      "old_hex": "8386815b8389835891e597a482cc8a65926e82c982cd0d0a976490b882aa95c282b68d9e82df82e782ea82c482a282e982c682a282a481630000",
+      "new_hex": "826082838292828f829382938140826482958292828182930d0a8265828182898292828982858293814082948292828182908290828582840000",
+      "method": "fullwidth CP932, CRLF preserved, early 0000 terminator + zero fill inside fixed pointer-delimited slot; pointer table unchanged"
+    }
+  ],
+  "scope": "First safe microlot of the BANK36 mission/episode description table: seven pointer-delimited two-line descriptions at 0x365248..0x3653C7.",
+  "consumer_proof": {
+    "pointer_table": "BANK36 table begins at 0x3651B4. BANK3A code around ROM 0x3A8575 doubles the selected index, loads far pointer 6000:51B4 via LES from CS:8590, adds the index and reads the uint16 description offset.",
+    "table_shape": "49 uint16 entries at 0x3651B4..0x365215: entry 0=0xB010; entries 1..48 point to 0x5248..0x5BC2. The seven E5 records are entries 1..7 and therefore independently addressable.",
+    "renderer_budget": "The final locked placeholder at 0x365BC2 is 16 fullwidth glyphs + CRLF + 16 fullwidth glyphs, supporting a 16-glyph-per-line presentation budget. E5 keeps every line <=16 glyphs."
+  },
+  "protected_boundary": {
+    "offset": "0x3653C8",
+    "reason": "Next pointer-delimited record contains embedded control 00 15 between its first text fragment and CRLF; intentionally left byte-identical for separate control analysis."
+  },
+  "route_qa": "Static pointer/slot QA complete; bounded Mesen boot smoke test to be recorded separately. Exact mission-list route not naturally forced in this phase.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "13BG-F4",
+  "base": "13BG-F3",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "ca6d6561b610ee6b6db5e283b2ac17a889ba1d002af8a922b1c273d9be8deee9",
+  "target_sha256": "0c99666168839b311b5dfa1ed762c45a38745ea618989a1be86ea8db39da5c5b",
+  "size": 4194304,
+  "wonderswan_checksum": "203E",
+  "scope": {
+    "binary_integrations": 1,
+    "bank14_16_closure": true,
+    "bank38_historical_backlog_reaudited": true,
+    "known_location_pointer_table_start": "0x384B32",
+    "known_location_pointer_count": 257,
+    "phase13n_source_retention_policy": "Japanese source strings in BANK38 that were repointed to MTE255 English remain intentionally retained; no dead-source cleanup."
+  },
+  "changes": [
+    {
+      "record_id": "F4_NAME32_Raita_15F06C",
+      "offset": "0x15F06C",
+      "end": "0x15F07C",
+      "bytes": 16,
+      "bank": "0x15",
+      "japanese_or_previous": "ライタ",
+      "f4_text": "Raita",
+      "old_hex": "83898343835e00000000000000000000",
+      "new_hex": "82718281828982948281000000000000",
+      "metadata_offset": "0x15F07C",
+      "metadata_hex": "030002",
+      "opcode_offset": "0x15F07F",
+      "opcode_hex": "3200",
+      "field_format": "16-byte display-name CP932 field + 3 metadata bytes + opcode 32 00; only display-name field modified",
+      "terminology_evidence": "main_script_existing_translation",
+      "terminology_note": "Main script already uses Prince Raita; F4 aligns this remaining structured BANK15 display field."
+    }
+  ]
+}

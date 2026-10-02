@@ -1,0 +1,155 @@
+{
+  "version": "13BG-D4",
+  "base": "13BG-D3",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "1ed1d90b009b0be8d582259413fa40c20184ff6148115e8f70df798454519bf9",
+  "target_sha256": "a2dd062c672d00e54fa093a77af1568b65b46a6782f073717b786de70ae5d754",
+  "size": 4194304,
+  "wonderswan_checksum": "7A61",
+  "changes": [
+    {
+      "offset": "0x386084",
+      "bytes": 10,
+      "japanese": "おうし座宮",
+      "english": "Tau",
+      "english_full": "Taurus Zodiac Shrine",
+      "old_hex": "82a882a482b58dc08b7b",
+      "new_hex": "82738281829581408140",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; no MTE/repoint; established project prefix Tau (TauOpen)"
+    },
+    {
+      "offset": "0x386092",
+      "bytes": 20,
+      "japanese": "おうし座宮　地下１階",
+      "english": "Tau B1F",
+      "english_full": "Taurus Zodiac Shrine B1F",
+      "old_hex": "82a882a482b58dc08b7b8140926e89ba82508a4b",
+      "new_hex": "8273828182958140826182508265814081408140",
+      "method": "fixed-slot fullwidth CP932; exact 20-byte replacement; no MTE/repoint; same-family floor label; established Tau prefix"
+    },
+    {
+      "offset": "0x3860AA",
+      "bytes": 12,
+      "japanese": "てんびん座宮",
+      "english": "Lib",
+      "english_full": "Libra Zodiac Shrine",
+      "old_hex": "82c482f182d182f18dc08b7b",
+      "new_hex": "826b82898282814081408140",
+      "method": "fixed-slot fullwidth CP932; exact 12-byte replacement; no MTE/repoint; established project prefix Lib (LibOpen)"
+    },
+    {
+      "offset": "0x3860BA",
+      "bytes": 8,
+      "japanese": "やぎ座宮",
+      "english": "Cap",
+      "english_full": "Capricorn Zodiac Shrine",
+      "old_hex": "82e282ac8dc08b7b",
+      "new_hex": "8262828182908140",
+      "method": "fixed-slot fullwidth CP932; exact 8-byte replacement; no MTE/repoint; established project prefix Cap (CapOpen)"
+    },
+    {
+      "offset": "0x3860C6",
+      "bytes": 8,
+      "japanese": "しし座宮",
+      "english": "Leo",
+      "english_full": "Leo Zodiac Shrine",
+      "old_hex": "82b582b58dc08b7b",
+      "new_hex": "826b8285828f8140",
+      "method": "fixed-slot fullwidth CP932; exact 8-byte replacement; no MTE/repoint; established project term Leo (LeoOpen)"
+    },
+    {
+      "offset": "0x3860D2",
+      "bytes": 18,
+      "japanese": "しし座宮　地下１階",
+      "english": "Leo B1F",
+      "english_full": "Leo Zodiac Shrine B1F",
+      "old_hex": "82b582b58dc08b7b8140926e89ba82508a4b",
+      "new_hex": "826b8285828f814082618250826581408140",
+      "method": "fixed-slot fullwidth CP932; exact 18-byte replacement; no MTE/repoint; same-family floor label; established Leo term"
+    },
+    {
+      "offset": "0x3860E8",
+      "bytes": 10,
+      "japanese": "ふたご座宮",
+      "english": "Gem",
+      "english_full": "Gemini Zodiac Shrine",
+      "old_hex": "82d382bd82b28dc08b7b",
+      "new_hex": "82668285828d81408140",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; no MTE/repoint; established project prefix Gem (GemOpen)"
+    },
+    {
+      "offset": "0x3860F6",
+      "bytes": 12,
+      "japanese": "おひつじ座宮",
+      "english": "Ari",
+      "english_full": "Aries Zodiac Shrine",
+      "old_hex": "82a882d082c282b68dc08b7b",
+      "new_hex": "826082928289814081408140",
+      "method": "fixed-slot fullwidth CP932; exact 12-byte replacement; no MTE/repoint; established project prefix Ari (AriOpen)"
+    },
+    {
+      "offset": "0x386106",
+      "bytes": 10,
+      "japanese": "おとめ座宮",
+      "english": "Vir",
+      "english_full": "Virgo Zodiac Shrine",
+      "old_hex": "82a882c682df8dc08b7b",
+      "new_hex": "82758289829281408140",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; no MTE/repoint; established project prefix Vir (VirOpen)"
+    },
+    {
+      "offset": "0x386114",
+      "bytes": 8,
+      "japanese": "いて座宮",
+      "english": "Sag",
+      "english_full": "Sagittarius Zodiac Shrine",
+      "old_hex": "82a282c48dc08b7b",
+      "new_hex": "8272828182878140",
+      "method": "fixed-slot fullwidth CP932; exact 8-byte replacement; no MTE/repoint; established project prefix Sag (SagOpen)"
+    },
+    {
+      "offset": "0x386120",
+      "bytes": 8,
+      "japanese": "かに座宮",
+      "english": "Can",
+      "english_full": "Cancer Zodiac Shrine",
+      "old_hex": "82a982c98dc08b7b",
+      "new_hex": "82628281828e8140",
+      "method": "fixed-slot fullwidth CP932; exact 8-byte replacement; no MTE/repoint; established project prefix Can (CanOpn)"
+    },
+    {
+      "offset": "0x38612C",
+      "bytes": 10,
+      "japanese": "さそり座宮",
+      "english": "Sco",
+      "english_full": "Scorpio Zodiac Shrine",
+      "old_hex": "82b382bb82e88dc08b7b",
+      "new_hex": "82728283828f81408140",
+      "method": "fixed-slot fullwidth CP932; exact 10-byte replacement; no MTE/repoint; established project prefix Sco (ScoOpn)"
+    },
+    {
+      "offset": "0x38613A",
+      "bytes": 8,
+      "japanese": "うお座宮",
+      "english": "Pis",
+      "english_full": "Pisces Zodiac Shrine",
+      "old_hex": "82a482a88dc08b7b",
+      "new_hex": "826f828982938140",
+      "method": "fixed-slot fullwidth CP932; exact 8-byte replacement; no MTE/repoint; established project prefix Pis (PisOpn)"
+    },
+    {
+      "offset": "0x386146",
+      "bytes": 12,
+      "japanese": "みずがめ座宮",
+      "english": "Aqu",
+      "english_full": "Aquarius Zodiac Shrine",
+      "old_hex": "82dd82b882aa82df8dc08b7b",
+      "new_hex": "826082918295814081408140",
+      "method": "fixed-slot fullwidth CP932; exact 12-byte replacement; no MTE/repoint; D4 normalization: Aquarius -> Aqu; same 3-letter family convention"
+    }
+  ],
+  "scope": "Zodiac Shrine location-caption family 0x386084-0x386152; fixed-slot text only; no code/pointer mutation",
+  "terminology_source": "Existing project BANK36 event labels established Tau/Lib/Cap/Leo/Gem/Ari/Vir/Sag/Can/Sco/Pis as compact zodiac terms. Aquarius is normalized in D4 as Aqu because no prior runtime event label was located.",
+  "renderer": "same 1A1A0000-delimited common location table used by prior phase13BF/D1-D3 entries",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

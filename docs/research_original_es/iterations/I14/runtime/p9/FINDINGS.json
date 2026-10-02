@@ -1,0 +1,53 @@
+[
+  {
+    "id": "P9-QA01",
+    "surface": "WAITING P2",
+    "before": "FAIL_LEGIBILITY_EVIDENCE",
+    "cause": "Selected frame600 is exactly the pixelwise mean of frames599/601 over all3584 pixels of the moving text strip. Some earlier frames also cut off P2.",
+    "rom_defect": false,
+    "action": "Reject frame600; use full stable frame720; nine randomized isolated glyphs match native reference and are individually recognized.",
+    "after": "PASS_SYNTHETIC",
+    "rules": [
+      "QG-35.1",
+      "QG-35.2",
+      "QG-35.4",
+      "QG-35.10",
+      "QG-35.14"
+    ],
+    "before_evidence": "evidence/link/f0600.png",
+    "after_evidence": "evidence/link/f0720.png"
+  },
+  {
+    "id": "P9-QA02",
+    "surface": "Second EVENT: First Trial",
+    "before": "FAIL_CAPITALIZATION_AND_GLYPH_SEQUENCE",
+    "cause": "Token F04C contains lowercase en, despite historical manifest calling it EN. Reusing F079 to save space also drops ir in this special consumer.",
+    "rom_defect": true,
+    "action": "Use literal uppercase EVENT and explicit i/r; remove only post-colon blank to keep28-byte slot. Display EVENT:First Trial with visible native colon bearing.",
+    "after": "PASS_SYNTHETIC",
+    "rules": [
+      "TQ-12",
+      "QG-20.6",
+      "QG-35.11"
+    ],
+    "before_evidence": "evidence/before_trial/f00900.png",
+    "after_evidence": "evidence/trial/f00900.png"
+  },
+  {
+    "id": "P9-QA03",
+    "surface": "LINK ERROR numeric code",
+    "before": "FAIL_TEXT_CORRUPTION",
+    "cause": "Native formatter still writes at buffer F3A6+12; translation moved six-byte numeric field to+24. Result LINK E123R and unfilled FE glyph garbage.",
+    "rom_defect": true,
+    "action": "Change only destination operand F3B2→F3BE; validate native formatter for123/999.",
+    "after": "PASS_SYNTHETIC",
+    "rules": [
+      "UR-17",
+      "QG-04",
+      "QG-20.6",
+      "QG-35.1"
+    ],
+    "before_evidence": "evidence/before_error/f00900.png",
+    "after_evidence": "evidence/error123/f00900.png"
+  }
+]

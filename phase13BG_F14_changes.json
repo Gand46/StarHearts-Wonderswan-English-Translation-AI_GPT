@@ -1,0 +1,20 @@
+{
+  "phase": "13BG-F14",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F13",
+  "reason": "Deep runtime QA checkpoint. F13 was revalidated with a clean Mesen 2.1.1 headless profile. The Wampa route was narrowed reproducibly to the second-west village screen and the apparent tent entrance approach was probed. No new ROM text defect was proven; therefore F14 intentionally adds no ROM writes. Persistence and the second First Trial visual capture remain pending and are not marked PASS.",
+  "changes": [],
+  "runtime_certification": {
+    "mesen_profile_per_run_cleaning": "ADDED",
+    "f13_base_rebuild": "PASS_INHERITED_AND_RECHECKED",
+    "wampa_route_south_west_west": "REPRODUCIBLE_TO_SECOND_WEST_SCREEN",
+    "wampa_tent_entry": "PARTIAL_ROUTE_NARROWED_VISUAL_PENDING",
+    "tomahawk_acquired": "PENDING",
+    "save_drum_acquired": "PENDING",
+    "saved_banner": "PENDING",
+    "cold_continue_1": "PENDING",
+    "cold_continue_2": "PENDING",
+    "event_first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING",
+    "rom_writes": 0
+  }
+}

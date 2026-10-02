@@ -1,0 +1,19 @@
+{
+  "phase": "13BG-F11",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F10",
+  "reason": "Second EVENT: First Trial banner uses the same F079(ir) token that runtime dropped in the first EVENT banner. Re-encode only this special-renderer occurrence while preserving exact 28-byte title length, colon, spacing, terminator, pointers and MTE dictionary.",
+  "changes": [
+    {
+      "id": "F11_EVENT_FIRST_TRIAL_SECOND",
+      "offset": "0x191DFC",
+      "length": 28,
+      "old_hex": "82 64 82 75 82 64 82 6D 82 73 81 46 81 40 82 65 F0 79 F0 2F 81 40 82 73 F0 61 F0 37",
+      "new_hex": "82 64 82 75 F0 4C 82 73 81 46 81 40 82 65 82 89 82 92 F0 2F 81 40 82 73 F0 61 F0 37",
+      "visible_target": "EVENT: First Trial",
+      "encoding_before": "EVENT: + F + F079(ir) + F02F(st) + space + T + F061(ri) + F037(al)",
+      "encoding_after": "E + V + F04C(EN) + T + colon + space + explicit F I R + F02F(st) + space + T + F061(ri) + F037(al)",
+      "note": "F04C(EN) frees exactly two bytes so I and R can be explicit. F02F(st), F061(ri), F037(al) are retained. No repointing."
+    }
+  ]
+}

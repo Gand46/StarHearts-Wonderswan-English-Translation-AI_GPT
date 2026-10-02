@@ -1,0 +1,42 @@
+I11-P19 / F30 controlled native shop evidence
+
+SALE EVENT 0014/0031
+source_state=certified Save #2
+initial_inventory=0065,0000,0000
+native_award_callback=9000:5028 item=0066
+inventory_before_sale=0065,0066,0000
+shop_entry=9000:BD30
+sell_entry=9000:D026
+sell_panel=A000:A4E0
+OWNED_reads=48
+BUYPRICE_reads=24
+REPAIR_reads=0
+selected_item=0065 Tomahawk
+sale_value_hex=01E0
+final_inventory=0066,0000,0000
+final_money_hex=01E0
+complete_sale=PASS_CONTROLLED
+
+REPAIR EVENT 0014/0030
+source_state=certified Save #2
+test_mutation=Tomahawk durability 0004 -> 0003 in WRAM only
+shop_entry=9000:BD30
+weapon_repair_entry=9000:CE44
+repair_menu=A000:9C50
+repair_panel=A000:A894
+REPAIR_reads=32
+OWNED_reads=32
+BUYPRICE_reads=0
+repair_prompt_visible=PASS_CONTROLLED
+complete_repair=NOT_CLAIMED
+
+F30 LABEL RESULTS
+F29 sale_visible_prefix=BU
+F30 sale_visible_label=BP
+sale_visual_diff_pixels=36
+sale_visual_diff_bounds_exclusive=14,129,22,138
+F29 repair_visible_prefix=RE
+F30 repair_visible_label=RP
+repair_visual_diff_pixels=21
+repair_visual_diff_bounds_exclusive=16,129,22,138
+natural_merchant_entry=NOT_VALIDATED

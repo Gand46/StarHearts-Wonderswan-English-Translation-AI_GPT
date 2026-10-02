@@ -1,0 +1,8 @@
+{
+  "phase": "13BG-F7",
+  "date": "2026-09-17",
+  "base_phase": "13BG-F6",
+  "changes": [],
+  "binary_identity": true,
+  "reason": "Runtime/visual ablation QA reclassified the 268 BANK38 world-map JP suffixes as non-rendered source/debug labels; no ROM write is justified."
+}

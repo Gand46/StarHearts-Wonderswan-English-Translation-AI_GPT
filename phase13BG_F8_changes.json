@@ -1,0 +1,8 @@
+{
+  "phase": "13BG-F8",
+  "date": "2026-09-17",
+  "base_phase": "13BG-F7",
+  "changes": [],
+  "binary_identity": true,
+  "reason": "Persistence/name/runtime QA checkpoint. No new ROM write is justified: current save/system payloads, dynamic HERO token path, F5 editorial fields, and build provenance pass structural regression; fresh natural cold-load replay remains explicitly separated because the historical BG-C game-generated save is not present in this workspace."
+}

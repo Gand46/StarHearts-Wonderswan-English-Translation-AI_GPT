@@ -1,0 +1,39 @@
+{
+  "version": "13BG-D1",
+  "base": "13BG-B",
+  "base_sha256": "df61c34818fb907208f1047d9abe6757d18cde1cd48be5be3f1970e4829644e4",
+  "target_sha256": "c3505a603eaa261fd2d3b8f02466cc95f9e1276b7ba6fab0f2779fad11d05781",
+  "size": 4194304,
+  "wonderswan_checksum": "8EC4",
+  "changes": [
+    {
+      "offset": "0x385FFC",
+      "bytes": 16,
+      "japanese": "大岩の洞窟　２階",
+      "english": "Boulder Cave 2F",
+      "old_hex": "91e58ae282cc93b48c41814082518a4b",
+      "new_hex": "8261f08ff0f78262f0e8814082518265",
+      "method": "reuse proven Boulder Cave 1F MTE/CP932 prefix; change floor digit only"
+    },
+    {
+      "offset": "0x386010",
+      "bytes": 16,
+      "japanese": "大岩の洞窟　３階",
+      "english": "Boulder Cave 3F",
+      "old_hex": "91e58ae282cc93b48c41814082528a4b",
+      "new_hex": "8261f08ff0f78262f0e8814082528265",
+      "method": "reuse proven Boulder Cave 1F MTE/CP932 prefix; change floor digit only"
+    },
+    {
+      "offset": "0x386024",
+      "bytes": 16,
+      "japanese": "大岩の洞窟　４階",
+      "english": "Boulder Cave 4F",
+      "old_hex": "91e58ae282cc93b48c41814082538a4b",
+      "new_hex": "8261f08ff0f78262f0e8814082538265",
+      "method": "reuse proven Boulder Cave 1F MTE/CP932 prefix; change floor digit only"
+    }
+  ],
+  "scope": "Boulder Cave 2F-4F location captions; no renderer code mutation",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

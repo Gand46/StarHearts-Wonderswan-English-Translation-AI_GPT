@@ -1,0 +1,95 @@
+{
+  "version": "13BG-E3",
+  "base": "13BG-E2",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "155c0c71f1da298135e72e0311362f529df8196baa4c4813e9863cca07bd41e9",
+  "target_sha256": "dd93a6503e80079537903ee27c9a26dea04d1655d9a277e0f305cebd2c114209",
+  "size": 4194304,
+  "wonderswan_checksum": "80A1",
+  "changes": [
+    {
+      "record_id": "BANK36_SKILL_NAME_AXE_THROW",
+      "offset": "0x365D54",
+      "end": "0x365D62",
+      "bytes": 14,
+      "japanese": "アクススロー",
+      "e2_text": "アクススロー",
+      "e3_text": "AxeThr",
+      "role": "Technique name, index 0 of the 7-entry name table at 0x365D46.",
+      "note": "Matches the established compact style SwdThr/LncThr and fits the native 6-glyph slot.",
+      "old_hex": "8341834e83588358838d815b0000",
+      "new_hex": "8260829882858273828882920000",
+      "method": "fullwidth CP932 in-place, NUL 0000 preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_SKILL_DESC_AXE_THROW",
+      "offset": "0x365DB8",
+      "end": "0x365DCC",
+      "bytes": 20,
+      "japanese": "斧を投げて攻撃する",
+      "e2_text": "斧を投げて攻撃する",
+      "e3_text": "Throw Axe",
+      "role": "Technique description, index 0 of the 7-entry pointer table at 0x365DAA.",
+      "note": "Parallel to existing Throw Swd / Throw Spr descriptions; 9 fullwidth glyphs exactly fill the slot before NUL.",
+      "old_hex": "958082f0938a82b082c48d558c8282b782e90000",
+      "new_hex": "827382888292828f829781408260829882850000",
+      "method": "fullwidth CP932 in-place, NUL 0000 preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_ORB_GENERIC",
+      "offset": "0x365E9C",
+      "end": "0x365EA4",
+      "bytes": 8,
+      "japanese": "オーブ",
+      "e2_text": "オーブ",
+      "e3_text": "Orb",
+      "role": "Generic orb label, index 0 of the 7-entry pointer table at 0x365E8E.",
+      "note": "Direct generic localization; 3 fullwidth glyphs exactly fill the native slot before NUL.",
+      "old_hex": "8349815b83750000",
+      "new_hex": "826e829282820000",
+      "method": "fullwidth CP932 in-place, NUL 0000 preserved; no pointer/code/MTE changes"
+    }
+  ],
+  "scope": "Structural typing of BANK36 protected ????/mixed tables plus localization of three proven Japanese residual strings in those same consumers.",
+  "protected_records": [
+    {
+      "offset": "0x365E3A",
+      "bytes": 10,
+      "kind": "text_fallback",
+      "expected": "？？？？",
+      "consumer": "Technique description table index 6 / fallback when lookup misses.",
+      "status": "PRESERVED_BY_DESIGN"
+    },
+    {
+      "offset": "0x365E44",
+      "bytes": 14,
+      "kind": "pointer_table",
+      "expected": "5E52,5E5A,5E62,5E6A,5E72,5E7A,5E84",
+      "consumer": "7 x uint16 offsets for weapon-category labels.",
+      "status": "PRESERVED_BY_DESIGN"
+    },
+    {
+      "offset": "0x365E84",
+      "bytes": 10,
+      "kind": "text_fallback",
+      "expected": "？？？？",
+      "consumer": "Weapon-category table index 6 / fallback when lookup misses.",
+      "status": "PRESERVED_BY_DESIGN"
+    },
+    {
+      "offset": "0x365EF4",
+      "bytes": 10,
+      "kind": "text_fallback",
+      "expected": "？？？？",
+      "consumer": "Orb-label table index 6 / fallback when lookup misses.",
+      "status": "PRESERVED_BY_DESIGN"
+    }
+  ],
+  "consumer_proof": {
+    "skill_fallback": "BANK3A routine at ROM ~0x3A8FC0 computes lookup index; miss forces BX=0x000C then SHR BX => AX=6. Routine at ~0x3A9083 indexes far pointer 6000:5DAA, whose entry 6 points to 0x5E3A.",
+    "weapon_orb_fallback": "BANK3A routine at ROM ~0x3A929E searches a 6-key list through 6000:5D34; miss forces BX=0x000C. It then indexes 6000:5E44 and 6000:5E8E with that byte offset, selecting entry 6 => 0x5E84 and 0x5EF4.",
+    "mixed_record": "0x365E44 is not a string: it is seven little-endian uint16 pointers [5E52,5E5A,5E62,5E6A,5E72,5E7A,5E84]."
+  },
+  "route_qa": "Static consumer/pointer typing complete; bounded Mesen boot test performed. Specific equipment/technique screens not naturally forced in this phase.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

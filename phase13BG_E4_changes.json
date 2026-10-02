@@ -1,0 +1,95 @@
+{
+  "version": "13BG-E4",
+  "base": "13BG-E3",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "dd93a6503e80079537903ee27c9a26dea04d1655d9a277e0f305cebd2c114209",
+  "target_sha256": "af09abb01df3b37af6e56a4ce998b0a484001b9e0a6d80481772fece4e544312",
+  "size": 4194304,
+  "wonderswan_checksum": "815B",
+  "changes": [
+    {
+      "record_id": "BANK36_STATUS_LIFE",
+      "offset": "0x3645C2",
+      "end": "0x3645E6",
+      "bytes": 36,
+      "japanese": "ライフ　　　　　／　　　　　　　％",
+      "e3_text": "ライフ　　　　　／　　　　　　　％",
+      "e4_text": "Life    /       %",
+      "role": "Paired percentage/status label immediately preceding the matching Magic label.",
+      "note": "Keeps slash and percent at the exact original glyph columns; title-case Life matches later localized BANK36 label at 0x365C12.",
+      "old_hex": "83898343837481408140814081408140815e814081408140814081408140814081930000",
+      "new_hex": "826b8289828682858140814081408140815e814081408140814081408140814081930000",
+      "method": "fullwidth CP932 in-place; native terminator/padding budget preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_STATUS_MAGIC",
+      "offset": "0x3645E8",
+      "end": "0x36460C",
+      "bytes": 36,
+      "japanese": "マジック　　　　／　　　　　　　％",
+      "e3_text": "マジック　　　　／　　　　　　　％",
+      "e4_text": "Magic   /       %",
+      "role": "Paired percentage/status label immediately following Life.",
+      "note": "Keeps slash and percent at the exact original glyph columns; title-case Magic already exists elsewhere in BANK36.",
+      "old_hex": "837d83578362834e8140814081408140815e814081408140814081408140814081930000",
+      "new_hex": "826c8281828782898283814081408140815e814081408140814081408140814081930000",
+      "method": "fullwidth CP932 in-place; native terminator/padding budget preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_CLEAR_COMPACT",
+      "offset": "0x364E9A",
+      "end": "0x364EA2",
+      "bytes": 8,
+      "japanese": "クリア",
+      "e3_text": "クリア",
+      "e4_text": "CLR",
+      "role": "Short completion/status label; far pointer 6000:4E9A is embedded in BANK3A at ROM 0x3A8594 and loaded by the surrounding UI routine.",
+      "note": "Native slot permits only three fullwidth glyphs; CLR is a deliberate compact UI abbreviation, not a literal prose translation.",
+      "old_hex": "834e838a83410000",
+      "new_hex": "8262826b82710000",
+      "method": "fullwidth CP932 in-place; native terminator/padding budget preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_FIRST_TRIAL_HEADER",
+      "offset": "0x364F04",
+      "end": "0x364F10",
+      "bytes": 12,
+      "japanese": "最初の試練",
+      "e3_text": "最初の試練",
+      "e4_text": "Trial",
+      "role": "Standalone heading immediately before the already-localized compact challenge-title table beginning at 0x364F10.",
+      "note": "Five-glyph native slot cannot fit First Trial; Trial preserves the function without introducing an opaque abbreviation.",
+      "old_hex": "8dc58f8982cc8e8e97fb0000",
+      "new_hex": "8273829282898281828c0000",
+      "method": "fullwidth CP932 in-place; native terminator/padding budget preserved; no pointer/code/MTE changes"
+    },
+    {
+      "record_id": "BANK36_SAVE_YES",
+      "offset": "0x368AD0",
+      "end": "0x368AD8",
+      "bytes": 8,
+      "japanese": "はい",
+      "e3_text": "はい",
+      "e4_text": "Yes",
+      "role": "Positive choice adjacent to E2/E3 strings Save progress / now?, Continue?, and the already-English No option at 0x368AD8.",
+      "note": "Uses the two-byte padding NUL already present before No; No remains at its original address and no pointer moves.",
+      "old_hex": "82cd82a200000000",
+      "new_hex": "8278828582930000",
+      "method": "fullwidth CP932 in-place; native terminator/padding budget preserved; no pointer/code/MTE changes"
+    }
+  ],
+  "scope": "Physical BANK36 short-UI cleanup: Life/Magic percentage labels, compact completion label, first-trial heading, and residual Japanese Yes option.",
+  "consumer_proof": {
+    "life_magic": "Two paired NUL-terminated percentage labels with identical 17-glyph layout; replacement preserves slash at glyph 8 and percent at glyph 16. Later BANK36 localized labels already use Life/Magic title case.",
+    "clear": "ROM 0x3A8594 stores far pointer 6000:4E9A; surrounding BANK3A UI routine loads it through LES. Three-glyph slot forces compact CLR.",
+    "trial": "Standalone five-glyph NUL-terminated heading at 0x364F04 immediately precedes the compact challenge-title table at 0x364F10.",
+    "yes": "At 0x368A90 the same BANK36 block contains Save progress / now?, Continue?, then はい and No. 0x368AD0..0x368AD7 provides exactly 8 bytes, enough for Yes+NUL without moving No at 0x368AD8."
+  },
+  "deferred": {
+    "mission_descriptions": "0x365216..0x365BC2 retained byte-identical for E5; strings contain CRLF and at least one embedded control, so they require dedicated editorial/consumer QA.",
+    "name_keyboard_tables": "Japanese kana/name-analysis tables around 0x3611xx..0x361Exx are functional data and are not blanket translation targets.",
+    "blood_type": "0x362EB8 A型 deferred pending UI/semantic consumer confirmation."
+  },
+  "route_qa": "Static physical/string-family QA complete; bounded Mesen boot test performed. Exact gameplay screens for Life/Magic/CLR/Trial were not naturally forced in this phase.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

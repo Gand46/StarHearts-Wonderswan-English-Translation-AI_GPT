@@ -1,0 +1,21 @@
+{
+  "reason": "User-challenged legibility review; actual pixels supersede prior expected-text-based conclusions",
+  "items": [
+    {
+      "path": "iterations/I14/runtime/p8/evidence/link/f0600.png",
+      "old": "PASS_SYNTHETIC",
+      "current": "FAIL_LEGIBILITY_EVIDENCE"
+    },
+    {
+      "path": "iterations/I03/runtime/controlled_bank21/link_error_f20.png",
+      "old": "PASS_RUNTIME_VISUAL",
+      "current": "FAIL_TEXT_CORRUPTION"
+    },
+    {
+      "path": "iterations/I14/runtime/p3/controlled/second_banner/target_d060.png",
+      "old": "PASS_SYNTHETIC",
+      "current": "FAIL_CAPITALIZATION; INCOMPLETE_TIMED_CAPTURE"
+    }
+  ],
+  "restored_current_approvals_require": "F34 corrected/recaptured evidence in CASE_EVIDENCE.json; historical validator snapshots do not reapprove old images"
+}

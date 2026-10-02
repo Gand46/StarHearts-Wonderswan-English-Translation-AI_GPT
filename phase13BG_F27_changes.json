@@ -1,0 +1,24 @@
+{
+  "phase": "13BG-F27",
+  "parent": "13BG-F26",
+  "original_japanese_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "parent_sha256": "0394c490bf239198fd86dced631448695069f517c21089f4a0c634914216d1a1",
+  "target_sha256": "641acc39309f64cc16bfeee0f450461c99dd20d4ee4a28e7d0481a54471625d4",
+  "wonderswan_checksum": "99B2",
+  "change": "Magic header graphic: original two Japanese gold glyphs replaced by native-font Magic; 12px fullwidth cell layout, same gold nibble 0xB, original tilemap and background retained.",
+  "provenance": {
+    "source_graphics_descriptor_physical_hex": "308422",
+    "descriptor_old_le_hex": "5802",
+    "descriptor_new_le_hex": "A00D",
+    "old_compressed_resource_physical_hex": "3096FE-309855",
+    "new_resource_physical_hex": "30F13E-30F38A",
+    "old_first_decompressed_bytes": 14336,
+    "new_compressed_tokens": 83,
+    "new_first_block_sha256": "1b15782a8da146dcc01d1ebc9997ab37bd882dd538e7e2f73ea5e499d1320ef1",
+    "native_glyph_tiles_sha256": "a5cc8923b5eb746da17fc09eede753cadb4a74d1f9fc9d2286e882700fa23221",
+    "source_reference": "assets/native_magic_reference.png x=8..67,y=129..138; pixels (240,240,240)",
+    "tiles": "VRAM tile IDs 1-9 and 29-37, 4bpp packed; x=8..79, top two tile rows",
+    "unchanged": "original compressed resource, other descriptor entries, tilemap, code and font data"
+  },
+  "validation": "Cumulative build from exact JP ROM byte-identical to private F27 candidate; BPS applies byte-identically; targeted Magic screen English legible with native font and palette; menu screenshot byte-identical to F26, Magic difference confined to x=8..79,y=2..12; natural Magic learning remains open."
+}

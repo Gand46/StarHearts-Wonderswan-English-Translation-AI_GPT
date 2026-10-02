@@ -1,0 +1,857 @@
+{
+  "glyph_count": 94,
+  "native_identical": 93,
+  "different": [
+    "_"
+  ],
+  "glyphs": [
+    {
+      "character": "!",
+      "codepoint": "8149",
+      "physical": "0000C6",
+      "jp_sha256": "776827e2e1b7e85cf26c665c140f99ddeeb56077932a0e6105cfe6bbee37faa9",
+      "f33_sha256": "776827e2e1b7e85cf26c665c140f99ddeeb56077932a0e6105cfe6bbee37faa9",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "\"",
+      "codepoint": "EEFC",
+      "physical": "096E28",
+      "jp_sha256": "3835a7faa33fa8f7597b239a6a8fd4b03faab85ec7bc5c0067fddd6805728d77",
+      "f33_sha256": "3835a7faa33fa8f7597b239a6a8fd4b03faab85ec7bc5c0067fddd6805728d77",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "#",
+      "codepoint": "8194",
+      "physical": "000738",
+      "jp_sha256": "c1d4f44d106ead6a351e65b1ae0707d3e3db9dd1418fc32851f97edbda9840a8",
+      "f33_sha256": "c1d4f44d106ead6a351e65b1ae0707d3e3db9dd1418fc32851f97edbda9840a8",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "$",
+      "codepoint": "8190",
+      "physical": "0006E0",
+      "jp_sha256": "f26eecc46043bad1129901eebf39be7183480ddf5ba0f6951471af6f288742b3",
+      "f33_sha256": "f26eecc46043bad1129901eebf39be7183480ddf5ba0f6951471af6f288742b3",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "%",
+      "codepoint": "8193",
+      "physical": "000722",
+      "jp_sha256": "6df56eead11471b9acbceea51500d12f99e3da525586f2d5f08ea48796eef4e7",
+      "f33_sha256": "6df56eead11471b9acbceea51500d12f99e3da525586f2d5f08ea48796eef4e7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "&",
+      "codepoint": "8195",
+      "physical": "00074E",
+      "jp_sha256": "983ce991faac30e49297362064d268352524425d20b130a05463440bcaaf110e",
+      "f33_sha256": "983ce991faac30e49297362064d268352524425d20b130a05463440bcaaf110e",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "'",
+      "codepoint": "EEFB",
+      "physical": "096E12",
+      "jp_sha256": "33a26a40058b6f63489bc1c7d6b00020f099d3d254ee8d89fc1bd22a07c390e9",
+      "f33_sha256": "33a26a40058b6f63489bc1c7d6b00020f099d3d254ee8d89fc1bd22a07c390e9",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "(",
+      "codepoint": "8169",
+      "physical": "000386",
+      "jp_sha256": "172ea0a10e21481c35d753001737645f6a2d8e50b7600f433a08c328068e7b2b",
+      "f33_sha256": "172ea0a10e21481c35d753001737645f6a2d8e50b7600f433a08c328068e7b2b",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ")",
+      "codepoint": "816A",
+      "physical": "00039C",
+      "jp_sha256": "b95a095c92d6bd4cbf0d794fe24438d679bb73b8d4964fea07c4ad3f8decaee5",
+      "f33_sha256": "b95a095c92d6bd4cbf0d794fe24438d679bb73b8d4964fea07c4ad3f8decaee5",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "*",
+      "codepoint": "8196",
+      "physical": "000764",
+      "jp_sha256": "c6add68afde8d49c3eb603ab902042b7f2329946b9af8b41e05c87f706f16de7",
+      "f33_sha256": "c6add68afde8d49c3eb603ab902042b7f2329946b9af8b41e05c87f706f16de7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "+",
+      "codepoint": "817B",
+      "physical": "000512",
+      "jp_sha256": "04ec3b2d802c9729a5ec3234e603882fbb283d5e005e2a6c4bf2fd27c5469628",
+      "f33_sha256": "04ec3b2d802c9729a5ec3234e603882fbb283d5e005e2a6c4bf2fd27c5469628",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ",",
+      "codepoint": "8143",
+      "physical": "000042",
+      "jp_sha256": "c7f66e528fc1f2adb1e4dc88c52ddb7080bf0f4659c08e49eaeb857ba0bc3ad7",
+      "f33_sha256": "c7f66e528fc1f2adb1e4dc88c52ddb7080bf0f4659c08e49eaeb857ba0bc3ad7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "-",
+      "codepoint": "817C",
+      "physical": "000528",
+      "jp_sha256": "b32fc8e1d468d559e186e8f06fee658dcc4e102f556388e09420545ea9ed3dbe",
+      "f33_sha256": "b32fc8e1d468d559e186e8f06fee658dcc4e102f556388e09420545ea9ed3dbe",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ".",
+      "codepoint": "8144",
+      "physical": "000058",
+      "jp_sha256": "6e749556e40f04950a8eea841dabbcc4f72d0ff6bc35bd7815f2e4d0a615577b",
+      "f33_sha256": "6e749556e40f04950a8eea841dabbcc4f72d0ff6bc35bd7815f2e4d0a615577b",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "/",
+      "codepoint": "815E",
+      "physical": "000294",
+      "jp_sha256": "cf72ff6686e20ad8cdc8bca20825ec10c268dd9e7e6740c5fe63af1972928813",
+      "f33_sha256": "cf72ff6686e20ad8cdc8bca20825ec10c268dd9e7e6740c5fe63af1972928813",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "0",
+      "codepoint": "824F",
+      "physical": "00174A",
+      "jp_sha256": "b0fe4af85af2d8fa646c25f5ab91b7318215db574b4798a0d0af1a026fd51848",
+      "f33_sha256": "b0fe4af85af2d8fa646c25f5ab91b7318215db574b4798a0d0af1a026fd51848",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "1",
+      "codepoint": "8250",
+      "physical": "001760",
+      "jp_sha256": "caa25f1d744ace90d745eb73558c8b3885b444aa7772dc4ecffc798ae0fa6ce9",
+      "f33_sha256": "caa25f1d744ace90d745eb73558c8b3885b444aa7772dc4ecffc798ae0fa6ce9",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "2",
+      "codepoint": "8251",
+      "physical": "001776",
+      "jp_sha256": "7210d87dc7828890312083ab9491644bfaccc12a174b16aec945041ce311f782",
+      "f33_sha256": "7210d87dc7828890312083ab9491644bfaccc12a174b16aec945041ce311f782",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "3",
+      "codepoint": "8252",
+      "physical": "00178C",
+      "jp_sha256": "36140c8122096f97612b0e7ca562a2cc2129cfea6def2a0d8a045a024ad4f0a4",
+      "f33_sha256": "36140c8122096f97612b0e7ca562a2cc2129cfea6def2a0d8a045a024ad4f0a4",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "4",
+      "codepoint": "8253",
+      "physical": "0017A2",
+      "jp_sha256": "7f9ca6af08e35b1c2c37f2ca0232ff6350e67dc3fe03e8f0b62c1be38eb797df",
+      "f33_sha256": "7f9ca6af08e35b1c2c37f2ca0232ff6350e67dc3fe03e8f0b62c1be38eb797df",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "5",
+      "codepoint": "8254",
+      "physical": "0017B8",
+      "jp_sha256": "44767de17f360611c0d6c425eea269ed6b04620ff37b772b406ccff3b5fdf0c7",
+      "f33_sha256": "44767de17f360611c0d6c425eea269ed6b04620ff37b772b406ccff3b5fdf0c7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "6",
+      "codepoint": "8255",
+      "physical": "0017CE",
+      "jp_sha256": "9a1542a200ed5a94dfbf37639ef1f50ca8fa2fa293cb96519782984e81b19f52",
+      "f33_sha256": "9a1542a200ed5a94dfbf37639ef1f50ca8fa2fa293cb96519782984e81b19f52",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "7",
+      "codepoint": "8256",
+      "physical": "0017E4",
+      "jp_sha256": "87ee8a0c13c0a890d9e51ec6d01d744ebb6ac2a3ece1dd642331776308b8b9e5",
+      "f33_sha256": "87ee8a0c13c0a890d9e51ec6d01d744ebb6ac2a3ece1dd642331776308b8b9e5",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "8",
+      "codepoint": "8257",
+      "physical": "0017FA",
+      "jp_sha256": "fada6e61767eb6349c8438e4c947f70331e9b36923ec7415b4ac7620dc133ec0",
+      "f33_sha256": "fada6e61767eb6349c8438e4c947f70331e9b36923ec7415b4ac7620dc133ec0",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "9",
+      "codepoint": "8258",
+      "physical": "001810",
+      "jp_sha256": "c790834b4b55b19c4607c7f9ff78a30a756e625bb92c787a8983128ac3ee3472",
+      "f33_sha256": "c790834b4b55b19c4607c7f9ff78a30a756e625bb92c787a8983128ac3ee3472",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ":",
+      "codepoint": "8146",
+      "physical": "000084",
+      "jp_sha256": "6281b08cc643653ae48f18862647ebe01c5f0a6a538c375977dd3185db434977",
+      "f33_sha256": "6281b08cc643653ae48f18862647ebe01c5f0a6a538c375977dd3185db434977",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ";",
+      "codepoint": "8147",
+      "physical": "00009A",
+      "jp_sha256": "d11a420631e1e635d0587287e403696aa0037082ac490b746d39c689bf91a6a0",
+      "f33_sha256": "d11a420631e1e635d0587287e403696aa0037082ac490b746d39c689bf91a6a0",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "<",
+      "codepoint": "8183",
+      "physical": "0005C2",
+      "jp_sha256": "1bf03a701abd1ad7b34447143b65ef825358a2e07f14b25ceae01d42aa324238",
+      "f33_sha256": "1bf03a701abd1ad7b34447143b65ef825358a2e07f14b25ceae01d42aa324238",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "=",
+      "codepoint": "8181",
+      "physical": "000596",
+      "jp_sha256": "bf78840b805bd496415801f1fc8553b13b60d60e501826616e0bbe7602c43b08",
+      "f33_sha256": "bf78840b805bd496415801f1fc8553b13b60d60e501826616e0bbe7602c43b08",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": ">",
+      "codepoint": "8184",
+      "physical": "0005D8",
+      "jp_sha256": "de5986f5e7c0a1a01c53a1568e90c3cd49a0addac40bdd12f3cc45fa89798853",
+      "f33_sha256": "de5986f5e7c0a1a01c53a1568e90c3cd49a0addac40bdd12f3cc45fa89798853",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "?",
+      "codepoint": "8148",
+      "physical": "0000B0",
+      "jp_sha256": "9349890b725b1a18baea9295ff7ee1778196dabf85c938345430f0fd95af9435",
+      "f33_sha256": "9349890b725b1a18baea9295ff7ee1778196dabf85c938345430f0fd95af9435",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "@",
+      "codepoint": "8197",
+      "physical": "00077A",
+      "jp_sha256": "c6004f559d62a4f25beab581307e5fa1900a17312772f70c582e780d0a804ee2",
+      "f33_sha256": "c6004f559d62a4f25beab581307e5fa1900a17312772f70c582e780d0a804ee2",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "A",
+      "codepoint": "8260",
+      "physical": "0018C0",
+      "jp_sha256": "756da724af677f93b9bb60e1d20d26d902c72ae3c1b22e789715336d292a9711",
+      "f33_sha256": "756da724af677f93b9bb60e1d20d26d902c72ae3c1b22e789715336d292a9711",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "B",
+      "codepoint": "8261",
+      "physical": "0018D6",
+      "jp_sha256": "75c05427305992a18f3bd79b31c02a55161b5c498eb4b046b258d055029c670a",
+      "f33_sha256": "75c05427305992a18f3bd79b31c02a55161b5c498eb4b046b258d055029c670a",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "C",
+      "codepoint": "8262",
+      "physical": "0018EC",
+      "jp_sha256": "9e6239aabb348934c2a4e486cef52d3003dfe550191b139118fa235692e7276e",
+      "f33_sha256": "9e6239aabb348934c2a4e486cef52d3003dfe550191b139118fa235692e7276e",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "D",
+      "codepoint": "8263",
+      "physical": "001902",
+      "jp_sha256": "5fc41fee40b236f968251ae7bd23b1975f1bae870389880d73f8011a08225a24",
+      "f33_sha256": "5fc41fee40b236f968251ae7bd23b1975f1bae870389880d73f8011a08225a24",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "E",
+      "codepoint": "8264",
+      "physical": "001918",
+      "jp_sha256": "cd4930e7f9a242c506d7d2dbbb25d058281430fb614d7685dc37a61b4c861dff",
+      "f33_sha256": "cd4930e7f9a242c506d7d2dbbb25d058281430fb614d7685dc37a61b4c861dff",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "F",
+      "codepoint": "8265",
+      "physical": "00192E",
+      "jp_sha256": "2359d34c53c0f90e8be26c0a37e1aed8f825a968a34b80d7c5f9b176221319a7",
+      "f33_sha256": "2359d34c53c0f90e8be26c0a37e1aed8f825a968a34b80d7c5f9b176221319a7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "G",
+      "codepoint": "8266",
+      "physical": "001944",
+      "jp_sha256": "06df8660b297a0845a9ba50e2eb8b2ce1e22719956dac60f1ae46f3a0a7dc187",
+      "f33_sha256": "06df8660b297a0845a9ba50e2eb8b2ce1e22719956dac60f1ae46f3a0a7dc187",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "H",
+      "codepoint": "8267",
+      "physical": "00195A",
+      "jp_sha256": "81190ca19da1d4e45ad705ccfb1bc99a392024381f8993b984a903bf83cf6a86",
+      "f33_sha256": "81190ca19da1d4e45ad705ccfb1bc99a392024381f8993b984a903bf83cf6a86",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "I",
+      "codepoint": "8268",
+      "physical": "001970",
+      "jp_sha256": "e7cf7a0b0ba3d4c9223b504bef8eb6ad4b2ebedfa59780506bab800ebcb9374c",
+      "f33_sha256": "e7cf7a0b0ba3d4c9223b504bef8eb6ad4b2ebedfa59780506bab800ebcb9374c",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "J",
+      "codepoint": "8269",
+      "physical": "001986",
+      "jp_sha256": "b14b0a886c0ec5e97fe4e3ef7d44db5f1672667272685e050c314247ead72ec4",
+      "f33_sha256": "b14b0a886c0ec5e97fe4e3ef7d44db5f1672667272685e050c314247ead72ec4",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "K",
+      "codepoint": "826A",
+      "physical": "00199C",
+      "jp_sha256": "02e2b6a79e4a9b1abbe620ab8d4e4009890dbe2839d6619f45fbb52c9ff0dfb0",
+      "f33_sha256": "02e2b6a79e4a9b1abbe620ab8d4e4009890dbe2839d6619f45fbb52c9ff0dfb0",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "L",
+      "codepoint": "826B",
+      "physical": "0019B2",
+      "jp_sha256": "2ffbdb693cf20125e25f754b3233450d38f006c8cfed0442f87f91cd00bcbc87",
+      "f33_sha256": "2ffbdb693cf20125e25f754b3233450d38f006c8cfed0442f87f91cd00bcbc87",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "M",
+      "codepoint": "826C",
+      "physical": "0019C8",
+      "jp_sha256": "9455c7010108efcbc692710cbf69871f6f16292111710aa0982dcf880aac3ca3",
+      "f33_sha256": "9455c7010108efcbc692710cbf69871f6f16292111710aa0982dcf880aac3ca3",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "N",
+      "codepoint": "826D",
+      "physical": "0019DE",
+      "jp_sha256": "13ce4929db9d004114fcb1cc6ed97c1f9b79e2e95a5a8ec50e283b89ea1c62d8",
+      "f33_sha256": "13ce4929db9d004114fcb1cc6ed97c1f9b79e2e95a5a8ec50e283b89ea1c62d8",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "O",
+      "codepoint": "826E",
+      "physical": "0019F4",
+      "jp_sha256": "effbcf588c5247e8f1748132eb47bda645d4d0bdd053dd528c48be367cb5daa2",
+      "f33_sha256": "effbcf588c5247e8f1748132eb47bda645d4d0bdd053dd528c48be367cb5daa2",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "P",
+      "codepoint": "826F",
+      "physical": "001A0A",
+      "jp_sha256": "49b592db1fe968100c4c8aacfa7d89e9a8ac250632e9cc3f1272d4af5d045c06",
+      "f33_sha256": "49b592db1fe968100c4c8aacfa7d89e9a8ac250632e9cc3f1272d4af5d045c06",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "Q",
+      "codepoint": "8270",
+      "physical": "001A20",
+      "jp_sha256": "ecc44ec79535506c3442aa9c3f06a4ea025e21b8540874084defcd60dd51cb37",
+      "f33_sha256": "ecc44ec79535506c3442aa9c3f06a4ea025e21b8540874084defcd60dd51cb37",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "R",
+      "codepoint": "8271",
+      "physical": "001A36",
+      "jp_sha256": "7a4df8f579738bd389942a5cfb24fd57943bf1e4975a4a85a1940121f798c600",
+      "f33_sha256": "7a4df8f579738bd389942a5cfb24fd57943bf1e4975a4a85a1940121f798c600",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "S",
+      "codepoint": "8272",
+      "physical": "001A4C",
+      "jp_sha256": "cf859f654eac85a9e8195c3e5db6590599d6a31c2418a3cd1ce0386da6d1f482",
+      "f33_sha256": "cf859f654eac85a9e8195c3e5db6590599d6a31c2418a3cd1ce0386da6d1f482",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "T",
+      "codepoint": "8273",
+      "physical": "001A62",
+      "jp_sha256": "5128f4c9b65d0c2f99ad96d5027d157d9f32995c45e8426861d14cfe71c3d255",
+      "f33_sha256": "5128f4c9b65d0c2f99ad96d5027d157d9f32995c45e8426861d14cfe71c3d255",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "U",
+      "codepoint": "8274",
+      "physical": "001A78",
+      "jp_sha256": "277295be4bb295a2675ac732537c5cfaa0e0011791fb3237db93db37c832d593",
+      "f33_sha256": "277295be4bb295a2675ac732537c5cfaa0e0011791fb3237db93db37c832d593",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "V",
+      "codepoint": "8275",
+      "physical": "001A8E",
+      "jp_sha256": "2cb8f0109dc32c57d4d6b58a8ee3e9d96ed26311439cbdd15a25a8b763a917b8",
+      "f33_sha256": "2cb8f0109dc32c57d4d6b58a8ee3e9d96ed26311439cbdd15a25a8b763a917b8",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "W",
+      "codepoint": "8276",
+      "physical": "001AA4",
+      "jp_sha256": "3f8ae480621c1cee23caa2a2a849d0ac1f81dd309c4000448afd1d3c16643020",
+      "f33_sha256": "3f8ae480621c1cee23caa2a2a849d0ac1f81dd309c4000448afd1d3c16643020",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "X",
+      "codepoint": "8277",
+      "physical": "001ABA",
+      "jp_sha256": "7c080025ea93241da5077ca4ccd851995ccf36830583d6de5f3eca116a7936ba",
+      "f33_sha256": "7c080025ea93241da5077ca4ccd851995ccf36830583d6de5f3eca116a7936ba",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "Y",
+      "codepoint": "8278",
+      "physical": "001AD0",
+      "jp_sha256": "c8499c0b5e4b6ff4a59461337e40d6d6b5f916e5f0d993f618edec6ba1086492",
+      "f33_sha256": "c8499c0b5e4b6ff4a59461337e40d6d6b5f916e5f0d993f618edec6ba1086492",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "Z",
+      "codepoint": "8279",
+      "physical": "001AE6",
+      "jp_sha256": "313e43c41543a20b74d737544b7c80d8f799388d34886e27970b765fd962af61",
+      "f33_sha256": "313e43c41543a20b74d737544b7c80d8f799388d34886e27970b765fd962af61",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "[",
+      "codepoint": "816D",
+      "physical": "0003DE",
+      "jp_sha256": "1d275844c57c73d70849b06f7c45c2fa167b788142c10fa60456b1e872f85062",
+      "f33_sha256": "1d275844c57c73d70849b06f7c45c2fa167b788142c10fa60456b1e872f85062",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "\\",
+      "codepoint": "815F",
+      "physical": "0002AA",
+      "jp_sha256": "8225be28200174e783b10f966cec4348ea67288bf6500cdd721616cb43916087",
+      "f33_sha256": "8225be28200174e783b10f966cec4348ea67288bf6500cdd721616cb43916087",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "]",
+      "codepoint": "816E",
+      "physical": "0003F4",
+      "jp_sha256": "3ff4d2ee472b18eef7ae20103502c1acf4188dc45e28c90e9d74e65e79f7aacf",
+      "f33_sha256": "3ff4d2ee472b18eef7ae20103502c1acf4188dc45e28c90e9d74e65e79f7aacf",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "^",
+      "codepoint": "814F",
+      "physical": "00014A",
+      "jp_sha256": "dcfc21d89d0e8cb54bc4316af6f10ffabfa3b019af6127168052a09ff6500d8f",
+      "f33_sha256": "dcfc21d89d0e8cb54bc4316af6f10ffabfa3b019af6127168052a09ff6500d8f",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "_",
+      "codepoint": "8151",
+      "physical": "000176",
+      "jp_sha256": "6a4875ddaceaa91fb3369f0f6d962f77442daf1b1d97733457d12bcabdf79441",
+      "f33_sha256": "72be824c03b32a74c69230e806fc420b57410bc6d65a31b0be1a2edf159e422e",
+      "byte_identical": false,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "`",
+      "codepoint": "814D",
+      "physical": "00011E",
+      "jp_sha256": "0c9e1da5b1f73938d03adc2568ef1f192e3c187f1d45505abfe01c6ad4366c48",
+      "f33_sha256": "0c9e1da5b1f73938d03adc2568ef1f192e3c187f1d45505abfe01c6ad4366c48",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "a",
+      "codepoint": "8281",
+      "physical": "001B96",
+      "jp_sha256": "705e2bc21a878ee7454768e647a08de465dcfefc6569e398035a371988dfb767",
+      "f33_sha256": "705e2bc21a878ee7454768e647a08de465dcfefc6569e398035a371988dfb767",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "b",
+      "codepoint": "8282",
+      "physical": "001BAC",
+      "jp_sha256": "175a44c65a76a6d01970d591e2e8c307c3e962e503639540c567272c423e8912",
+      "f33_sha256": "175a44c65a76a6d01970d591e2e8c307c3e962e503639540c567272c423e8912",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "c",
+      "codepoint": "8283",
+      "physical": "001BC2",
+      "jp_sha256": "d313adfb7b1c170b064e4f28b393dd51a651694cea12939c2b043c44c9c29db2",
+      "f33_sha256": "d313adfb7b1c170b064e4f28b393dd51a651694cea12939c2b043c44c9c29db2",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "d",
+      "codepoint": "8284",
+      "physical": "001BD8",
+      "jp_sha256": "f793f8adef3bf39cadf95712b7dc6ceecc2fd1f3cc2d344ec462957b4781fac7",
+      "f33_sha256": "f793f8adef3bf39cadf95712b7dc6ceecc2fd1f3cc2d344ec462957b4781fac7",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "e",
+      "codepoint": "8285",
+      "physical": "001BEE",
+      "jp_sha256": "dcdd09bbb2088984481d0c95679780f00400518a579d27f4522ca37911d111c3",
+      "f33_sha256": "dcdd09bbb2088984481d0c95679780f00400518a579d27f4522ca37911d111c3",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "f",
+      "codepoint": "8286",
+      "physical": "001C04",
+      "jp_sha256": "87c91c2eae0ca6606eea118a95045caf1228c5d1e003ec8e01f28f15a9c3f31a",
+      "f33_sha256": "87c91c2eae0ca6606eea118a95045caf1228c5d1e003ec8e01f28f15a9c3f31a",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "g",
+      "codepoint": "8287",
+      "physical": "001C1A",
+      "jp_sha256": "0ffda2514a0de874df4fa4c0c1f55ffcc3cacbcb81f18233ac4d052f50635231",
+      "f33_sha256": "0ffda2514a0de874df4fa4c0c1f55ffcc3cacbcb81f18233ac4d052f50635231",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "h",
+      "codepoint": "8288",
+      "physical": "001C30",
+      "jp_sha256": "8f2726016b23a79d5aa915423f49d7ae008e08394e240b44125ece2920a10154",
+      "f33_sha256": "8f2726016b23a79d5aa915423f49d7ae008e08394e240b44125ece2920a10154",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "i",
+      "codepoint": "8289",
+      "physical": "001C46",
+      "jp_sha256": "25e897a68b52605589dc6097fc04b53a278c9ffa364e9e61ddda9d355dce4acb",
+      "f33_sha256": "25e897a68b52605589dc6097fc04b53a278c9ffa364e9e61ddda9d355dce4acb",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "j",
+      "codepoint": "828A",
+      "physical": "001C5C",
+      "jp_sha256": "903cf2fb74e61e16f7000325f48dfff0e5e606f905d5a6efbd95c92660404fa5",
+      "f33_sha256": "903cf2fb74e61e16f7000325f48dfff0e5e606f905d5a6efbd95c92660404fa5",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "k",
+      "codepoint": "828B",
+      "physical": "001C72",
+      "jp_sha256": "6084dee1ac436d7afb773c4c36c37decbf93ebd686ec4f0e3d41565d29013cdc",
+      "f33_sha256": "6084dee1ac436d7afb773c4c36c37decbf93ebd686ec4f0e3d41565d29013cdc",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "l",
+      "codepoint": "828C",
+      "physical": "001C88",
+      "jp_sha256": "b14edf42e258c9bd5b566ed82b2afc84a58b64b3cf05691a7d3f79b39cb6b30e",
+      "f33_sha256": "b14edf42e258c9bd5b566ed82b2afc84a58b64b3cf05691a7d3f79b39cb6b30e",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "m",
+      "codepoint": "828D",
+      "physical": "001C9E",
+      "jp_sha256": "6dff17b14bcd7c6652d3737219e2433ebcd1a687b94777c010238f707089fedb",
+      "f33_sha256": "6dff17b14bcd7c6652d3737219e2433ebcd1a687b94777c010238f707089fedb",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "n",
+      "codepoint": "828E",
+      "physical": "001CB4",
+      "jp_sha256": "8089d9644dc00976da074fa0e448b56d4116df8dc0cce33c120a0e73ba440956",
+      "f33_sha256": "8089d9644dc00976da074fa0e448b56d4116df8dc0cce33c120a0e73ba440956",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "o",
+      "codepoint": "828F",
+      "physical": "001CCA",
+      "jp_sha256": "395bdc498acaeb5e006964e36221a8137c920b2a9fb1f7a95468e28c20293fb1",
+      "f33_sha256": "395bdc498acaeb5e006964e36221a8137c920b2a9fb1f7a95468e28c20293fb1",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "p",
+      "codepoint": "8290",
+      "physical": "001CE0",
+      "jp_sha256": "60f24673d0cca7c721b983580053da39214f89457267b9fb9c2f07e99105d791",
+      "f33_sha256": "60f24673d0cca7c721b983580053da39214f89457267b9fb9c2f07e99105d791",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "q",
+      "codepoint": "8291",
+      "physical": "001CF6",
+      "jp_sha256": "b4a6f45c0dd0daca8d53c479e28f106892fc1cb85ea0bcb47188fac10e4fd46c",
+      "f33_sha256": "b4a6f45c0dd0daca8d53c479e28f106892fc1cb85ea0bcb47188fac10e4fd46c",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "r",
+      "codepoint": "8292",
+      "physical": "001D0C",
+      "jp_sha256": "9df7f7e979a418b26273492c2064916a4958eaa39f63543877b7e04b1ab28fe0",
+      "f33_sha256": "9df7f7e979a418b26273492c2064916a4958eaa39f63543877b7e04b1ab28fe0",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "s",
+      "codepoint": "8293",
+      "physical": "001D22",
+      "jp_sha256": "5c806999999955bef3ccb461fa493755dbfb04dc483e6d46471264987cece555",
+      "f33_sha256": "5c806999999955bef3ccb461fa493755dbfb04dc483e6d46471264987cece555",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "t",
+      "codepoint": "8294",
+      "physical": "001D38",
+      "jp_sha256": "0d8e4c1472af9bdab48ca52b006ad491cd450e2877bb2013f110f4f13da55153",
+      "f33_sha256": "0d8e4c1472af9bdab48ca52b006ad491cd450e2877bb2013f110f4f13da55153",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "u",
+      "codepoint": "8295",
+      "physical": "001D4E",
+      "jp_sha256": "44644cb6aab887e90fc9f6515e3031a13d3f288437d659a20c7ed5d5bcfd795b",
+      "f33_sha256": "44644cb6aab887e90fc9f6515e3031a13d3f288437d659a20c7ed5d5bcfd795b",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "v",
+      "codepoint": "8296",
+      "physical": "001D64",
+      "jp_sha256": "6d139baffb123c2b718f9aac8c1545a3afec2dbb9132b561c4e0edfe74260b09",
+      "f33_sha256": "6d139baffb123c2b718f9aac8c1545a3afec2dbb9132b561c4e0edfe74260b09",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "w",
+      "codepoint": "8297",
+      "physical": "001D7A",
+      "jp_sha256": "b3f74523a94be461cf8dd00ffb388d1eb76843f8f3e537eaf9eac7b4b4a80940",
+      "f33_sha256": "b3f74523a94be461cf8dd00ffb388d1eb76843f8f3e537eaf9eac7b4b4a80940",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "x",
+      "codepoint": "8298",
+      "physical": "001D90",
+      "jp_sha256": "3ca0f41dec85ce5a7082416cd3fe9046231d4a94f483421b234061c03691384e",
+      "f33_sha256": "3ca0f41dec85ce5a7082416cd3fe9046231d4a94f483421b234061c03691384e",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "y",
+      "codepoint": "8299",
+      "physical": "001DA6",
+      "jp_sha256": "403fd01e9214a5f6fc702123c647496179e69df78ac2489fe63a56c4d078457d",
+      "f33_sha256": "403fd01e9214a5f6fc702123c647496179e69df78ac2489fe63a56c4d078457d",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "z",
+      "codepoint": "829A",
+      "physical": "001DBC",
+      "jp_sha256": "0ef83c757307efe01b844b33c90f87d45ce1d0f7fa2c804a77d5c4603a13661f",
+      "f33_sha256": "0ef83c757307efe01b844b33c90f87d45ce1d0f7fa2c804a77d5c4603a13661f",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "{",
+      "codepoint": "816F",
+      "physical": "00040A",
+      "jp_sha256": "e50a7f488dc54e71a2ca83b87674a55ec5454241ea71f7c54c73a29615ce640a",
+      "f33_sha256": "e50a7f488dc54e71a2ca83b87674a55ec5454241ea71f7c54c73a29615ce640a",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "|",
+      "codepoint": "8162",
+      "physical": "0002EC",
+      "jp_sha256": "f0b8e92bc225415f29e40c6f257da2f246c17a8fe7517505c15970cf5a600bb9",
+      "f33_sha256": "f0b8e92bc225415f29e40c6f257da2f246c17a8fe7517505c15970cf5a600bb9",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "}",
+      "codepoint": "8170",
+      "physical": "000420",
+      "jp_sha256": "a539e75d786a4258fbac85d8193f7ea2ef2961dc8f0406832e6cee844fcbfb51",
+      "f33_sha256": "a539e75d786a4258fbac85d8193f7ea2ef2961dc8f0406832e6cee844fcbfb51",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    },
+    {
+      "character": "~",
+      "codepoint": "8160",
+      "physical": "0002C0",
+      "jp_sha256": "35e0271ae63d8d14de426f1f49c3b7bfb8af48e9ef52fca8d0da90e5d3bdb71d",
+      "f33_sha256": "35e0271ae63d8d14de426f1f49c3b7bfb8af48e9ef52fca8d0da90e5d3bdb71d",
+      "byte_identical": true,
+      "runtime_provenance": "P6 native atlas + P9 waiting for selected9; not all characters runtime-validated"
+    }
+  ],
+  "underscore_occurrences_candidate_hex": [],
+  "underscore_status": "NOT_VALIDATED_AS_VISIBLE_TRANSLATION; historical two-pixel change retained, not new F34 change"
+}

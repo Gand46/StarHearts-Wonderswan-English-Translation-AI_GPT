@@ -1,0 +1,304 @@
+{
+  "labels": [
+    {
+      "japanese": "ライフ",
+      "english": "Life",
+      "box": [
+        8,
+        22,
+        72,
+        14
+      ],
+      "native_cell_y": 24,
+      "glyph_color": 11,
+      "ink_width": 20
+    },
+    {
+      "japanese": "マジック",
+      "english": "Magic",
+      "box": [
+        8,
+        38,
+        72,
+        14
+      ],
+      "native_cell_y": 40,
+      "glyph_color": 11,
+      "ink_width": 30
+    },
+    {
+      "japanese": "対戦数",
+      "english": "Battles",
+      "box": [
+        128,
+        22,
+        68,
+        14
+      ],
+      "native_cell_y": 24,
+      "glyph_color": 9,
+      "ink_width": 38
+    },
+    {
+      "japanese": "勝星数",
+      "english": "Wins",
+      "box": [
+        128,
+        38,
+        68,
+        14
+      ],
+      "native_cell_y": 40,
+      "glyph_color": 9,
+      "ink_width": 26
+    },
+    {
+      "japanese": "ステータス",
+      "english": "Status",
+      "box": [
+        8,
+        64,
+        102,
+        14
+      ],
+      "native_cell_y": 65,
+      "glyph_color": 11,
+      "ink_width": 36
+    },
+    {
+      "japanese": "つよさ",
+      "english": "Str",
+      "box": [
+        8,
+        80,
+        48,
+        12
+      ],
+      "native_cell_y": 80,
+      "glyph_color": 11,
+      "ink_width": 17
+    },
+    {
+      "japanese": "レベル",
+      "english": "Lv",
+      "box": [
+        64,
+        80,
+        40,
+        12
+      ],
+      "native_cell_y": 80,
+      "glyph_color": 11,
+      "ink_width": 13
+    },
+    {
+      "japanese": "まもり",
+      "english": "Def",
+      "box": [
+        8,
+        96,
+        48,
+        12
+      ],
+      "native_cell_y": 96,
+      "glyph_color": 11,
+      "ink_width": 18
+    },
+    {
+      "japanese": "レベル",
+      "english": "Lv",
+      "box": [
+        64,
+        96,
+        40,
+        12
+      ],
+      "native_cell_y": 96,
+      "glyph_color": 11,
+      "ink_width": 13
+    },
+    {
+      "japanese": "かしこさ",
+      "english": "Int",
+      "box": [
+        8,
+        112,
+        48,
+        12
+      ],
+      "native_cell_y": 112,
+      "glyph_color": 11,
+      "ink_width": 14
+    },
+    {
+      "japanese": "レベル",
+      "english": "Lv",
+      "box": [
+        64,
+        112,
+        40,
+        12
+      ],
+      "native_cell_y": 112,
+      "glyph_color": 11,
+      "ink_width": 13
+    },
+    {
+      "japanese": "すばやさ",
+      "english": "Agi",
+      "box": [
+        8,
+        128,
+        48,
+        12
+      ],
+      "native_cell_y": 128,
+      "glyph_color": 11,
+      "ink_width": 17
+    },
+    {
+      "japanese": "レベル",
+      "english": "Lv",
+      "box": [
+        64,
+        128,
+        40,
+        12
+      ],
+      "native_cell_y": 128,
+      "glyph_color": 11,
+      "ink_width": 13
+    },
+    {
+      "japanese": "火",
+      "english": "Fire",
+      "box": [
+        120,
+        64,
+        28,
+        12
+      ],
+      "native_cell_y": 64,
+      "glyph_color": 10,
+      "ink_width": 19
+    },
+    {
+      "japanese": "水",
+      "english": "Wtr",
+      "box": [
+        168,
+        64,
+        28,
+        12
+      ],
+      "native_cell_y": 64,
+      "glyph_color": 10,
+      "ink_width": 21
+    },
+    {
+      "japanese": "風",
+      "english": "Wnd",
+      "box": [
+        120,
+        80,
+        28,
+        12
+      ],
+      "native_cell_y": 80,
+      "glyph_color": 10,
+      "ink_width": 24
+    },
+    {
+      "japanese": "地",
+      "english": "Erth",
+      "box": [
+        168,
+        80,
+        28,
+        12
+      ],
+      "native_cell_y": 80,
+      "glyph_color": 10,
+      "ink_width": 23
+    },
+    {
+      "japanese": "光",
+      "english": "Lgt",
+      "box": [
+        120,
+        96,
+        28,
+        12
+      ],
+      "native_cell_y": 96,
+      "glyph_color": 10,
+      "ink_width": 19
+    },
+    {
+      "japanese": "闇",
+      "english": "Dark",
+      "box": [
+        168,
+        96,
+        28,
+        12
+      ],
+      "native_cell_y": 96,
+      "glyph_color": 10,
+      "ink_width": 24
+    },
+    {
+      "japanese": "氷",
+      "english": "Ice",
+      "box": [
+        120,
+        112,
+        28,
+        12
+      ],
+      "native_cell_y": 112,
+      "glyph_color": 10,
+      "ink_width": 15
+    },
+    {
+      "japanese": "雷",
+      "english": "Thun",
+      "box": [
+        168,
+        112,
+        28,
+        12
+      ],
+      "native_cell_y": 112,
+      "glyph_color": 10,
+      "ink_width": 25
+    },
+    {
+      "japanese": "神",
+      "english": "Holy",
+      "box": [
+        120,
+        128,
+        28,
+        12
+      ],
+      "native_cell_y": 128,
+      "glyph_color": 10,
+      "ink_width": 22
+    }
+  ],
+  "label_occurrences": 22,
+  "unique_labels": 19,
+  "resource_offset": 3189398,
+  "asset_size": 1402,
+  "capacity_before_next_preserved_palette": 1597,
+  "decoded_bytes": 16128,
+  "unchanged_outside_label_boxes": true,
+  "palette_frames_unchanged": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "header_unchanged": true
+}

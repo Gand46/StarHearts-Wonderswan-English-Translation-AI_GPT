@@ -1,0 +1,12 @@
+{
+  "phase": "13BG-F6",
+  "date": "2026-09-17",
+  "kind": "pointer-first audit checkpoint",
+  "binary_change": false,
+  "changes": [],
+  "notes": [
+    "No binary writes accepted in F6.",
+    "BANK38 active text pointer table audited pointer-first: no ACTIVE_JP destinations found.",
+    "BANK38 world-map record table typed as 864 structural records; Japanese suffix labels are not patched without a proven textual consumer."
+  ]
+}

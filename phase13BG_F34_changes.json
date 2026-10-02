@@ -1,0 +1,36 @@
+{
+  "version": "13BG-F34",
+  "base": "F33",
+  "date": "2026-09-28",
+  "base_sha256": "c202d65c5c4a8da0247cb1051b03d3bb50d7c69c1dd6ea41f906caedab380e03",
+  "target_sha256": "d22bb029570e1b053e7cc11bd0cd1632ff310343d3c44ffaa072f771ae820ca0",
+  "wonderswan_checksum": "3CD5",
+  "changes": [
+    {
+      "offset": 1646076,
+      "size": 28,
+      "before_hex": "82648275f04c827381468140826582898292f02f81408273f061f037",
+      "after_hex": "826482758264826d82738146826582898292f02f81408273f061f037",
+      "reason": "Second First Trial: replace false uppercase F04C(en) with literal EVENT; omit one post-colon blank to keep explicit native i/r within the same slot. Do not use F079, which drops ir in this special consumer."
+    },
+    {
+      "offset": 3788981,
+      "size": 2,
+      "before_hex": "b2f3",
+      "after_hex": "bef3",
+      "reason": "Native Link error number writer: F3A6+24=F3BE points to moved six-byte numeric placeholder. Old F3B2 overwrote RRO of ERROR."
+    },
+    {
+      "offset": 4194302,
+      "size": 2,
+      "before_hex": "f13c",
+      "after_hex": "d53c",
+      "reason": "WonderSwan checksum"
+    }
+  ],
+  "effective_changed_bytes": 8,
+  "native_font_changed": false,
+  "dictionary_changed": false,
+  "shared_renderer_changed": false,
+  "synthetic_warp_integrated": false
+}

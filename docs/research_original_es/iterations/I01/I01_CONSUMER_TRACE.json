@@ -1,0 +1,119 @@
+{
+  "iteration": "I01",
+  "consumer_family": "opcode_0x0022_name_operand",
+  "comparison": {
+    "jp_rom_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+    "f18_rom_sha256": "fbb161d7b8dd10f279c436519d738c31aa321302019d53ca22d41300bfd55460",
+    "consumer_chain_identical_jp_f18": true
+  },
+  "dataflow": [
+    {
+      "stage": "dispatch",
+      "cpu": "9000:311C",
+      "physical": "0x39311C",
+      "behavior": "Reads a 16-bit opcode from ES:SI, advances SI by two, doubles the opcode and calls the corresponding near handler through the table at 9000:317A."
+    },
+    {
+      "stage": "opcode_table_entry",
+      "cpu": "9000:31BE",
+      "physical": "0x3931BE",
+      "behavior": "Entry 0x0022 contains 0x3564, selecting handler 9000:3564."
+    },
+    {
+      "stage": "entity_lookup",
+      "cpu": "9000:0BB0",
+      "physical": "0x390BB0",
+      "behavior": "Finds an active entity record using two current entity keys and returns its address in DI."
+    },
+    {
+      "stage": "name_copy",
+      "cpu": "9000:3564",
+      "physical": "0x393564",
+      "behavior": "Copies up to eight CP932 two-byte glyphs from the 0x0022 operand at ES:SI into the selected entity record at DI+0x62 and appends 0x0000. The first following word below 0x8140, including opcode 0x0021, terminates the copy."
+    },
+    {
+      "stage": "name_render_bridge",
+      "cpu": "9000:E929",
+      "physical": "0x39E929",
+      "behavior": "Checks DI+0x62, passes the entity name buffer as ES:SI and invokes A000:B7DE."
+    },
+    {
+      "stage": "glyph_upload",
+      "cpu": "A000:B7DE",
+      "physical": "0x3AB7DE",
+      "behavior": "Processes up to eight name glyph words, resolves glyph data and performs DMA setup through ports 0x40-0x48 into video memory."
+    }
+  ],
+  "code_regions": {
+    "dispatcher": {
+      "start": "0x39311C",
+      "end_exclusive": "0x393147",
+      "sha256": "29b34f19a3e00cf877173b153dad4c7c2f4461a8cd6ecd7f2d23da4ae9b0bb32",
+      "identical_jp_f18": true
+    },
+    "opcode_table_0x0000_0x0025": {
+      "start": "0x39317A",
+      "end_exclusive": "0x3931C6",
+      "sha256": "f424baaabe2097387e09c672ab076c2798df25be2aeb6e01ef1c4e7b9f0466f7",
+      "identical_jp_f18": true
+    },
+    "op22_handler": {
+      "start": "0x393564",
+      "end_exclusive": "0x3935A6",
+      "sha256": "0ff2f33ecd28f4d854dab5a1e3ef9f6721f7e7b6d4b73337715ceaf5a67a6933",
+      "identical_jp_f18": true
+    },
+    "entity_lookup": {
+      "start": "0x390BB0",
+      "end_exclusive": "0x390BFB",
+      "sha256": "5a872ed0e6018eea0238415e6b68d78a23f1e004e48d10769cd74206e5c38588",
+      "identical_jp_f18": true
+    },
+    "name_render_bridge": {
+      "start": "0x39E929",
+      "end_exclusive": "0x39E946",
+      "sha256": "7defa6974933902aa1be923fe964824f1f888a1217225ebbe9d87491fbfc4809",
+      "identical_jp_f18": true
+    },
+    "glyph_upload": {
+      "start": "0x3AB7DE",
+      "end_exclusive": "0x3AB857",
+      "sha256": "f92e270e436e7a6dccc8edb262bb2e5f8a55d8a8483f541c3a458e0882eb53e8",
+      "identical_jp_f18": true
+    }
+  },
+  "mesen_runtime_tracing": {
+    "emulator": "Mesen 2.1.1 testRunner",
+    "physical_trace_validation": {
+      "target": "F12 visible dialogue bytes 0x193740-0x193760",
+      "frames": 3000,
+      "hits": 63,
+      "consumer_pcs_observed": [
+        "9000:EC72",
+        "9000:EC76",
+        "9000:42B5",
+        "9000:42B9",
+        "9000:3154"
+      ],
+      "result": "PASS_TRACE_MECHANISM"
+    },
+    "op22_bounded_routes": [
+      {"route": "boot_idle", "frames": 120, "hits": 0},
+      {"route": "first_trial", "frames": 11700, "hits": 0},
+      {"route": "wampa_navigation", "frames": 16000, "hits": 0},
+      {"route": "F19_after_north_NAV_ONLY", "frames": 180, "hits": 0},
+      {"route": "F19_room98_NAV_ONLY", "frames": 180, "hits": 0},
+      {"route": "F18_village_rule_clean_NAV_ONLY", "frames": 180, "hits": 0},
+      {"route": "F18_northeast_grass_screen_NAV_ONLY", "frames": 180, "hits": 0},
+      {"route": "F18_grass_cut_probe_NAV_ONLY", "frames": 180, "hits": 0}
+    ],
+    "interpretation": "The bounded early-game routes did not execute these records. This is negative coverage evidence only and does not contradict the static dispatch-to-VRAM consumer chain."
+  },
+  "classification": {
+    "family_status": "CONSUMER_PROVEN",
+    "semantic_role": "VISIBLE_ENTITY_DISPLAY_NAME_SOURCE",
+    "translation_action": "TRANSLATE_ALL_214_OPERANDS_SUBJECT_TO_CONTEXT_AND_WIDTH",
+    "companion_rule": "RETAIN_ALL_181_COMPANION_FIELDS_UNCHANGED_UNTIL_A_SEPARATE_CONSUMER_IS_PROVEN",
+    "release_rom_changed": false
+  }
+}

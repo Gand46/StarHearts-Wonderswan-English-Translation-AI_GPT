@@ -1,0 +1,67 @@
+{
+  "version": "13BG-F21",
+  "base": "13BG-F20",
+  "date": "2026-09-26",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "3b8eafc74ba8d276d4b639bd806bfaf639786106a15e2ade9471198ad5e44a30",
+  "target_sha256": "00f46965177716ec459ac2a0f6e89a4e50548af205582e6d0ba176c015fc36ec",
+  "size": 4194304,
+  "wonderswan_checksum": "5B38",
+  "scope": {
+    "bank": "0x37",
+    "integrated_occurrences": 4,
+    "unique_source_terms": 4,
+    "method": "In-place fullwidth CP932. Preserve every field boundary, NUL terminator, far pointer, neighboring byte and native rendering path; no repointing and no font changes.",
+    "pointer_policy": "The three shop strings remain at 7000:69D0, 7000:69E2 and 7000:69F4. Their code-side far pointers at physical offsets 0x3AAA2C, 0x3AA9CE and 0x3AA974 remain byte-identical."
+  },
+  "changes": [
+    {
+      "record_id": "B37_LINK_WAIT_370000",
+      "offset": "0x370000",
+      "end": "0x37001A",
+      "bytes": 26,
+      "japanese": "現在対戦者を待っています",
+      "canonical": "Waiting for opponent.",
+      "display": "WAITING P2",
+      "old_hex": "8C BB 8D DD 91 CE 90 ED 8E D2 82 F0 91 D2 82 C1 82 C4 82 A2 82 DC 82 B7 00 00",
+      "new_hex": "82 76 82 60 82 68 82 73 82 68 82 6D 82 66 81 40 82 6F 82 51 00 00 00 00 00 00",
+      "field_format": "NUL-terminated message within the original 26-byte extent; following table begins unchanged at 0x37001C."
+    },
+    {
+      "record_id": "B37_SHOP_OWNED_3769D0",
+      "offset": "0x3769D0",
+      "end": "0x3769E2",
+      "bytes": 18,
+      "japanese": "所持　　　　　　",
+      "canonical": "Owned",
+      "display": "OWNED",
+      "old_hex": "8F 8A 8E 9D 81 40 81 40 81 40 81 40 81 40 81 40 00 00",
+      "new_hex": "82 6E 82 76 82 6D 82 64 82 63 81 40 81 40 81 40 00 00",
+      "field_format": "Fixed 16-byte payload plus NUL; padded with three native fullwidth spaces."
+    },
+    {
+      "record_id": "B37_SHOP_BUY_PRICE_3769E2",
+      "offset": "0x3769E2",
+      "end": "0x3769F4",
+      "bytes": 18,
+      "japanese": "買値　　　　　　",
+      "canonical": "Buy Price",
+      "display": "BUYPRICE",
+      "old_hex": "94 83 92 6C 81 40 81 40 81 40 81 40 81 40 81 40 00 00",
+      "new_hex": "82 61 82 74 82 78 82 6F 82 71 82 68 82 62 82 64 00 00",
+      "field_format": "Fixed 16-byte payload plus NUL; eight fullwidth glyphs."
+    },
+    {
+      "record_id": "B37_SHOP_REPAIR_3769F4",
+      "offset": "0x3769F4",
+      "end": "0x376A06",
+      "bytes": 18,
+      "japanese": "修理　　　　　　",
+      "canonical": "Repair",
+      "display": "REPAIR",
+      "old_hex": "8F 43 97 9D 81 40 81 40 81 40 81 40 81 40 81 40 00 00",
+      "new_hex": "82 71 82 64 82 6F 82 60 82 68 82 71 81 40 81 40 00 00",
+      "field_format": "Fixed 16-byte payload plus NUL; padded with two native fullwidth spaces."
+    }
+  ]
+}

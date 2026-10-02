@@ -1,0 +1,391 @@
+{
+  "iteration": "I01",
+  "base_rom_sha256": "fbb161d7b8dd10f279c436519d738c31aa321302019d53ca22d41300bfd55460",
+  "handler": {
+    "dispatch_table_physical": "0x39317A",
+    "opcode_0x0022_entry_physical": "0x3931BE",
+    "handler_cpu": "9000:3564",
+    "handler_physical": "0x393564",
+    "behavior": "Copies up to eight CP932 two-byte glyphs from ES:SI to the selected entity name buffer at DI+0x62; terminates it with 0x0000."
+  },
+  "execution_level": "Instruction-faithful controlled simulation of the proven handler; not a natural-route runtime visibility test.",
+  "temporary_roms_retained": false,
+  "samples": [
+    {
+      "bank": "0x19",
+      "record_id": "SCRIPT_NAME_OP22_196336",
+      "operand_offset": "0x196336",
+      "original_operand": "アクセル",
+      "replacement_operand": "Ａｘｅｌ",
+      "companion_offset": "0x196314",
+      "original_companion": "アクセルン",
+      "replacement_companion": "ＩＤ０００",
+      "variants": {
+        "operand_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "826082988285828c",
+          "handler_output_text": "Ａｘｅｌ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x196336",
+              "end": "0x19633E",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "companion_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8341834e835a838b",
+          "handler_output_text": "アクセル",
+          "handler_output_changed": false,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x196314",
+              "end": "0x19631E",
+              "length": 10
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x400000",
+              "length": 2
+            }
+          ]
+        },
+        "paired": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "826082988285828c",
+          "handler_output_text": "Ａｘｅｌ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x196314",
+              "end": "0x19631E",
+              "length": 10
+            },
+            {
+              "start": "0x196336",
+              "end": "0x19633E",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bank": "0x1A",
+      "record_id": "SCRIPT_NAME_OP22_1A67E8",
+      "operand_offset": "0x1A67E8",
+      "original_operand": "パスクル",
+      "replacement_operand": "Ｐａｓｋ",
+      "companion_offset": "0x1A67C0",
+      "original_companion": "パスクル",
+      "replacement_companion": "ＩＤ００",
+      "variants": {
+        "operand_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "826f82818293828b",
+          "handler_output_text": "Ｐａｓｋ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1A67E8",
+              "end": "0x1A67EF",
+              "length": 7
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "companion_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "83708358834e838b",
+          "handler_output_text": "パスクル",
+          "handler_output_changed": false,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1A67C0",
+              "end": "0x1A67C8",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "paired": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "826f82818293828b",
+          "handler_output_text": "Ｐａｓｋ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1A67C0",
+              "end": "0x1A67C8",
+              "length": 8
+            },
+            {
+              "start": "0x1A67E8",
+              "end": "0x1A67EF",
+              "length": 7
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bank": "0x1C",
+      "record_id": "SCRIPT_NAME_OP22_1C21CC",
+      "operand_offset": "0x1C21CC",
+      "original_operand": "キッチキコッチキ",
+      "replacement_operand": "ＴＥＳＴ０００１",
+      "companion_offset": "0x1C21AA",
+      "original_companion": "キッチキコッチキ",
+      "replacement_companion": "ＩＤ０００００３",
+      "variants": {
+        "operand_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8273826482728273824f824f824f8250",
+          "handler_output_text": "ＴＥＳＴ０００１",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1C21CC",
+              "end": "0x1C21DC",
+              "length": 16
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "companion_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "834c83628360834c835283628360834c",
+          "handler_output_text": "キッチキコッチキ",
+          "handler_output_changed": false,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1C21AA",
+              "end": "0x1C21BA",
+              "length": 16
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "paired": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8273826482728273824f824f824f8250",
+          "handler_output_text": "ＴＥＳＴ０００１",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1C21AA",
+              "end": "0x1C21BA",
+              "length": 16
+            },
+            {
+              "start": "0x1C21CC",
+              "end": "0x1C21DC",
+              "length": 16
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bank": "0x1F",
+      "record_id": "SCRIPT_NAME_OP22_1F0876",
+      "operand_offset": "0x1F0876",
+      "original_operand": "リーハン",
+      "replacement_operand": "Ｒｉｈａ",
+      "companion_offset": "0x1F083C",
+      "original_companion": "リーハン",
+      "replacement_companion": "ＩＤ００",
+      "variants": {
+        "operand_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8271828982888281",
+          "handler_output_text": "Ｒｉｈａ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1F0876",
+              "end": "0x1F087E",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "companion_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "838a815b836e8393",
+          "handler_output_text": "リーハン",
+          "handler_output_changed": false,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1F083C",
+              "end": "0x1F0844",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x400000",
+              "length": 2
+            }
+          ]
+        },
+        "paired": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8271828982888281",
+          "handler_output_text": "Ｒｉｈａ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x1F083C",
+              "end": "0x1F0844",
+              "length": 8
+            },
+            {
+              "start": "0x1F0876",
+              "end": "0x1F087E",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x400000",
+              "length": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bank": "0x20",
+      "record_id": "SCRIPT_NAME_OP22_20023E",
+      "operand_offset": "0x20023E",
+      "original_operand": "ストラム",
+      "replacement_operand": "ＴＥＳＴ",
+      "companion_offset": "0x20021C",
+      "original_companion": "ストラムン",
+      "replacement_companion": "ＩＤ０００",
+      "variants": {
+        "operand_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8273826482728273",
+          "handler_output_text": "ＴＥＳＴ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x20023E",
+              "end": "0x200246",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x3FFFFF",
+              "length": 1
+            }
+          ]
+        },
+        "companion_only": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8358836783898380",
+          "handler_output_text": "ストラム",
+          "handler_output_changed": false,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x20021C",
+              "end": "0x200226",
+              "length": 10
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x400000",
+              "length": 2
+            }
+          ]
+        },
+        "paired": {
+          "checksum_valid": true,
+          "grammar_terminator_preserved": true,
+          "handler_output_hex": "8273826482728273",
+          "handler_output_text": "ＴＥＳＴ",
+          "handler_output_changed": true,
+          "diff_ranges_including_checksum": [
+            {
+              "start": "0x20021C",
+              "end": "0x200226",
+              "length": 10
+            },
+            {
+              "start": "0x20023E",
+              "end": "0x200246",
+              "length": 8
+            },
+            {
+              "start": "0x3FFFFE",
+              "end": "0x400000",
+              "length": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "result": {
+    "operand_controls_name_buffer": true,
+    "companion_affects_op22_name_buffer": false,
+    "sync_rule": "Translate the 0x0022 operand. Do not synchronize the preceding zero-padded companion unless a separate consumer proves that field visible or semantically coupled.",
+    "release_rom_modified": false
+  }
+}

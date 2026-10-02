@@ -1,0 +1,84 @@
+{
+  "capture": "evidence/link/f0720.png",
+  "initial_f600": "FAIL_MOTION_BLEND_AND_PARTIAL_OFFSCREEN",
+  "context_masked_method": "Randomized isolated runtime glyph cells; numeric IDs; literal transcription recorded before reading key. Reviewer already knew the message; this is context-masked, not an independent human study.",
+  "glyphs": [
+    {
+      "id": 1,
+      "expected": "A",
+      "original_index": 1,
+      "native_reference_equal": true,
+      "visible_transcription": "A",
+      "recognition": "PASS"
+    },
+    {
+      "id": 2,
+      "expected": "W",
+      "original_index": 0,
+      "native_reference_equal": true,
+      "visible_transcription": "W",
+      "recognition": "PASS"
+    },
+    {
+      "id": 3,
+      "expected": "N",
+      "original_index": 5,
+      "native_reference_equal": true,
+      "visible_transcription": "N",
+      "recognition": "PASS"
+    },
+    {
+      "id": 4,
+      "expected": "P",
+      "original_index": 8,
+      "native_reference_equal": true,
+      "visible_transcription": "P",
+      "recognition": "PASS"
+    },
+    {
+      "id": 5,
+      "expected": "I",
+      "original_index": 4,
+      "native_reference_equal": true,
+      "visible_transcription": "I",
+      "recognition": "PASS"
+    },
+    {
+      "id": 6,
+      "expected": "2",
+      "original_index": 9,
+      "native_reference_equal": true,
+      "visible_transcription": "2",
+      "recognition": "PASS"
+    },
+    {
+      "id": 7,
+      "expected": "G",
+      "original_index": 6,
+      "native_reference_equal": true,
+      "visible_transcription": "G",
+      "recognition": "PASS"
+    },
+    {
+      "id": 8,
+      "expected": "I",
+      "original_index": 2,
+      "native_reference_equal": true,
+      "visible_transcription": "I",
+      "recognition": "PASS"
+    },
+    {
+      "id": 9,
+      "expected": "T",
+      "original_index": 3,
+      "native_reference_equal": true,
+      "visible_transcription": "T",
+      "recognition": "PASS"
+    }
+  ],
+  "repeated_I_equal": true,
+  "global_font_changed": false,
+  "ocr_used": false,
+  "runtime_rom_sha256": "d22bb029570e1b053e7cc11bd0cd1632ff310343d3c44ffaa072f771ae820ca0",
+  "same_pixels_as_f33": true
+}

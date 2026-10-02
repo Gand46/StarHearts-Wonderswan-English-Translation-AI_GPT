@@ -1,0 +1,36 @@
+{
+  "phase": "13BG-F29",
+  "parent": "13BG-F28",
+  "original_japanese_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "parent_sha256": "1936a7ea0e1a254f07ee4a2aeb3c293c95c6b4b63acb215fad18c740662fc3b4",
+  "target_sha256": "4704a7d4e06696455ac6017632135c03259e42783f7af095b0231246e754eadb",
+  "wonderswan_checksum": "9639",
+  "changes": [
+    {
+      "record_id": "SHOP_SELL_CATEGORY_GRAPHIC_30B7AE_RUNTIME_FIX",
+      "descriptor_offset": "0x30843C",
+      "old_descriptor_le": "6E06",
+      "new_descriptor_le": "EA0D",
+      "old_resource_offset": "0x30B7AE",
+      "new_resource_offset": "0x30F38E",
+      "new_resource_bytes": 2048,
+      "new_resource_sha256": "afb35868f0bf83fa9f9f438e89f0594ea186b7670d9e55d78f4182cacd521819",
+      "old_display": [
+        "装備アイテム",
+        "武器",
+        "防具",
+        "タリスマン",
+        "アミュレット"
+      ],
+      "display": [
+        "Gear Items",
+        "Arms",
+        "Armor",
+        "Charms",
+        "Amulets"
+      ],
+      "reason": "The controlled native SEL route exposed a previously unindexed Japanese graphic. F29 reuses exact native English glyph pixels already rendered by the game and preserves the original map, palette, border, background and bottom rule."
+    }
+  ],
+  "validation": "Controlled event 0014/0031 reached callback 9000:D026 and panel A000:A4E0. F29 renders all five English labels directly and legibly. F28-to-F29 visual differences are confined to x=24..94,y=8..83 (869 pixels); BUY/SEL, the F28 buy panel and cold boot are byte-identical to their accepted captures. Source/asset rebuild and cumulative JP-to-F29 BPS are byte-identical. Natural merchant navigation, a complete sale and BUYPRICE/REPAIR remain open."
+}

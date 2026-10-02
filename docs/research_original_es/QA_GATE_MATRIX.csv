@@ -1,0 +1,17 @@
+gate,required_for,method,evidence,pass_criterion,current
+G01_BASE_HASH,all,SHA-256 JP and current ROM,hash log,Expected hashes match,PASS
+G02_CONSUMER,I01-I10,"Read breakpoint, call trace, controlled ablation",iterations/I01/I01_CONSUMER_TRACE_REPORT.md + JSON/logs,Consumer proven for all 214 opcode 0x0022 operands; companion sync rule explicit,PASS
+G03_CONTEXT,I02-I10,Record-level adjudication,iterations/I02/I02_GLOSSARY.csv + I02_ADJUDICATION.csv + I02_CONTEXT_GLOSSARY_REPORT.md,No NEEDS_CONTEXT,PASS
+G04_ENCODING,binary_iterations,CP932/control-byte validation,static validation log,Round-trip and controls preserved,PASS_I09_SCOPE
+G05_POINTERS,binary_iterations,Pointer census and target bounds,pointer report,All active pointers valid,PASS_I10_STRUCTURAL_CENSUS
+G06_WIDTH,binary_iterations-I12,Byte and pixel width review,screenshots + measurements,No overflow/cutoff,PASS_I11_CONTROLLED_SHARED_RENDERER_MAX_WIDTH
+G07_CHECKSUM,binary_iterations-I14,WonderSwan checksum,checksum log,PASS,PASS_F34_3CD5
+G08_BPS,binary_iterations-I14,Apply cumulative BPS to JP,byte comparison log,Output identical to target ROM,PASS_F34_DIRECT_JP_ROUNDTRIP
+G09_RUNTIME,I03-I14,Declared synthetic native-consumer execution and capture inspection,iterations/I14/runtime/p9/CASE_EVIDENCE.json,Required translated surfaces observed legibly within synthetic scope; natural progression and peer transfer waived,PASS_SYNTHETIC_I14P9_SCOPED_CORRECTED
+G10_VISUAL,I03-I14,Declared synthetic native-consumer execution and capture inspection,iterations/I14/runtime/p9/CASE_EVIDENCE.json,Required translated surfaces observed legibly within synthetic scope; natural progression and peer transfer waived,PASS_SYNTHETIC_I14P9_SCOPED_CORRECTED
+G11_FUNCTIONAL,I03-I14,Declared synthetic native-consumer execution and capture inspection,iterations/I14/runtime/p9/CASE_EVIDENCE.json,Required translated surfaces observed legibly within synthetic scope; natural progression and peer transfer waived,PASS_SYNTHETIC_I14P9_SCOPED_CORRECTED
+G12_PERSISTENCE,I13-I14,Natural save and two cold Continue,hashes + captures,Both cold continues pass,PASS_F26_TWO_NATURAL_SAVES_TWO_COLD_CONTINUES
+G13_ENDING,I12-I14,Declared synthetic native-consumer execution and capture inspection,iterations/I14/runtime/p8/CASE_EVIDENCE.json,Required translated surfaces observed legibly within synthetic scope; natural progression and peer transfer waived,PASS_SYNTHETIC_I14P8_6_OF_6_SCOPED
+G14_CREDITS,I12-I14,Declared synthetic native-consumer execution and capture inspection,iterations/I14/runtime/p8/CASE_EVIDENCE.json,Required translated surfaces observed legibly within synthetic scope; natural progression and peer transfer waived,PASS_SYNTHETIC_I14P8_6_OF_6_SCOPED
+G15_ZERO_OPEN,I14,Issue ledger,final report,No critical/high open,PASS_I14P9_0_CONFIRMED_CRITICAL_0_CONFIRMED_HIGH
+G16_BUILD,I14,Python 3 core from clean JP on Linux; BAT excluded by user,iterations/I14/runtime/p6/BUILD_VALIDATION.json,Reproducible outputs,PASS_I14P9_F34_LINUX_CORE_BAT_NOT_REQUESTED

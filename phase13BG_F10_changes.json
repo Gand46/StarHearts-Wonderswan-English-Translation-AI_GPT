@@ -1,0 +1,38 @@
+{
+  "phase": "13BG-F10",
+  "date": "2026-09-18",
+  "base_phase": "13BG-F9",
+  "changes": [
+    {
+      "offset": "0x19069E",
+      "length": 18,
+      "record_id": "SH_MAIN_R0009",
+      "bank": "0x19",
+      "old_hex": "81 68 82 65 F0 79 F0 2F 81 40 82 73 F0 61 F0 37 81 68",
+      "new_hex": "82 65 82 89 82 92 82 93 82 94 81 40 82 73 F0 61 F0 37",
+      "visible_before": "EVENT: Frst Trial",
+      "intended_after": "EVENT: First Trial",
+      "reason": "Runtime-proven First Trial banner defect. Remove non-rendering curly quotes and replace the F079(ir)+F02F(st) compressed First composition with explicit fullwidth First while preserving exact byte length. Trial remains T+F061(ri)+F037(al).",
+      "controls_preserved": [
+        "00 01",
+        "0D 0A",
+        "00 02",
+        "1A 1A"
+      ],
+      "runtime_status": "producer proven; post-patch natural-route recapture pending"
+    }
+  ],
+  "dictionary_changes": [],
+  "dictionary_proof": {
+    "table_rom_offset": "0x39F0C3",
+    "entry_size": 9,
+    "F079": "02 49 52 00 00 00 00 00 00 = ir",
+    "F02F": "02 53 54 00 00 00 00 00 00 = st",
+    "F061": "02 52 49 00 00 00 00 00 00 = ri",
+    "F037": "02 41 4C 00 00 00 00 00 00 = al",
+    "conclusion": "MTE dictionary is not corrupt; no global token rewrite is justified."
+  },
+  "f9_sha256": "c8962997112e5d7b2bf8b09ab4dde7037238fe1b9c4a3415cc3bb2df16398abc",
+  "target_sha256": "f1ab487a4c07e02e901b2676382b75d9e089d26cbda52a1ecd99fb672e182855",
+  "checksum": "0x6135"
+}

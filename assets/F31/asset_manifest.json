@@ -1,0 +1,101 @@
+{
+  "resource_start": "309A56",
+  "resource_capacity": 1392,
+  "resource_size": 1222,
+  "resource_sha256": "86427dd76c591f83b0e90de405b71b7e78107d144ad38e887511f1563da7c860",
+  "source_resource_sha256": "f2708a04e665efaba17ed3b82c8a2bf6b9a71cfff74e653a75d7bd225f74976a",
+  "native_reference_sha256": "674b46210340e38aecd82659d9643d9dbadf650b59429661dbb30baa3cc2ce80",
+  "native_font_mask_equality": true,
+  "changes": [
+    {
+      "label": "Armor/Charms",
+      "frames": [
+        2,
+        3
+      ],
+      "reference_box": [
+        24,
+        44,
+        90,
+        52
+      ],
+      "used_tiles": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        23
+      ],
+      "original_gfx_bytes": 736,
+      "new_gfx_bytes": 768
+    },
+    {
+      "label": "Arms",
+      "frames": [
+        4,
+        5
+      ],
+      "reference_box": [
+        24,
+        28,
+        46,
+        36
+      ],
+      "used_tiles": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "original_gfx_bytes": 448,
+      "new_gfx_bytes": 448
+    },
+    {
+      "label": "Armor",
+      "frames": [
+        6,
+        7
+      ],
+      "reference_box": [
+        24,
+        44,
+        55,
+        52
+      ],
+      "used_tiles": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "original_gfx_bytes": 448,
+      "new_gfx_bytes": 448
+    }
+  ],
+  "unchanged_frames": [
+    0,
+    1,
+    8,
+    9,
+    10
+  ]
+}

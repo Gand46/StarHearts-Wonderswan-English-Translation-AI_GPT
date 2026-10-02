@@ -1,0 +1,216 @@
+[
+  {
+    "case_id": "I11_MANUAL_SHOP_NATURAL",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Buy/sell/repair translation and controlled sale/repair",
+    "observed": "Native shop panels; controlled completed sale and repair; F31 Arms correction retained in F32",
+    "limits": "Natural merchant entry, complete buy transaction and every stock entry not claimed",
+    "evidence": [
+      {
+        "path": "iterations/I11/runtime/shop_f30/sale_complete_f30.png",
+        "sha256": "dba306e90a37189229f79f05191114043fdd82e6c0f764e3ddb84799fcbf8f4f"
+      },
+      {
+        "path": "iterations/I11/runtime/shop_f30/controlled_transaction_trace.txt",
+        "sha256": "e28a8615f5c245e8763447ebe2e20bc2de80d9015c470cca39619d8e42eb9668"
+      },
+      {
+        "path": "iterations/I11/runtime/repair_f30_p21/repair_complete_f30.png",
+        "sha256": "1b44144b58f50b9f9e64ae9d989d4d8741ba4ba58d13057545c5cd4f645b7bf9"
+      },
+      {
+        "path": "iterations/I11/runtime/repair_f30_p21/controlled_complete_repair_trace.txt",
+        "sha256": "ce1b8d0b469821c863a3a4d96e97d3f0dc1d30b95f445456aad3230d6f23d2c3"
+      },
+      {
+        "path": "iterations/I14/runtime/p5/evidence/repair/final.png",
+        "sha256": "9bb98fead5966ee72af6fce93fecaefd789a6318003caa1d803db4288b708630"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      }
+    ]
+  },
+  {
+    "case_id": "I11_MANUAL_MAGIC_NATURAL",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Fire award and populated Magic translation",
+    "observed": "Native Fire award after synthetic entry; populated Magic displays Fire and Shoots fireball.",
+    "limits": "Natural acquisition route and every magic spell not claimed",
+    "evidence": [
+      {
+        "path": "iterations/I14/runtime/p4/evidence/fire_f30/f1680.png",
+        "sha256": "03f8db4eed241ed06026508357653bd4221bd30e5f7a6e05416b420dd3bbb757"
+      },
+      {
+        "path": "iterations/I14/runtime/p4/evidence/fire_f30/trace.txt",
+        "sha256": "0ea67a02994e65033aeab42d4758421b6f88363d6a39a9c139237a1461812d66"
+      },
+      {
+        "path": "iterations/I14/runtime/p4/evidence/magic_f30/final.png",
+        "sha256": "bd6eda544679ead41a66cf176479f8246e7c998b32ae8afef5284e6bc5457837"
+      },
+      {
+        "path": "iterations/I14/runtime/p4/evidence/magic_f30/trace.txt",
+        "sha256": "f6fe77dcf8b1a432fdc438400c67af0f48f08f4418241c0f33eb4969acf131ea"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      }
+    ]
+  },
+  {
+    "case_id": "I11_MANUAL_LINK_VALID",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Link wait/error translation",
+    "observed": "Stable WAITING P2: nine native glyphs verified; native LINK ERROR with123/999 now uncorrupted",
+    "limits": "Waiting/error display only; no real peer handshake/transfer",
+    "evidence": [
+      {
+        "path": "iterations/I14/runtime/p9/evidence/link/f0720.png",
+        "sha256": "605b5a5edfe1b2a6405e0cacf4d53f7b436c6efec3c484fc475596dfcc94bec8"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/WAITING_GLYPH_AUDIT.json",
+        "sha256": "bbbc8fad6285bfc0d612925f30832596d61d20a8dfe0d28b0d6503ac2a4b12f3"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/evidence/error123/f00900.png",
+        "sha256": "ac350e9f3508d23ebfc001e8b972496b12b531b16539311f74b49582a8fb743f"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/evidence/error123/trace.txt",
+        "sha256": "25eb90ea04dee0987d12c27d79a52d1a7059297bc0a969bb9e98253e15bd8a16"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/evidence/error999/f00900.png",
+        "sha256": "fd84aa0666ce895de7d395352744fcade343a0232a92167e51a1eff6d01659fd"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/evidence/error999/trace.txt",
+        "sha256": "8ca023c1ab6670bfb5873eb6508cc6ec885fa7e557f5f77c4d9e5cdb37a8dc02"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      }
+    ]
+  },
+  {
+    "case_id": "I12_MANUAL_ENDING_REAL",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Ending translation",
+    "observed": "Native epilogue29pages; three overwide lines corrected and visually verified in F33",
+    "limits": "Epilogue1B7FC2 through1B84F0 only; prior ceremony, boss resolution and natural route excluded",
+    "evidence": [
+      {
+        "path": "iterations/I14/runtime/p8/review/ending_pages.json",
+        "sha256": "ff6dc3b4f10fd9b44b6a37c0763e9fadeae020a0a245123c220c6420f0297707"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/evidence/terminal/dialogue_reads.tsv",
+        "sha256": "6798cefb6064f7bec437ce34f5690a71fe3f3da2e57ae04c71b2d0eeb5dc7a40"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/evidence/terminal/trace.txt",
+        "sha256": "6cc9082548b21fa7ee9c0026c22673e493fda083bb866e6a6c334a2c07ab763a"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/ending_0.png",
+        "sha256": "39b82430cc7e74addbf27f2c9d5b1cde05f77103c9875fc94a3ca82b9148e8ab"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/ending_1.png",
+        "sha256": "a9c55884225450bf423d3f7ca8c339a5c405390a756098664312fdb901b2a1e9"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/ending_2.png",
+        "sha256": "e0478d45e435f6145d33d77b44626be9c70b017b12b6da1012b052e7251af25c"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      }
+    ]
+  },
+  {
+    "case_id": "I12_MANUAL_CREDITS_REAL",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Credits/staff roll translation",
+    "observed": "Continuous native credits45pages/66strings from Planning through Presented by/BANDAI; native terminator observed",
+    "limits": "Credits translation/layout sequence only; natural completion conditions excluded",
+    "evidence": [
+      {
+        "path": "iterations/I14/runtime/p8/review/credits_pages.json",
+        "sha256": "3cf7049ced2f3183b8068244d694f4d2c0ada0cac2ad2b3ecc0a16f76b64cf8c"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/evidence/terminal/video_commands.tsv",
+        "sha256": "71f816503b6de123453618546b373e3369c91194166a46d4424eb4922a22dd68"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/evidence/terminal/trace.txt",
+        "sha256": "6cc9082548b21fa7ee9c0026c22673e493fda083bb866e6a6c334a2c07ab763a"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/credits_0.png",
+        "sha256": "22a73f874732024d1a8cd045c1e2591f9b5147358e5acd9cb01b6c747eb90119"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/credits_1.png",
+        "sha256": "78d6dd5654de34b7d78107a9911cc835533bcf77b9a4c451445fe645788263b3"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/credits_2.png",
+        "sha256": "bab1a5d355ae79a746c9b4455e90933fd2179ca2010295dcd252c7e7dad04648"
+      },
+      {
+        "path": "iterations/I14/runtime/p8/review/credits_3.png",
+        "sha256": "a859fbd4bb39f5f75efe3bdddfc930dbd85b72d9f0bb5ab6b131f4c49ea0bb1a"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      }
+    ]
+  },
+  {
+    "case_id": "I13_MANUAL_HOLY_TEMPLE",
+    "status": "PASS_SYNTHETIC",
+    "scope": "Holy Temple/Tirawaka/second First Trial translation",
+    "observed": "Temple and Tirawaka evidence retained; corrected native EVENT:First Trial fully captured",
+    "limits": "Synthetic map, Tirawaka name/test-message excerpt and banner only; f0600 supports the name, not the unfinished remainder; no connected story route or boss proof.",
+    "evidence": [
+      {
+        "path": "iterations/I14/runtime/p9/evidence/trial/f00900.png",
+        "sha256": "b14f56efaff54468be34bf1c48a7fb068972b7d1c1b2ff9c9bcb5921a6db661b"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/evidence/trial/trace.txt",
+        "sha256": "fcbcfb486a7f5c033630f5676659f36c4bc661117c5ffac32183d87edc51b125"
+      },
+      {
+        "path": "iterations/I14/runtime/p4/evidence/holy/final.png",
+        "sha256": "4bb3ef75e51ec3c6b58461abf16713eba97820cc1fe91700de63f2fe76e72139"
+      },
+      {
+        "path": "iterations/I14/runtime/p3/controlled/tirawaka/f0600.png",
+        "sha256": "150fdbeec1682089186c519d33a2c6587ee5c35e52b6812dc27ebf5f572da7c9"
+      },
+      {
+        "path": "iterations/I14/runtime/p3/controlled/tirawaka/trace.txt",
+        "sha256": "fb1109587516f3e1ca63222934c43cbe18eef5b54277beddf315f587d553ecae"
+      },
+      {
+        "path": "iterations/I14/runtime/p9/EVIDENCE_INHERITANCE.json",
+        "sha256": "61a9a57840f5b39215f576a91924c7715d6a1625c98d4681a93c55dbb0de9236"
+      },
+      {
+        "path": "iterations/I14/runtime/p3/controlled/tirawaka/f0720.png",
+        "sha256": "caecbba925c1900bb3952fcf4e23d045333473f15abd7f7f18208dc0455e21e3"
+      }
+    ]
+  }
+]

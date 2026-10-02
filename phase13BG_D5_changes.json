@@ -1,0 +1,106 @@
+{
+  "version": "13BG-D5",
+  "base": "13BG-D4",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "base_sha256": "a2dd062c672d00e54fa093a77af1568b65b46a6782f073717b786de70ae5d754",
+  "target_sha256": "87f1cad01fa2f6f68c9cc6b93ebd48ed58e5fa766093ba8f2fbf2ddc7fccab31",
+  "size": 4194304,
+  "wonderswan_checksum": "75DE",
+  "changes": [
+    {
+      "offset": "0x386156",
+      "bytes": 14,
+      "japanese": "ビッグブランク",
+      "english": "BBlank",
+      "english_full": "Big Blank",
+      "old_hex": "83728362834f837583898393834e",
+      "new_hex": "82618261828c8281828e828b8140",
+      "method": "fixed-slot fullwidth CP932; exact 14-byte replacement; no MTE/repoint; D5 compact: established Big Blank proper name -> BBlank; 7-glyph slot"
+    },
+    {
+      "offset": "0x386168",
+      "bytes": 16,
+      "japanese": "ビッグブランク城",
+      "english": "BBlank C",
+      "english_full": "Big Blank Castle",
+      "old_hex": "83728362834f837583898393834e8fe9",
+      "new_hex": "82618261828c8281828e828b81408262",
+      "method": "fixed-slot fullwidth CP932; exact 16-byte replacement; no MTE/repoint; same-family compact; C = Castle"
+    },
+    {
+      "offset": "0x38617C",
+      "bytes": 22,
+      "japanese": "ビッグブランク城　１階",
+      "english": "BBlank C 1F",
+      "english_full": "Big Blank Castle 1F",
+      "old_hex": "83728362834f837583898393834e8fe9814082508a4b",
+      "new_hex": "82618261828c8281828e828b81408262814082508265",
+      "method": "fixed-slot fullwidth CP932; exact 22-byte replacement; no MTE/repoint; same-family floor label"
+    },
+    {
+      "offset": "0x386196",
+      "bytes": 26,
+      "japanese": "ビッグブランク城　地下１階",
+      "english": "BBlank C B1F",
+      "english_full": "Big Blank Castle B1F",
+      "old_hex": "83728362834f837583898393834e8fe98140926e89ba82508a4b",
+      "new_hex": "82618261828c8281828e828b8140826281408261825082658140",
+      "method": "fixed-slot fullwidth CP932; exact 26-byte replacement; no MTE/repoint; same-family basement label"
+    },
+    {
+      "offset": "0x3861B4",
+      "bytes": 26,
+      "japanese": "ビッグブランク城　地下２階",
+      "english": "BBlank C B2F",
+      "english_full": "Big Blank Castle B2F",
+      "old_hex": "83728362834f837583898393834e8fe98140926e89ba82518a4b",
+      "new_hex": "82618261828c8281828e828b8140826281408261825182658140",
+      "method": "fixed-slot fullwidth CP932; exact 26-byte replacement; no MTE/repoint; same-family basement label"
+    },
+    {
+      "offset": "0x3861D2",
+      "bytes": 12,
+      "japanese": "ゲートバザー",
+      "english": "GateBz",
+      "english_full": "Gate Bazaar",
+      "old_hex": "8351815b8367836f8355815b",
+      "new_hex": "82668281829482858261829a",
+      "method": "fixed-slot fullwidth CP932; exact 12-byte replacement; no MTE/repoint; D5 compact of established GateBazaar terminology; Bz = Bazaar"
+    },
+    {
+      "offset": "0x3861E2",
+      "bytes": 16,
+      "japanese": "ファルコの隠れ家",
+      "english": "Falco H",
+      "english_full": "Falco's Hideout",
+      "old_hex": "83748340838b835282cc894282ea89c6",
+      "new_hex": "82658281828c8283828f814082678140",
+      "method": "fixed-slot fullwidth CP932; exact 16-byte replacement; no MTE/repoint; direct proper-name romanization; H = Hideout"
+    },
+    {
+      "offset": "0x3861F6",
+      "bytes": 14,
+      "japanese": "動物の通った道",
+      "english": "AnTrail",
+      "english_full": "Animal Trail",
+      "old_hex": "93ae95a882cc92ca82c182bd93b9",
+      "new_hex": "8260828e8273829282818289828c",
+      "method": "fixed-slot fullwidth CP932; exact 14-byte replacement; no MTE/repoint; D5 compact localization of path used by animals"
+    },
+    {
+      "offset": "0x386208",
+      "bytes": 14,
+      "japanese": "カゾス東　地下",
+      "english": "KazosEB",
+      "english_full": "Kazos East Underground",
+      "old_hex": "834a835d8358938c8140926e89ba",
+      "new_hex": "826a8281829a828f829382648261",
+      "method": "fixed-slot fullwidth CP932; exact 14-byte replacement; no MTE/repoint; established Kazos proper name; E = East, B = Basement/Underground"
+    }
+  ],
+  "scope": "Final tail of common location-caption table 0x386156-0x386216; 9 fixed slots; table closes at delimiter 0x386216-0x386219; no code/pointer mutation",
+  "terminology_source": "Big Blank and GateBazaar are inherited from prior runtime-verified BANK36 music titles; Kazos is inherited from prior runtime-verified BANK36 event/location terminology. Other short labels are D5 compact map normalizations.",
+  "renderer": "same 1A1A0000-delimited common location table used by prior phase13BF/D1-D4 entries",
+  "table_end": "After separator at 0x386216, bytes at 0x38621A onward are non-text table/index data and are not modified.",
+  "ares": "NOT_RUN_NOT_INSTALLED"
+}

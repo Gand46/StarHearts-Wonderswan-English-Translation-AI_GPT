@@ -1,0 +1,18 @@
+{
+  "phase": "13BG-F18",
+  "date": "2026-09-19",
+  "base_sha256": "fbb161d7b8dd10f279c436519d738c31aa321302019d53ca22d41300bfd55460",
+  "reason": "Runtime QA/navigation checkpoint. F18 rebuilds Village Rule from the certified F15 Save #2, proves the exact seven-confirmation clean exit from the gravekeeper dialogue, creates a safe post-event savestate after moving off the NPC interaction line, and advances the documented south/east/north/northeast route to the screen containing the first destructible grass cluster behind the tipi. Tomahawk attacks were visually exercised and destructible grass tiles were cleared. The hidden-hole transition, Holy Temple, Tirawaka, yellow warp and the second First Trial banner remain pending; no new translation defect requiring a ROM write was demonstrated.",
+  "changes": [],
+  "runtime": {
+    "village_rule_clean_replay": "PASS",
+    "gravekeeper_dialogue_exit": "PASS_EXACTLY_7_CONFIRMATIONS",
+    "post_event_checkpoint": "PASS_CLEAN_NAVIGATION",
+    "route_to_northeast_grass_screen": "PASS",
+    "tomahawk_grass_cut": "PASS_VISUAL",
+    "hidden_hole_transition": "PENDING",
+    "holy_temple": "PENDING",
+    "tirawaka": "PENDING",
+    "first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING"
+  }
+}

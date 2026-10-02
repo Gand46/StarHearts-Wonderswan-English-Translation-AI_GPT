@@ -1,0 +1,19 @@
+{
+  "phase": "13BG-F16",
+  "date": "2026-09-19",
+  "base_phase": "13BG-F15",
+  "reason": "Deep runtime QA checkpoint. Starting from certified Save #2, Tomahawk was equipped through the translated Armor/Charms menu, navigation progressed through new Inde Village sectors, translated Luuck dialogue was sampled, and the gravekeeper by the star-shaped rocks was reached and EVENT: \"Village Rule\" was triggered and visually captured. No new binary/text defect requiring a ROM write was proven. Holy Temple/Tirawaka and the second EVENT: First Trial remain pending, so F16 intentionally performs no ROM writes.",
+  "changes": [],
+  "runtime_certification": {
+    "certified_save2_baseline": "PASS_FROM_F15",
+    "tomahawk_equipped": "VISUAL_PASS",
+    "north_village_route": "PASS_NAVIGATION_CHECKPOINT",
+    "luuck_dialogue_english": "VISUAL_PASS_SAMPLE",
+    "village_rule_gravekeeper": "VISUAL_PASS",
+    "village_rule_event_banner": "VISUAL_PASS",
+    "holy_temple_entry": "PENDING",
+    "tirawaka": "PENDING",
+    "event_first_trial_2": "STRUCTURAL_PASS_VISUAL_PENDING",
+    "rom_writes": 0
+  }
+}
