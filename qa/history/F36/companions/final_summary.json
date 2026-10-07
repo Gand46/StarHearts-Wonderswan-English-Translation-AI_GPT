@@ -1,0 +1,26 @@
+{
+  "f35_sha256": "6198444ae2e18467c7fd2c44eb8d32888b662ba06a35625cdf3282ecd7e16084",
+  "f36_sha256": "da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2",
+  "consumer_proven": 181,
+  "translated_integrated": 181,
+  "native_copy_pass": 181,
+  "native_copy_fail": 0,
+  "native_copy_branches": {
+    "973C8": 180,
+    "91FA6": 1
+  },
+  "actor_id_mapping": 164,
+  "semantic_exceptions_reviewed": 17,
+  "records_with_initial_value_rendered_in_preserved_screenshots": 1,
+  "extra_real_op22": {
+    "opcode": "0x1B7D30",
+    "operand": "0x1B7D32",
+    "translation": "Tiraw",
+    "integrated": true,
+    "control_001C_preserved": true,
+    "native_handler_and_render_confirmed": true
+  },
+  "natural_reachability": "NOT_VALIDATED",
+  "individual_visual_coverage": "1/181 initial fields; shared rendering family validated by representative captures; no181/181 visual claim",
+  "final_global_approval": "NOT_CLAIMED"
+}

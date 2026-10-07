@@ -1,0 +1,76 @@
+
+audit/f36_companions/code39.bin:     file format binary
+
+
+Disassembly of section .data:
+
+0000e906 <.data+0xe906>:
+    e906:	50                   	push   ax
+    e907:	53                   	push   bx
+    e908:	51                   	push   cx
+    e909:	52                   	push   dx
+    e90a:	06                   	push   es
+    e90b:	56                   	push   si
+    e90c:	57                   	push   di
+    e90d:	55                   	push   bp
+    e90e:	f7 06 18 f3 80 00    	test   WORD PTR ds:0xf318,0x80
+    e914:	74 03                	je     0xe919
+    e916:	e9 89 00             	jmp    0xe9a2
+    e919:	50                   	push   ax
+    e91a:	53                   	push   bx
+    e91b:	a1 c3 ca             	mov    ax,ds:0xcac3
+    e91e:	8b 1e c5 ca          	mov    bx,WORD PTR ds:0xcac5
+    e922:	9a b0 0b 00 90       	call   0x9000:0xbb0
+    e927:	5b                   	pop    bx
+    e928:	58                   	pop    ax
+    e929:	83 7d 62 00          	cmp    WORD PTR [di+0x62],0x0
+    e92d:	74 73                	je     0xe9a2
+    e92f:	06                   	push   es
+    e930:	56                   	push   si
+    e931:	8b f7                	mov    si,di
+    e933:	83 c6 62             	add    si,0x62
+    e936:	33 c0                	xor    ax,ax
+    e938:	8e c0                	mov    es,ax
+    e93a:	bf a0 73             	mov    di,0x73a0
+    e93d:	9a de b7 00 a0       	call   0xa000:0xb7de
+    e942:	8b e8                	mov    bp,ax
+    e944:	5e                   	pop    si
+    e945:	07                   	pop    es
+    e946:	51                   	push   cx
+    e947:	57                   	push   di
+    e948:	8b cd                	mov    cx,bp
+    e94a:	88 0e 16 c0          	mov    BYTE PTR ds:0xc016,cl
+    e94e:	b8 c2 39             	mov    ax,0x39c2
+    e951:	bd 95 ec             	mov    bp,0xec95
+    e954:	e8 a5 00             	call   0xe9fc
+    e957:	72 07                	jb     0xe960
+    e959:	b8 82 39             	mov    ax,0x3982
+    e95c:	bd 79 ec             	mov    bp,0xec79
+    e95f:	90                   	nop
+    e960:	8a f9                	mov    bh,cl
+    e962:	b2 01                	mov    dl,0x1
+    e964:	e8 49 00             	call   0xe9b0
+    e967:	8b f8                	mov    di,ax
+    e969:	c7 05 cf 11          	mov    WORD PTR [di],0x11cf
+    e96d:	c7 45 40 d9 11       	mov    WORD PTR [di+0x40],0x11d9
+    e972:	c7 85 80 00 d5 11    	mov    WORD PTR [di+0x80],0x11d5
+    e978:	83 c7 02             	add    di,0x2
+    e97b:	ba 9d 11             	mov    dx,0x119d
+    e97e:	c7 05 d0 11          	mov    WORD PTR [di],0x11d0
+    e982:	89 55 40             	mov    WORD PTR [di+0x40],dx
+    e985:	c7 85 80 00 d6 11    	mov    WORD PTR [di+0x80],0x11d6
+    e98b:	42                   	inc    dx
+    e98c:	83 c7 02             	add    di,0x2
+    e98f:	e2 ed                	loop   0xe97e
+    e991:	c7 05 d1 11          	mov    WORD PTR [di],0x11d1
+    e995:	c7 45 40 db 11       	mov    WORD PTR [di+0x40],0x11db
+    e99a:	c7 85 80 00 d7 11    	mov    WORD PTR [di+0x80],0x11d7
+    e9a0:	5f                   	pop    di
+    e9a1:	59                   	pop    cx
+    e9a2:	5d                   	pop    bp
+    e9a3:	5f                   	pop    di
+    e9a4:	5e                   	pop    si
+    e9a5:	07                   	pop    es
+    e9a6:	5a                   	pop    dx
+    e9a7:	59                   	pop    cx
+    e9a8:	5b                   	pop    bx

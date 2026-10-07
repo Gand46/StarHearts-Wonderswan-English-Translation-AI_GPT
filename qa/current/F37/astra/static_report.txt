@@ -1,0 +1,28 @@
+STATIC FOLLOW-UP OF FOUR COMMON PROMPTS — Star Hearts F36
+Scope: read-only ROM analysis; no emulator access and no ROM modifications.
+Input SHA-256: da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2
+
+Outcome for frames 12, 13, 14, 17:
+RECURSO_CONSERVADO_SIN_SELECCION_EN_RUTAS_AUDITADAS.
+No natural consumer was identified in the audited selection paths. This is NOT an assertion of global unreachability, unused status, or removal safety. Static analysis cannot establish all runtime-generated calls, corrupted/out-of-range selectors, equivalent decoder entry aliases, or undocumented alternate code paths.
+
+Positive structural evidence:
+1. Common resource is bank30 table30841C, resource0 -> compressed multiframe resource30843E. Twenty literal far pointers to2000:841C occur in bank3A. Literal2000:843E does not occur. The only raw3E84 word in code (393BE7) is instruction bytes DS:test, not a resource pointer.
+2. Decoder A000:254C preserves CX, SI, BP and restores DS/ES. It returns DI advanced by decoded size. The frame selector is CX. The resource frame-count bound is read atSI+1/SI+2. It looks up the frame offset with CX*3 atSI+3. There is no implicit sequential selection or automatic loading of omitted frames.
+3. The 77 literal far calls to254C occur only in banks39/3A. Twenty calls select common0 frames0,2,3,1 from five explicit init functions: A000:3604,3C34,9C8E,A0A4,A634. Two calls are in loader94F0; only9576 is the common prompt loop. The953B call loads the selected mode-specific resource. Remaining55 direct calls use other resources (see decoder_routes.csv).
+4. A000:94F0 loads its records via DS=6000 and table365F94. The common loop restores resource0 with2530, then obtains each frame directly from immutable table words. Enumerating all19 records gives common frames4,5,6,7,8,9,10,11,15,16. Initial common graphics add0,1,2,3. Therefore12,13,14,17 are absent from the common selection union.
+5. All18 identifiable near calls to94F0 have bounded immediate AX choices. They cover modes0..18, with mode15 called twice and mode2/4 conditionally replaced by17/18 according toC004. No unbounded dynamic AX caller was found. The table-driven selection cannot expose the four targets through any of these mode choices.
+6. The seemingly dynamic common-table consumer at8D2E is excluded positively:2530 was called withCX=12 at8D1C, so its dynamicCX=D12F-1 selects a frame in resource12, not frame12 in resource0.
+7. Alternative bank-crossing decoder2618 has only two literal far calls:3402CA and39651B. At39651B, bankCA is selected explicitly, hence this is bank0A resource data. At3402CA, bankEF and a26-entry table3403F5 are used; its populated resources lie2F0000..2FA460 and resolve resource0 to a nearby distinct resource, not30843E. These resource tables have3..6 frames; they do not wrap into the common graphics. The bankEF path does not introduce a target consumer. No near call/jump to254C or2618 exists in bank3A.
+
+English recommendations after reading the extracted pixels:
+frame12 対戦？ -> Battle? (consistent with existing e-Pet Battles terminology; precise target operation remains unconfirmed).
+frame13 値段？ -> Price? (neutral nominal prompt).
+frame14 伝授？ -> Teach? (action means impart/teach; no claim about player/NPC role).
+frame17 戻す？ -> Return? (neutral action; do not silently infer reset, refund, or undo).
+These recommendations preserve visible prompt semantics while avoiding invented gameplay context. Their appearance can be validated using controlled selector injection, but that does not validate natural reachability or the consequences of confirming a prompt.
+
+Reproduction:
+python trace_four_common.py --rom /path/F36.wsc --jp /path/JP.wsc --out /path/new_results
+Outputs scan.json (literal-call inventory, parsed mode table), four_graphics_consumers.csv, focused_disassembly.asm.
+The full bank disassemblies are intermediate aids and may decode embedded data or start individual code runs off-boundary. Focused decoder/loader excerpts restart on known entries. No binary artifacts should be shipped publicly; only report/CSV/script/scoped assembly.

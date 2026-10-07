@@ -1,0 +1,24 @@
+{
+  "F36_to_F37_static_consumer_proof": "PASS_BYTE_IDENTICAL_DEPENDENCIES",
+  "unchanged_ranges": [
+    [
+      "0x340000",
+      "0x350000"
+    ],
+    [
+      "0x390000",
+      "0x3b0000"
+    ],
+    [
+      "0x365f80",
+      "0x366180"
+    ],
+    [
+      "0x30841c",
+      "0x30843e"
+    ]
+  ],
+  "packaged_static_script_reproduction": "EXACT_SCAN_JSON_MATCH",
+  "F36_181_field_and_metadata_records_byte_identical": 181,
+  "extra_inline_name_byte_identical": true
+}

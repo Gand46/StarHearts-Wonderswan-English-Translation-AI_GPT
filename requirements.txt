@@ -1,0 +1,2 @@
+# Version used for the verified F37 package build (Python 3.12.14).
+Pillow==12.3.0

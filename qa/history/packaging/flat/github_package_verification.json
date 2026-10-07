@@ -1,0 +1,19 @@
+{
+  "package": "StarHearts-WSC-English-F37",
+  "date": "2026-10-06",
+  "ROM_revision_changed": false,
+  "source_base_ledger": "PASS_343_FILES",
+  "build_inputs_patch_and_prior_QA_preserved_byte_exact": 327,
+  "packaged_Linux_build": "PASS_BYTE_EXACT",
+  "packaged_BPS": "PASS_BYTE_EXACT_TO_VERIFIED_F37_BPS",
+  "F37_sha256": "f0791dcf53045afc126ce11ed5b9eb7091c47c1c8195eaa525737c5fec5ffb57",
+  "BPS_sha256": "dba7b7f5cd2a4980f2ae7af9ed80b5bef6b8042279dda0f46ba00084696eddde",
+  "WS_checksum": "DB46",
+  "python": "3.12.14",
+  "Pillow": "12.3.0",
+  "independent_BPS_application": "REUSED_IDENTICAL_BASE_AND_PATCH_FROM_QA_F37_BUILD_VERIFICATION",
+  "runtime_and_negative_case_evidence": "REUSED_WITH_UNCHANGED_ROM_AND_BUILD_CODE",
+  "Windows_macOS_execution": "NOT_EXECUTED",
+  "changes": "English public documentation, historical-document organization, dependency/Git metadata and shell execute bits only",
+  "FINAL_APPROVED": false
+}

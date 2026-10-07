@@ -1,0 +1,3 @@
+ACCESS_METHOD=WRAM_POKE; detail=SYNTHETIC_NATIVE_EVENT_COROUTINE; bank1A script6CA4; inventory C150 item0018 qty1; no ROM writes
+shop frame=322
+stock frame=323

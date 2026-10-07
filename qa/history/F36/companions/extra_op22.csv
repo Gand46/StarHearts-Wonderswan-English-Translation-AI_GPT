@@ -1,0 +1,2 @@
+offset,japanese,english,expected_before_hex,after_hex,following_control_hex,evidence
+0x1B7D32,ティラワカ,Tiraw,836583428389838f834a,82738289829282818297,1c003c00,"Real OP0022 operand terminated by next opcode001C, not strict21000000 grammar; handler3564 stops CP932 copy when word<8140; distinct from181"

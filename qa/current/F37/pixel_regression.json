@@ -1,0 +1,70 @@
+[
+  {
+    "frame": 12,
+    "changed_pixels": 254,
+    "bbox": [
+      169,
+      98,
+      207,
+      110
+    ],
+    "outside_prompt_changed_pixels": 0,
+    "pre_popup_capture_identical": true,
+    "access_method": "POINTER_INJECTION",
+    "native_decoder": "A000:254C",
+    "consumer_loop": "A000:9576",
+    "natural_selection": "NOT_VALIDATED",
+    "confirmation_action_executed": false
+  },
+  {
+    "frame": 13,
+    "changed_pixels": 246,
+    "bbox": [
+      168,
+      98,
+      207,
+      110
+    ],
+    "outside_prompt_changed_pixels": 0,
+    "pre_popup_capture_identical": true,
+    "access_method": "POINTER_INJECTION",
+    "native_decoder": "A000:254C",
+    "consumer_loop": "A000:9576",
+    "natural_selection": "NOT_VALIDATED",
+    "confirmation_action_executed": false
+  },
+  {
+    "frame": 14,
+    "changed_pixels": 223,
+    "bbox": [
+      169,
+      98,
+      207,
+      110
+    ],
+    "outside_prompt_changed_pixels": 0,
+    "pre_popup_capture_identical": true,
+    "access_method": "POINTER_INJECTION",
+    "native_decoder": "A000:254C",
+    "consumer_loop": "A000:9576",
+    "natural_selection": "NOT_VALIDATED",
+    "confirmation_action_executed": false
+  },
+  {
+    "frame": 17,
+    "changed_pixels": 252,
+    "bbox": [
+      167,
+      98,
+      209,
+      110
+    ],
+    "outside_prompt_changed_pixels": 0,
+    "pre_popup_capture_identical": true,
+    "access_method": "POINTER_INJECTION",
+    "native_decoder": "A000:254C",
+    "consumer_loop": "A000:9576",
+    "natural_selection": "NOT_VALIDATED",
+    "confirmation_action_executed": false
+  }
+]

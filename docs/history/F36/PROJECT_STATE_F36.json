@@ -1,0 +1,22 @@
+{
+  "build": "F36",
+  "source_base": "F35",
+  "date": "2026-10-06",
+  "rom_sha256": "da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2",
+  "status": "INTERNAL_TEST",
+  "modified_graphics": 2,
+  "companion_fields_resolved_integrated_native_copy_pass": 181,
+  "extra_inline_names_fixed": 1,
+  "initial_names_individually_visual_confirmed": 1,
+  "BPS_roundtrip": "PASS_BYTE_EXACT_INDEPENDENT_APPLICATOR",
+  "FINAL_APPROVED": false,
+  "open_graphic_consumers": [
+    "G12",
+    "G13",
+    "G14",
+    "G17"
+  ],
+  "other_limits": "No natural full playthrough, exhaustive individual181 visual review or final F36 hardware test; see README_F36.md",
+  "next_action": "Trace consumers for common prompt frames12/13/14/17; preserve completed181 and build evidence while dependencies remain unchanged",
+  "token_savings": "NOT_MEASURED"
+}

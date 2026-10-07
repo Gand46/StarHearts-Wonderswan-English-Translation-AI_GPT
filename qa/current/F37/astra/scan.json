@@ -1,0 +1,666 @@
+{
+  "decoder254C": [
+    "0x39102f",
+    "0x39103a",
+    "0x391042",
+    "0x39104d",
+    "0x391058",
+    "0x391063",
+    "0x39106e",
+    "0x391079",
+    "0x391084",
+    "0x39108c",
+    "0x396596",
+    "0x3a0241",
+    "0x3a024a",
+    "0x3a0967",
+    "0x3a0970",
+    "0x3a0a78",
+    "0x3a0a83",
+    "0x3a0a8e",
+    "0x3a0a9f",
+    "0x3a0aa8",
+    "0x3a1203",
+    "0x3a120b",
+    "0x3a1213",
+    "0x3a121e",
+    "0x3a1435",
+    "0x3a143d",
+    "0x3a1445",
+    "0x3a1450",
+    "0x3a15a9",
+    "0x3a15b2",
+    "0x3a15bd",
+    "0x3a164b",
+    "0x3a1654",
+    "0x3a1962",
+    "0x3a196a",
+    "0x3a1975",
+    "0x3a1980",
+    "0x3a1aff",
+    "0x3a1d9c",
+    "0x3a1da7",
+    "0x3a1dcd",
+    "0x3a361d",
+    "0x3a3625",
+    "0x3a362d",
+    "0x3a3638",
+    "0x3a3c4d",
+    "0x3a3c55",
+    "0x3a3c5d",
+    "0x3a3c68",
+    "0x3a8d2e",
+    "0x3a953b",
+    "0x3a9576",
+    "0x3a9ca7",
+    "0x3a9caf",
+    "0x3a9cb7",
+    "0x3a9cc2",
+    "0x3aa0bd",
+    "0x3aa0c5",
+    "0x3aa0cd",
+    "0x3aa0d8",
+    "0x3aa64d",
+    "0x3aa655",
+    "0x3aa65d",
+    "0x3aa668",
+    "0x3ab08d",
+    "0x3ab103",
+    "0x3ab513",
+    "0x3ab5e2",
+    "0x3ab5ed",
+    "0x3ab5f8",
+    "0x3ab600",
+    "0x3ac2d9",
+    "0x3ac2e2",
+    "0x3ac2ed",
+    "0x3ac2f5",
+    "0x3ac2fd",
+    "0x3ac308"
+  ],
+  "decoder2618": [
+    "0x3402ca",
+    "0x39651b"
+  ],
+  "resource2530": [
+    "0x390726",
+    "0x3907d1",
+    "0x391024",
+    "0x3920b4",
+    "0x3920c7",
+    "0x392b9a",
+    "0x392ba2",
+    "0x393a7a",
+    "0x396125",
+    "0x39639e",
+    "0x3963ff",
+    "0x39644d",
+    "0x3964eb",
+    "0x39658a",
+    "0x3966b8",
+    "0x397cb9",
+    "0x39b074",
+    "0x39b196",
+    "0x39b1a4",
+    "0x39b666",
+    "0x39d477",
+    "0x39d581",
+    "0x39df51",
+    "0x3a0a6d",
+    "0x3a0b94",
+    "0x3a0b9d",
+    "0x3a11f8",
+    "0x3a1421",
+    "0x3a142a",
+    "0x3a1459",
+    "0x3a1469",
+    "0x3a147b",
+    "0x3a159b",
+    "0x3a163a",
+    "0x3a1957",
+    "0x3a1af4",
+    "0x3a1d91",
+    "0x3a1db4",
+    "0x3a1dbc",
+    "0x3a1de4",
+    "0x3a1dec",
+    "0x3a1df7",
+    "0x3a3612",
+    "0x3a3c42",
+    "0x3a8d1f",
+    "0x3a9518",
+    "0x3a955b",
+    "0x3a9c9c",
+    "0x3aa0b2",
+    "0x3aa642",
+    "0x3ab07a",
+    "0x3ab083",
+    "0x3ab096",
+    "0x3ab0a2",
+    "0x3ab0bb",
+    "0x3ab0f0",
+    "0x3ab0f9",
+    "0x3ab10c",
+    "0x3ab118",
+    "0x3ab131",
+    "0x3ab508",
+    "0x3ab5d7",
+    "0x3abc9c",
+    "0x3abca4",
+    "0x3abd9e",
+    "0x3abda6",
+    "0x3abec6",
+    "0x3abece",
+    "0x3ac002",
+    "0x3ac00a",
+    "0x3ac76b",
+    "0x3ac77d"
+  ],
+  "resource25EE": [
+    "0x3402b5",
+    "0x340341",
+    "0x396b33"
+  ],
+  "common_table_far_pointer": [
+    "0x3a363e",
+    "0x3a3c6e",
+    "0x3a3ca6",
+    "0x3a476a",
+    "0x3a4c96",
+    "0x3a51d8",
+    "0x3a5fca",
+    "0x3a67c2",
+    "0x3a74a4",
+    "0x3a795a",
+    "0x3a7f28",
+    "0x3a8488",
+    "0x3a87ea",
+    "0x3a8a74",
+    "0x3a8d50",
+    "0x3a93c6",
+    "0x3a958c",
+    "0x3a9cc8",
+    "0x3aa0de",
+    "0x3aa66e"
+  ],
+  "loader94F0_callers": [
+    "0x3a364a",
+    "0x3a3c7a",
+    "0x3a4754",
+    "0x3a4c84",
+    "0x3a5156",
+    "0x3a5fb2",
+    "0x3a6740",
+    "0x3a748e",
+    "0x3a7940",
+    "0x3a7f0e",
+    "0x3a8470",
+    "0x3a87da",
+    "0x3a8a5e",
+    "0x3a8d0e",
+    "0x3a8fa0",
+    "0x3a93bc",
+    "0x3aa0ea",
+    "0x3aa67a"
+  ],
+  "near_decoder_transfers": [],
+  "menu_records": [
+    {
+      "mode": 0,
+      "record": "0x365fba",
+      "resource": 2,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        5,
+        11
+      ]
+    },
+    {
+      "mode": 1,
+      "record": "0x365fd0",
+      "resource": 3,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        5,
+        11
+      ]
+    },
+    {
+      "mode": 2,
+      "record": "0x365fe6",
+      "resource": 4,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          8,
+          "0x49c0"
+        ],
+        [
+          9,
+          "0x4a00"
+        ],
+        [
+          10,
+          "0x4a20"
+        ],
+        [
+          1,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0x4d20",
+      "common_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16
+      ]
+    },
+    {
+      "mode": 3,
+      "record": "0x366014",
+      "resource": 5,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        16
+      ]
+    },
+    {
+      "mode": 4,
+      "record": "0x366030",
+      "resource": 4,
+      "resource_frames": [
+        [
+          2,
+          "0x8000"
+        ],
+        [
+          8,
+          "0x49c0"
+        ],
+        [
+          9,
+          "0x4a00"
+        ],
+        [
+          10,
+          "0x4a20"
+        ],
+        [
+          3,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0x4d20",
+      "common_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16
+      ]
+    },
+    {
+      "mode": 5,
+      "record": "0x36605e",
+      "resource": 6,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 6,
+      "record": "0x36606c",
+      "resource": 7,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        7,
+        9,
+        16
+      ]
+    },
+    {
+      "mode": 7,
+      "record": "0x366084",
+      "resource": 8,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        7,
+        9,
+        16
+      ]
+    },
+    {
+      "mode": 8,
+      "record": "0x36609c",
+      "resource": 9,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 9,
+      "record": "0x3660aa",
+      "resource": 10,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 10,
+      "record": "0x3660b4",
+      "resource": 11,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 11,
+      "record": "0x3660c2",
+      "resource": 12,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 12,
+      "record": "0x3660cc",
+      "resource": 13,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 13,
+      "record": "0x3660da",
+      "resource": 14,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          2,
+          "0x49c0"
+        ],
+        [
+          1,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 14,
+      "record": "0x3660ec",
+      "resource": 1,
+      "resource_frames": [
+        [
+          0,
+          "0x49c0"
+        ],
+        [
+          2,
+          "0x5e20"
+        ],
+        [
+          1,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 15,
+      "record": "0x3660fe",
+      "resource": 15,
+      "resource_frames": [
+        [
+          2,
+          "0x8000"
+        ],
+        [
+          3,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0x4f00",
+      "common_frames": [
+        4,
+        15
+      ]
+    },
+    {
+      "mode": 16,
+      "record": "0x366112",
+      "resource": 15,
+      "resource_frames": [
+        [
+          0,
+          "0x8000"
+        ],
+        [
+          1,
+          "0x3800"
+        ],
+        [
+          3,
+          "0x49c0"
+        ]
+      ],
+      "common_destination": "0xffff",
+      "common_frames": []
+    },
+    {
+      "mode": 17,
+      "record": "0x366124",
+      "resource": 4,
+      "resource_frames": [
+        [
+          4,
+          "0x8000"
+        ],
+        [
+          8,
+          "0x49c0"
+        ],
+        [
+          9,
+          "0x4a00"
+        ],
+        [
+          10,
+          "0x4a20"
+        ],
+        [
+          5,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0x4d20",
+      "common_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16
+      ]
+    },
+    {
+      "mode": 18,
+      "record": "0x366152",
+      "resource": 4,
+      "resource_frames": [
+        [
+          6,
+          "0x8000"
+        ],
+        [
+          8,
+          "0x49c0"
+        ],
+        [
+          9,
+          "0x4a00"
+        ],
+        [
+          10,
+          "0x4a20"
+        ],
+        [
+          7,
+          "0x3800"
+        ]
+      ],
+      "common_destination": "0x4d20",
+      "common_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16
+      ]
+    }
+  ],
+  "menu_common_union": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16
+  ],
+  "F36_sha256": "da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2",
+  "original_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255"
+}

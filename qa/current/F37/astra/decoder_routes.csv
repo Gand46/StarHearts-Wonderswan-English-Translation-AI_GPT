@@ -1,0 +1,78 @@
+callsite_rom,decoder,route,target_frame_consumer
+0x39102f,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x39103a,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x391042,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x39104d,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x391058,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x391063,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x39106e,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x391079,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x391084,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x39108c,A000:254C,"Bank30 table0000 resource0, actor-related graphics; distinct from common841C",No
+0x396596,A000:254C,"Bank10..13 dynamic resource (selected by CAD7), frameCAD9",No
+0x3a0241,A000:254C,"Bank30 resourceC30E, not common843E",No
+0x3a024a,A000:254C,"Bank30 resourceC30E, not common843E",No
+0x3a0967,A000:254C,"Bank30 resourceC30E, not common843E",No
+0x3a0970,A000:254C,"Bank30 resourceC30E, not common843E",No
+0x3a0a78,A000:254C,"Bank30 table2C36 resource0, not common841C",No
+0x3a0a83,A000:254C,"Bank30 table2C36 resource0, not common841C",No
+0x3a0a8e,A000:254C,"Bank30 table2C36 resource0, not common841C",No
+0x3a0a9f,A000:254C,"Bank30 table2C36 resource0, not common841C",No
+0x3a0aa8,A000:254C,"Bank30 table2C36 resource0, not common841C",No
+0x3a1203,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a120b,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1213,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a121e,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1435,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a143d,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1445,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1450,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a15a9,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a15b2,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a15bd,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a164b,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1654,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1962,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a196a,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1975,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1980,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1aff,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1d9c,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1da7,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a1dcd,A000:254C,"Bank08 table8F90, menu/save resources0..4; not common",No
+0x3a361d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3625,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a362d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3638,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3c4d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3c55,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3c5d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a3c68,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a8d2e,A000:254C,Common table841C but resource12; dynamic frameD12F-1,No
+0x3a953b,A000:254C,Menu mode-specific resource loop; 19 records parsed in scan.json,No
+0x3a9576,A000:254C,"Common resource0 table-driven frames4..11,15,16",No
+0x3a9ca7,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a9caf,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a9cb7,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3a9cc2,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa0bd,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa0c5,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa0cd,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa0d8,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa64d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa655,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa65d,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3aa668,A000:254C,"Common resource0 explicit init frames0,2,3,1",No
+0x3ab08d,A000:254C,Table0000 resource1 subresource0; script operand selects frame; not common841C,No
+0x3ab103,A000:254C,Table0000 resource1 subresource0; script operand selects frame; not common841C,No
+0x3ab513,A000:254C,Bank31 table0000 resource0; not common,No
+0x3ab5e2,A000:254C,Bank31 table0000 resource0; not common,No
+0x3ab5ed,A000:254C,Bank31 table0000 resource0; not common,No
+0x3ab5f8,A000:254C,Bank31 table0000 resource0; not common,No
+0x3ab600,A000:254C,Bank31 table0000 resource0; not common,No
+0x3ac2d9,A000:254C,Bank02 resource9EEC mapped3000; not common,No
+0x3ac2e2,A000:254C,Bank02 resource9EEC mapped3000; not common,No
+0x3ac2ed,A000:254C,Bank02 resource9EEC mapped3000; not common,No
+0x3ac2f5,A000:254C,Bank02 resource9EEC mapped3000; not common,No
+0x3ac2fd,A000:254C,Bank02 resource9EEC mapped3000; not common,No
+0x3ac308,A000:254C,Bank02 resource9EEC mapped3000; not common,No

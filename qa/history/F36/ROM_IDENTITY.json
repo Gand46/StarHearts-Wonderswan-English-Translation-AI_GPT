@@ -1,0 +1,10 @@
+{
+  "JP_sha256": "64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255",
+  "F35_sha256": "6198444ae2e18467c7fd2c44eb8d32888b662ba06a35625cdf3282ecd7e16084",
+  "F36_sha256": "da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2",
+  "Mesen_sha256": "ae43f1438282aaaff90a009aa8ada648bc5d631b070656285d7de9cbff513b41",
+  "base_checkpoint_sha256": "edde91825ed7c9bf5669ef3317bb1210a6ca331fe432f220a2143914b15b3059",
+  "base_checkpoint": "qa/P4_repair_synthetic_entry.mss",
+  "access_method": "WRAM_POKE",
+  "detail": "Native event coroutine from synthetic P4 checkpoint; no ROM writes; not a natural playthrough"
+}

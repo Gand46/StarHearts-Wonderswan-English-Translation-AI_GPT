@@ -1,0 +1,28 @@
+
+audit/f36_companions/code39.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00004222 <.data+0x4222>:
+    4222:	51                   	push   cx
+    4223:	06                   	push   es
+    4224:	56                   	push   si
+    4225:	a1 c8 eb             	mov    ax,ds:0xebc8
+    4228:	2d e0 01             	sub    ax,0x1e0
+    422b:	2e c4 36 4a 42       	les    si,DWORD PTR cs:0x424a
+    4230:	d1 e0                	shl    ax,1
+    4232:	03 f0                	add    si,ax
+    4234:	26 8b 34             	mov    si,WORD PTR es:[si]
+    4237:	b8 00 00             	mov    ax,0x0
+    423a:	26 83 3c 00          	cmp    WORD PTR es:[si],0x0
+    423e:	74 06                	je     0x4246
+    4240:	83 c6 02             	add    si,0x2
+    4243:	40                   	inc    ax
+    4244:	eb f4                	jmp    0x423a
+    4246:	5e                   	pop    si
+    4247:	07                   	pop    es
+    4248:	59                   	pop    cx
+    4249:	c3                   	ret
+    424a:	60                   	pusha
+    424b:	6b 00 80             	imul   ax,WORD PTR [bx+si],0xff80

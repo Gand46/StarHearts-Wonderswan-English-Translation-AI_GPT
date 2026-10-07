@@ -1,52 +1,106 @@
-# Star Hearts (WonderSwan Color) — English translation 13BG-F34
+# Star Hearts — WonderSwan Color English Translation
 
-**Release status: `RC_SYNTHETIC_FOR_TESTING` (I14-P9 / 2026-09-28).** This is a test candidate with six documented `PASS_SYNTHETIC` cases. The audit package explicitly records `public_release_authorized=false` and `whole_project_legibility_approved=false`; this repository preparation does not change those states. Japanese-to-English localization, based on a specific Japanese 4 MiB WSC ROM.
+**Current build: F37 · experimental / internal testing · Japanese → English**
 
-This repository contains the cumulative translation sources and engineering records. The standalone `StarHearts_EN_phase13BG_F34_CUMULATIVE_2026-09-28.bps` is supplied separately as a release asset; GitHub users should obtain it from the corresponding F34 asset set. No commercial ROM, BIOS, save, or emulator is included.
+This repository contains the cumulative translation build inputs, a BPS patch applied directly to the original Japanese ROM, technical research, and reproducible validation evidence. F37 adds four translated prompt graphics to F36, which translated the purchase interface and 181 initial actor-name fields plus one additional inline name.
 
-## Apply the patch
+The F37 four-prompt translation and synthetic rendering scope is complete. Whole-game linguistic, visual and functional approval is not claimed. This is a test build, not a final release or an approved release candidate.
 
-1. Supply your own unmodified Japanese **Star Hearts** WonderSwan Color ROM, exactly **4,194,304 bytes**, with SHA-256 `64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255` (the expected hash is documented in the F34 builder and audit; it could not be recalculated here without the ROM). Check locally with `shasum -a 256 original.wsc` on macOS, `sha256sum original.wsc` on Linux, or `Get-FileHash original.wsc -Algorithm SHA256` in PowerShell.
-2. Apply `StarHearts_EN_phase13BG_F34_CUMULATIVE_2026-09-28.bps` to that original ROM using a BPS compatible patcher. Select a new output filename. **Apply this single cumulative patch directly to the original Japanese ROM**, without earlier F patches.
-3. The documented translated output is 4,194,304 bytes, SHA-256 `d22bb029570e1b053e7cc11bd0cd1632ff310343d3c44ffaa072f771ae820ca0`, and WonderSwan checksum `3CD5`. The BPS SHA-256 calculated from the supplied patch is `3a9a3805f9e982ba36023c47c6f34671e742e2312b095bfacaddb556db01f114`.
+## Download and patch
 
-The patch header records source CRC32 `138D1018` and target CRC32 `A8F5C374`; the patch's own CRC32 `10A9E5A3` was recalculated and matches. SHA-256 is the stronger identity check. No ROM download or commercial assets are provided.
+Use [StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps](patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) with your own original Japanese ROM and a BPS-compatible patcher. Apply it once to the original ROM; older translation patches are not prerequisites.
+
+The original file was used locally as `StarHearts_JP.wsc`; its filename may differ. Identify it by size and hash:
+
+| Image | Bytes | SHA-256 | CRC32 | WS checksum |
+| --- | ---: | --- | --- | --- |
+| Original Japanese ROM | 4,194,304 | `64179c9924ec1280861ebd83b99aaeb0770701051e590613430ae9a6dbe31255` | `138D1018` | `8EED` |
+| F37 English output | 4,194,304 | `f0791dcf53045afc126ce11ed5b9eb7091c47c1c8195eaa525737c5fec5ffb57` | `3F4A45E0` | `DB46` |
+
+Patch size: **649,925 bytes**. Patch SHA-256: `dba7b7f5cd2a4980f2ae7af9ed80b5bef6b8042279dda0f46ba00084696eddde`.
+
+No complete ROM, BIOS or emulator is included.
+
+## What changed
+
+| Build | Change |
+| --- | --- |
+| F37 | `対戦？` → `Battle?`, `値段？` → `Price?`, `伝授？` → `Teach?`, `戻す？` → `Return?` |
+| F36, retained | `バザー` → `Bazaar`, `買う？` → `Buy?`; 181 initial actor-name fields and one additional inline name |
+| F35, retained | Local redraw of 14 main-menu labels; its typography trade-off is documented in the historical notes |
+
+F37 reuses native Latin glyph masks for its four prompt graphics. Three fit their existing compressed slots; `Return?` uses a guarded relocation and one frame-pointer update. The delta from F36 is 689 bytes. The earlier 181 name fields, their metadata and consumers remain unchanged.
+
+![F36 Japanese prompts and F37 English prompts, reached through a synthetic selector](qa/current/F37/StarHearts_F37_Four_Prompts_Comparison.png)
+
+The shop popup in these captures is a rendering fixture. These four labels are not newly enabled shop actions.
 
 ## Build from source
 
-Python 3 and the exact original ROM are required. From this repository root:
+Use Python 3.12 and the Pillow version recorded in [requirements.txt](requirements.txt). The packaged build was checked on Linux with Python 3.12.14 and Pillow 12.3.0. Windows and macOS wrappers are supplied, but were not executed on those operating systems.
 
-```text
-python3 scripts/build_phase13BG_F34.py /path/to/your/original_JP.wsc -o /path/outside/repo/StarHearts_F34.wsc --bps /path/outside/repo/rebuilt_F34.bps
+Windows, from the repository directory:
+
+```bat
+python -m pip install -r requirements.txt
+mkdir build
+BUILD.bat "C:\path\StarHearts_JP.wsc" -o "build\StarHearts_F37.wsc" --bps "build\StarHearts_F37.bps"
 ```
 
-On Windows, `BUILD.bat` invokes the same F34 Python builder. On macOS, `build.command` invokes it from this directory; `build.sh` is also retained. These three launchers were updated from their stale F32 targets during packaging. Only the Python entry point was checked in the current Linux environment; Windows and macOS launchers were **not executed here**. The underlying builder uses the included BPS module and accumulated D/E/F manifests, enforces intermediate hashes and byte preconditions, verifies the WonderSwan checksum, and generates a *new direct* JP→F34 BPS. `baseline/StarHearts_EN_phase13BG_B_2026-09-15.bps` is an internal prerequisite for rebuilding the earlier translation base; end users apply only the F34 release BPS. Verify rebuilt ROM SHA-256 and compare the rebuilt BPS/output against the supplied asset. See [build record](docs/BUILD_AND_VERIFICATION.md) for the exact checks performed and the checks that require a ROM.
+Linux:
 
-## Repository layout
+```sh
+python3 -m pip install -r requirements.txt
+mkdir -p build
+./build.sh /absolute/path/StarHearts_JP.wsc -o build/StarHearts_F37.wsc --bps build/StarHearts_F37.bps
+```
 
-| Path | Purpose |
+macOS, from Terminal in the repository directory:
+
+```sh
+python3 -m pip install -r requirements.txt
+mkdir -p build
+sh build.command /absolute/path/StarHearts_JP.wsc -o build/StarHearts_F37.wsc --bps build/StarHearts_F37.bps
+```
+
+Run the builder with normal Python settings, without `-O` or `PYTHONOPTIMIZE`: its validation guards use assertions. Output directories must already exist. No Wonderful toolchain or emulator is required to build this translation.
+
+The build uses the bundled baseline BPS, cumulative change records, graphics assets and all dependent builders. These inputs are sufficient to reconstruct the known F37 output from the original ROM. The historical baseline remains a binary patch input; this repository does not claim to provide a decompilation or editable original source for every change already contained in that baseline.
+
+## Validation and limits
+
+| Scope | Evidence |
 | --- | --- |
-| `scripts/` | Accumulated versioned builders F10–F34, resource builders, BPS encoder/decoder, audits. |
-| `phase13BG_*_changes.json` | Cumulative, ordered translation and binary edit manifests; F34 checks a known F33 base. |
-| `assets/` | Small necessary edited graphics/tiles and reference data; no full game dump. |
-| `baseline/*.bps` | Required historical translated baseline used by the F10 source builder. |
-| `qa/` | Lua and Python diagnostics kept with the source; scripts requiring private states do not by themselves reproduce the archived captures. |
-| `README_F27.md`–`README_F34.md` | Original phase notes in Spanish, preserved with the source. |
-| `docs/TECHNICAL_FINDINGS.md` | English architecture, address types, text consumers and tracked findings. |
-| `docs/research_original_es/` | Selected original Spanish reports and current ledgers, preserved as provenance. |
-| `docs/evidence/` | Captures/traces cited by the current acceptance ledger; no savestates. |
-| `docs/ORGANIZATION_MANIFEST.csv` | Input to output/exclusion decisions. |
+| Build and cumulative BPS | Clean-ROM build, independent BPS application, expected hashes and checksum pass |
+| Four F37 graphics | 4/4 native rendering checks and 4/4 diagnostic state reloads pass through synthetic access |
+| Consumer trace | 77 direct decoder calls, 19 mode records and 18 loader callsites audited; no selection of these four frames in those bounded paths |
+| Buying/selling regression | 36 captures match F36 byte for byte |
+| Initial actor names | 181/181 native loading checks passed in F36; evidence remains valid through verified unchanged F37 dependencies |
+| Whole-game approval | Not established; the 181 loading checks are not 181 individual visual approvals or natural scene visits |
 
-## Architecture and findings
+The four graphic resources are classified as retained resources without selection in the audited routes. Synthetic rendering closes this local task; it does not prove natural reachability, the behavior of an associated action, or global non-use. The current F37 hardware path and a complete natural playthrough have not been validated in this package.
 
-The original game's scripts use CP932 text, fixed fields, native glyph loading and several independently consumed text surfaces. The cumulative source checks the before bytes of each revision rather than searching and replacing Japanese globally. Bank `0x38` uses pointer tables and an added 110-byte English pool; inline entity names use opcode `0x0022`, while other companion fields are deliberately left unchanged. Some menu captions live in compressed graphical resources in Bank `0x30`, and the shared skills description comes from Bank `0x38`. F34 fixes the second First Trial banner and the Link error formatter without changing the shared font, dictionary or renderer. See the [technical findings and memory/consumer tables](docs/TECHNICAL_FINDINGS.md) for exact addresses, code/data distinctions, confidence and report references.
+## Repository guide
 
-## Validation scope and remaining limits
+| Location | Contents |
+| --- | --- |
+| [Technical report](docs/technical/TECHNICAL_F37.md) | F37 addresses, compression sizes, relocation, consumer research and replay instructions |
+| [PROJECT_STATE_F37.json](docs/status/PROJECT_STATE_F37.json) | Current machine-readable state |
+| [CHANGELOG.md](docs/project/CHANGELOG.md) | F35–F37 changes and this packaging revision |
+| [Validation](docs/validation/VALIDATION_F37.md) | Evidence index, savestate provenance and outstanding scope |
+| [docs/history](docs/history) | Preserved historical reports, including the detailed F36 name-consumer analysis |
+| [Source map](source/README.md) | Builders, assets, baseline and manifests grouped by phase under `source/` |
+| [Patches](patches/README.md) | The single current end-user BPS under `patches/F37/` |
+| [QA map](qa/README.md) | Current evidence, historical evidence, shared checkpoints and package validation |
+| [SHA256SUMS.json](checksums/SHA256SUMS.json) | File-integrity inventory for this repository snapshot |
+| [CREDITS.md](docs/project/CREDITS.md) | Project and tool attribution |
 
-The final I14-P9 ledger has six cases tagged `PASS_SYNTHETIC`: shop sale/repair, Fire/Magic, Link wait/error display, Holy Temple/Tirawaka/second First Trial excerpt, 29 epilogue pages, and 45 credit cards/66 strings. Access included declared synthetic state and native consumers; it was not a full natural playthrough or a real Link transfer. A bad moving frame of `WAITING P2` and earlier incorrect Link error/banner captures were explicitly revoked and replaced. The 94 printable Latin/symbol glyph comparison found 93 native-identical glyphs; historical `_` provenance and visible use remain `NOT_VALIDATED`. Whole-game visual and linguistic approval is not established. The 237 integrated records from the earlier structural audit have a defined scope, not a claim that every game string was checked.
+See the [folder guide](docs/STRUCTURE.md) and [file relocation index](docs/project/FILE_RELOCATION.csv) for the complete organization. Only the README, build entry points, dependency file and Git settings remain at the top level.
 
-The [validation record](docs/VALIDATION.md) maps each current case to its evidence and exclusions. Earlier reports under `docs/research_original_es/` may contain superseded conclusions; always apply the I14-P9 ledger and `SUPERSEDED_APPROVALS.json` before quoting a historical PASS. This packaging run verified source identity, BPS container integrity and evidence hashes; it did not rebuild or run a ROM, because the required original ROM was not supplied.
+Historical documentation describes its own build. Its older pending items and wrapper targets do not override the F37 state. See [docs/history/README.md](docs/history/README.md) for that boundary.
 
-## Credits, rights and provenance
+For a bug report, include the ROM output hash, emulator/version or hardware setup, the shortest reproduction steps and a screenshot. Label any diagnostic state as synthetic and identify its build. Do not attach a complete ROM to an issue.
 
-This package preserves the upstream project files and their own credits; it does not assert authorship of the game or grant a license to its content. No explicit redistribution license for these project sources was found in the supplied source archive. The BPS is a translation patch for use with a separately obtained original game. Original research reports are available under `docs/research_original_es/`, with an English technical synthesis in `docs/TECHNICAL_FINDINGS.md`. The review is tied to the supplied 1.40 / I14-P9 / F34 source and audit package, not to later revisions mentioned elsewhere.
+## GitHub release metadata
+
+Suggested tag: `f37-test`. Suggested title: `Star Hearts English F37 — Test Build`. Mark the release as a pre-release and use the [release notes](docs/release/RELEASE_NOTES_F37.md) as its description. The standalone BPS is the player-facing asset; the full source ZIP also includes documentation and QA evidence.

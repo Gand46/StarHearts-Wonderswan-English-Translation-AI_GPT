@@ -1,0 +1,111 @@
+
+audit/f36_companions/code39.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00001f30 <.data+0x1f30>:
+    1f30:	50                   	push   ax
+    1f31:	53                   	push   bx
+    1f32:	51                   	push   cx
+    1f33:	57                   	push   di
+    1f34:	bf 4b d2             	mov    di,0xd24b
+    1f37:	b9 06 00             	mov    cx,0x6
+    1f3a:	f7 05 01 00          	test   WORD PTR [di],0x1
+    1f3e:	74 03                	je     0x1f43
+    1f40:	e9 f3 00             	jmp    0x2036
+    1f43:	26 8b 44 04          	mov    ax,WORD PTR es:[si+0x4]
+    1f47:	e8 38 01             	call   0x2082
+    1f4a:	9a 4a 0f 00 90       	call   0x9000:0xf4a
+    1f4f:	73 03                	jae    0x1f54
+    1f51:	e9 ec 00             	jmp    0x2040
+    1f54:	89 45 16             	mov    WORD PTR [di+0x16],ax
+    1f57:	c7 05 01 00          	mov    WORD PTR [di],0x1
+    1f5b:	26 8b 04             	mov    ax,WORD PTR es:[si]
+    1f5e:	89 45 02             	mov    WORD PTR [di+0x2],ax
+    1f61:	26 8b 44 02          	mov    ax,WORD PTR es:[si+0x2]
+    1f65:	89 45 04             	mov    WORD PTR [di+0x4],ax
+    1f68:	26 8b 44 04          	mov    ax,WORD PTR es:[si+0x4]
+    1f6c:	89 45 14             	mov    WORD PTR [di+0x14],ax
+    1f6f:	50                   	push   ax
+    1f70:	53                   	push   bx
+    1f71:	8b 5d 16             	mov    bx,WORD PTR [di+0x16]
+    1f74:	c1 e3 05             	shl    bx,0x5
+    1f77:	81 c3 00 40          	add    bx,0x4000
+    1f7b:	c7 07 00 00          	mov    WORD PTR [bx],0x0
+    1f7f:	8b c3                	mov    ax,bx
+    1f81:	e7 40                	out    0x40,ax
+    1f83:	33 c0                	xor    ax,ax
+    1f85:	e7 42                	out    0x42,ax
+    1f87:	8b c3                	mov    ax,bx
+    1f89:	05 02 00             	add    ax,0x2
+    1f8c:	e7 44                	out    0x44,ax
+    1f8e:	8b 45 14             	mov    ax,WORD PTR [di+0x14]
+    1f91:	e8 ee 00             	call   0x2082
+    1f94:	c1 e0 05             	shl    ax,0x5
+    1f97:	e7 46                	out    0x46,ax
+    1f99:	b0 80                	mov    al,0x80
+    1f9b:	e6 48                	out    0x48,al
+    1f9d:	5b                   	pop    bx
+    1f9e:	58                   	pop    ax
+    1f9f:	bb 00 00             	mov    bx,0x0
+    1fa2:	b9 08 00             	mov    cx,0x8
+    1fa5:	90                   	nop
+    1fa6:	26 8b 40 06          	mov    ax,WORD PTR es:[bx+si+0x6]
+    1faa:	89 41 62             	mov    WORD PTR [bx+di+0x62],ax
+    1fad:	83 c3 02             	add    bx,0x2
+    1fb0:	e2 f4                	loop   0x1fa6
+    1fb2:	26 8a 44 16          	mov    al,BYTE PTR es:[si+0x16]
+    1fb6:	88 45 3d             	mov    BYTE PTR [di+0x3d],al
+    1fb9:	26 8a 44 17          	mov    al,BYTE PTR es:[si+0x17]
+    1fbd:	88 45 5f             	mov    BYTE PTR [di+0x5f],al
+    1fc0:	26 8a 44 18          	mov    al,BYTE PTR es:[si+0x18]
+    1fc4:	c7 45 48 00 00       	mov    WORD PTR [di+0x48],0x0
+    1fc9:	c7 45 4a 00 01       	mov    WORD PTR [di+0x4a],0x100
+    1fce:	26 8a 44 19          	mov    al,BYTE PTR es:[si+0x19]
+    1fd2:	88 45 60             	mov    BYTE PTR [di+0x60],al
+    1fd5:	26 8a 44 02          	mov    al,BYTE PTR es:[si+0x2]
+    1fd9:	98                   	cbw
+    1fda:	c1 e0 04             	shl    ax,0x4
+    1fdd:	80 3e d2 ca 00       	cmp    BYTE PTR ds:0xcad2,0x0
+    1fe2:	74 10                	je     0x1ff4
+    1fe4:	80 3e d2 ca 01       	cmp    BYTE PTR ds:0xcad2,0x1
+    1fe9:	74 05                	je     0x1ff0
+    1feb:	2d e0 00             	sub    ax,0xe0
+    1fee:	eb 04                	jmp    0x1ff4
+    1ff0:	05 e0 00             	add    ax,0xe0
+    1ff3:	90                   	nop
+    1ff4:	05 08 00             	add    ax,0x8
+    1ff7:	90                   	nop
+    1ff8:	c1 e0 04             	shl    ax,0x4
+    1ffb:	89 45 06             	mov    WORD PTR [di+0x6],ax
+    1ffe:	26 8a 44 01          	mov    al,BYTE PTR es:[si+0x1]
+    2002:	98                   	cbw
+    2003:	c1 e0 04             	shl    ax,0x4
+    2006:	80 3e d1 ca 00       	cmp    BYTE PTR ds:0xcad1,0x0
+    200b:	74 11                	je     0x201e
+    200d:	80 3e d1 ca 01       	cmp    BYTE PTR ds:0xcad1,0x1
+    2012:	74 06                	je     0x201a
+    2014:	2d 80 00             	sub    ax,0x80
+    2017:	eb 05                	jmp    0x201e
+    2019:	90                   	nop
+    201a:	05 80 00             	add    ax,0x80
+    201d:	90                   	nop
+    201e:	05 0f 00             	add    ax,0xf
+    2021:	c1 e0 04             	shl    ax,0x4
+    2024:	89 45 08             	mov    WORD PTR [di+0x8],ax
+    2027:	a1 d3 ca             	mov    ax,ds:0xcad3
+    202a:	89 45 18             	mov    WORD PTR [di+0x18],ax
+    202d:	a1 d5 ca             	mov    ax,ds:0xcad5
+    2030:	88 45 1b             	mov    BYTE PTR [di+0x1b],al
+    2033:	eb 0b                	jmp    0x2040
+    2035:	90                   	nop
+    2036:	83 c7 72             	add    di,0x72
+    2039:	e2 02                	loop   0x203d
+    203b:	eb 03                	jmp    0x2040
+    203d:	e9 fa fe             	jmp    0x1f3a
+    2040:	5f                   	pop    di
+    2041:	59                   	pop    cx
+    2042:	5b                   	pop    bx
+    2043:	58                   	pop    ax
+    2044:	cb                   	retf

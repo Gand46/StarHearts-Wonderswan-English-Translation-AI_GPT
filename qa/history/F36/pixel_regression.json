@@ -1,0 +1,27 @@
+{
+  "buy": [
+    {
+      "frame": 570,
+      "changed_pixels": 174,
+      "bounding_box": [
+        8,
+        2,
+        79,
+        13
+      ],
+      "outside_expected_rectangles": 0
+    },
+    {
+      "frame": 630,
+      "changed_pixels": 369,
+      "bounding_box": [
+        8,
+        2,
+        203,
+        110
+      ],
+      "outside_expected_rectangles": 0
+    }
+  ],
+  "sell_captured_frames_byte_identical": true
+}

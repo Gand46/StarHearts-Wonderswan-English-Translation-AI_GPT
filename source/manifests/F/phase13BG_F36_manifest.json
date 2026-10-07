@@ -1,0 +1,2246 @@
+{
+  "base_sha256": "6198444ae2e18467c7fd2c44eb8d32888b662ba06a35625cdf3282ecd7e16084",
+  "target_sha256": "da2966870ef022e68f84e07ead6d017a686c47f55a6036f57974c57c6d4578d2",
+  "checksum": "775C",
+  "changed_bytes": 2425,
+  "unexpected_changed_offsets": 0,
+  "companion_fields": 181,
+  "additional_inline_names": 1,
+  "graphics": {
+    "base_sha256": "6198444ae2e18467c7fd2c44eb8d32888b662ba06a35625cdf3282ecd7e16084",
+    "target_sha256": "17e378282384333c85161d18b4fa98164d7d4ff4279e059c288ee9081976508f",
+    "changed_bytes": 345,
+    "checksum": "C3FB",
+    "changes": [
+      {
+        "japanese": "バザー",
+        "english": "Bazaar",
+        "resource": "0x30f38e",
+        "frame": 2,
+        "offset": 3209521,
+        "capacity": 536,
+        "encoded_bytes": 308,
+        "decoded_bytes": 14336,
+        "preimage_sha256": "0c4667b8c159883b8e97851b5fbbcb581e224ae28bfb1aac83e9aadf721b1ea7",
+        "after_sha256": "05d5fec75a3379c1cb6e851924342abd2de37fa1e28897a5e47484a96349bafd",
+        "decoded_sha256": "4bbd0d0575782e9f9bda69e48a6f3d87dce836dc979da226048d6369876f6ae6",
+        "box": [
+          8,
+          0,
+          80,
+          14
+        ],
+        "origin": [
+          8,
+          2
+        ],
+        "ink_width": 36,
+        "changed_pixels": 174,
+        "outside_box_changed_pixels": 0,
+        "unchanged_compressed_tail_bytes": 228
+      },
+      {
+        "japanese": "買う？",
+        "english": "Buy?",
+        "resource": "0x30843e",
+        "frame": 15,
+        "offset": 3182123,
+        "capacity": 170,
+        "encoded_bytes": 138,
+        "decoded_bytes": 448,
+        "preimage_sha256": "8c99f6997e5587b38157cd8798105edc979c5d466cb28d0bd7bb71de6d54b96a",
+        "after_sha256": "4f1f565c333931069ad089f623a769180e2a3bf52106b0563d69321d9c36a859",
+        "decoded_sha256": "0d001d9e1b581a6c0f0b478aa695e9f43e4c0b6f67aff06f1d76c39bad5b4901",
+        "box": [
+          4,
+          1,
+          52,
+          14
+        ],
+        "origin": [
+          15,
+          1
+        ],
+        "ink_width": 25,
+        "changed_pixels": 195,
+        "outside_box_changed_pixels": 0,
+        "unchanged_compressed_tail_bytes": 32
+      }
+    ],
+    "native_atlas_sha256": "9ab89bbcecd42a2d3579bd82d63340aa00c7a76f96994316b4a70f8adcca7159",
+    "native_glyphs": {
+      "B": {
+        "width": 7,
+        "points": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "native_cell": [
+          20,
+          24,
+          12,
+          12
+        ],
+        "x_trim": 2
+      },
+      "a": {
+        "width": 5,
+        "points": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ]
+        ],
+        "native_cell": [
+          180,
+          40,
+          12,
+          12
+        ],
+        "x_trim": 3
+      },
+      "z": {
+        "width": 5,
+        "points": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "native_cell": [
+          144,
+          72,
+          12,
+          12
+        ],
+        "x_trim": 3
+      },
+      "r": {
+        "width": 4,
+        "points": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "native_cell": [
+          20,
+          72,
+          12,
+          12
+        ],
+        "x_trim": 5
+      },
+      "u": {
+        "width": 5,
+        "points": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ]
+        ],
+        "native_cell": [
+          56,
+          72,
+          12,
+          12
+        ],
+        "x_trim": 3
+      },
+      "y": {
+        "width": 5,
+        "points": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "native_cell": [
+          132,
+          72,
+          12,
+          12
+        ],
+        "x_trim": 3
+      },
+      "?": {
+        "width": 5,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ]
+        ]
+      }
+    },
+    "question_mark_source": {
+      "resource": "0x30843E",
+      "frame": 15,
+      "rectangle": [
+        37,
+        3,
+        42,
+        12
+      ]
+    },
+    "unexpected_changed_offsets": 0,
+    "other_resource_frames_unchanged": true,
+    "code_pointers_palettes_unchanged": true
+  },
+  "name_changes": [
+    {
+      "offset": 1660950,
+      "size": 16,
+      "japanese": "ティラワカ",
+      "english": "Tirawaka",
+      "before_hex": "836583428389838f834a000000000000",
+      "after_hex": "827382898292828182978281828b8281",
+      "source": "I02_TERM_001"
+    },
+    {
+      "offset": 1663012,
+      "size": 16,
+      "japanese": "ザイオン",
+      "english": "Zion",
+      "before_hex": "83558343834983930000000000000000",
+      "after_hex": "82798289828f828e0000000000000000",
+      "source": "I02_TERM_002"
+    },
+    {
+      "offset": 1663764,
+      "size": 16,
+      "japanese": "アクセルン",
+      "english": "Accel",
+      "before_hex": "8341834e835a838b8393000000000000",
+      "after_hex": "8260828382838285828c000000000000",
+      "source": "entity ID 0x01e0; table slot 0x386B60; real target 0x38FF4E"
+    },
+    {
+      "offset": 1664562,
+      "size": 16,
+      "japanese": "ラズリーン",
+      "english": "Razly",
+      "before_hex": "83898359838a815b8393000000000000",
+      "after_hex": "82718281829a828c8299000000000000",
+      "source": "entity ID 0x01e6; table slot 0x386B6C; real target 0x38FDF6"
+    },
+    {
+      "offset": 1664690,
+      "size": 16,
+      "japanese": "アステリオ",
+      "english": "Asterio",
+      "before_hex": "834183588365838a8349000000000000",
+      "after_hex": "826082938294828582928289828f0000",
+      "source": "entity ID 0x01e1; table slot 0x386B62; real target 0x38FDA8"
+    },
+    {
+      "offset": 1665412,
+      "size": 16,
+      "japanese": "ティラワカ",
+      "english": "Tirawaka",
+      "before_hex": "836583428389838f834a000000000000",
+      "after_hex": "827382898292828182978281828b8281",
+      "source": "I02_TERM_001"
+    },
+    {
+      "offset": 1665990,
+      "size": 16,
+      "japanese": "ティラワカ",
+      "english": "Tirawaka",
+      "before_hex": "836583428389838f834a000000000000",
+      "after_hex": "827382898292828182978281828b8281",
+      "source": "I02_TERM_001"
+    },
+    {
+      "offset": 1666358,
+      "size": 16,
+      "japanese": "ティラワカ",
+      "english": "Tirawaka",
+      "before_hex": "836583428389838f834a000000000000",
+      "after_hex": "827382898292828182978281828b8281",
+      "source": "I02_TERM_001"
+    },
+    {
+      "offset": 1672412,
+      "size": 16,
+      "japanese": "アクセルン",
+      "english": "Accel",
+      "before_hex": "8341834e835a838b8393000000000000",
+      "after_hex": "8260828382838285828c000000000000",
+      "source": "entity ID 0x01e0; table slot 0x386B60; real target 0x38FF4E"
+    },
+    {
+      "offset": 1673360,
+      "size": 16,
+      "japanese": "ラズリーン",
+      "english": "Razly",
+      "before_hex": "83898359838a815b8393000000000000",
+      "after_hex": "82718281829a828c8299000000000000",
+      "source": "entity ID 0x01e6; table slot 0x386B6C; real target 0x38FDF6"
+    },
+    {
+      "offset": 1674210,
+      "size": 16,
+      "japanese": "アステリオ",
+      "english": "Asterio",
+      "before_hex": "834183588365838a8349000000000000",
+      "after_hex": "826082938294828582928289828f0000",
+      "source": "entity ID 0x01e1; table slot 0x386B62; real target 0x38FDA8"
+    },
+    {
+      "offset": 1686036,
+      "size": 16,
+      "japanese": "ルヴァーナ",
+      "english": "Luvana",
+      "before_hex": "838b83948340815b8369000000000000",
+      "after_hex": "826b829582968281828e828100000000",
+      "source": "entity ID 0x01f2; table slot 0x386B84; real target 0x38FEA4"
+    },
+    {
+      "offset": 1686644,
+      "size": 16,
+      "japanese": "ブーマンナ",
+      "english": "Booman",
+      "before_hex": "8375815b837d83938369000000000000",
+      "after_hex": "8261828f828f828d8281828e00000000",
+      "source": "entity ID 0x0205; table slot 0x386BAA; real target 0x136B06"
+    },
+    {
+      "offset": 1688270,
+      "size": 16,
+      "japanese": "マイルス",
+      "english": "Miles",
+      "before_hex": "837d8343838b83580000000000000000",
+      "after_hex": "826c8289828c82858293000000000000",
+      "source": "entity ID 0x01ef; table slot 0x386B7E; real target 0x38FE7C"
+    },
+    {
+      "offset": 1691368,
+      "size": 16,
+      "japanese": "ザガンス",
+      "english": "Zagan",
+      "before_hex": "8355834b839383580000000000000000",
+      "after_hex": "8279828182878281828e000000000000",
+      "source": "entity ID 0x020a; table slot 0x386BB4; real target 0x136B42"
+    },
+    {
+      "offset": 1691470,
+      "size": 16,
+      "japanese": "プリモリア",
+      "english": "Primoria",
+      "before_hex": "8376838a8382838a8341000000000000",
+      "after_hex": "826f82928289828d828f829282898281",
+      "source": "entity ID 0x0225; table slot 0x386BEA; real target 0x136C6E"
+    },
+    {
+      "offset": 1692020,
+      "size": 16,
+      "japanese": "モコンス",
+      "english": "Mokon",
+      "before_hex": "83828352839383580000000000000000",
+      "after_hex": "826c828f828b828f828e000000000000",
+      "source": "entity ID 0x023d; table slot 0x386C1A; real target 0x136D66"
+    },
+    {
+      "offset": 1699596,
+      "size": 16,
+      "japanese": "スプルス",
+      "english": "Spul",
+      "before_hex": "83588376838b83580000000000000000",
+      "after_hex": "827282908295828c0000000000000000",
+      "source": "entity ID 0x0206; table slot 0x386BAC; real target 0x136B10"
+    },
+    {
+      "offset": 1699702,
+      "size": 16,
+      "japanese": "エアリエル",
+      "english": "Ariel",
+      "before_hex": "83478341838a8347838b000000000000",
+      "after_hex": "8260829282898285828c000000000000",
+      "source": "entity ID 0x0230; table slot 0x386C00; real target 0x136CE0"
+    },
+    {
+      "offset": 1705518,
+      "size": 16,
+      "japanese": "ボーグル",
+      "english": "Bogle",
+      "before_hex": "837b815b834f838b0000000000000000",
+      "after_hex": "8261828f8287828c8285000000000000",
+      "source": "entity ID 0x0211; table slot 0x386BC2; real target 0x136B94"
+    },
+    {
+      "offset": 1705762,
+      "size": 16,
+      "japanese": "ティック",
+      "english": "Tick",
+      "before_hex": "836583428362834e0000000000000000",
+      "after_hex": "827382898283828b0000000000000000",
+      "source": "entity ID 0x024f; table slot 0x386C3E; real target 0x136E1E"
+    },
+    {
+      "offset": 1707286,
+      "size": 16,
+      "japanese": "ペッティ－",
+      "english": "Petty",
+      "before_hex": "8379836283658342817c000000000000",
+      "after_hex": "826f8285829482948299000000000000",
+      "source": "entity ID 0x0223; table slot 0x386BE6; real target 0x136C5A"
+    },
+    {
+      "offset": 1707710,
+      "size": 16,
+      "japanese": "ブルベガー",
+      "english": "Bulbegar",
+      "before_hex": "8375838b8378834b815b000000000000",
+      "after_hex": "82618295828c82828285828782818292",
+      "source": "entity ID 0x020d; table slot 0x386BBA; real target 0x136B66"
+    },
+    {
+      "offset": 1708190,
+      "size": 16,
+      "japanese": "スレイド",
+      "english": "Slade",
+      "before_hex": "8358838c834383680000000000000000",
+      "after_hex": "8272828c828182848285000000000000",
+      "source": "entity ID 0x0259; table slot 0x386C52; real target 0x136E8A"
+    },
+    {
+      "offset": 1708480,
+      "size": 16,
+      "japanese": "エルフィー",
+      "english": "Elfie",
+      "before_hex": "8347838b83748342815b000000000000",
+      "after_hex": "8264828c828682898285000000000000",
+      "source": "entity ID 0x027d; table slot 0x386C9A; real target 0x137012"
+    },
+    {
+      "offset": 1709232,
+      "size": 16,
+      "japanese": "ネルフィー",
+      "english": "Nel",
+      "before_hex": "836c838b83748342815b000000000000",
+      "after_hex": "826d8285828c00000000000000000000",
+      "source": "entity ID 0x027a; table slot 0x386C94; real target 0x136FF2"
+    },
+    {
+      "offset": 1709760,
+      "size": 16,
+      "japanese": "シルフィス",
+      "english": "Sylphis",
+      "before_hex": "8356838b837483428358000000000000",
+      "after_hex": "82728299828c82908288828982930000",
+      "source": "entity ID 0x0271; table slot 0x386C82; real target 0x136F8E"
+    },
+    {
+      "offset": 1711002,
+      "size": 16,
+      "japanese": "ギガガス",
+      "english": "Gigaga",
+      "before_hex": "834d834b834b83580000000000000000",
+      "after_hex": "82668289828782818287828100000000",
+      "source": "entity ID 0x0266; table slot 0x386C6C; real target 0x136F24"
+    },
+    {
+      "offset": 1725678,
+      "size": 16,
+      "japanese": "レアルス",
+      "english": "Rea",
+      "before_hex": "838c8341838b83580000000000000000",
+      "after_hex": "82718285828100000000000000000000",
+      "source": "entity ID 0x0232; table slot 0x386C04; real target 0x136CF2"
+    },
+    {
+      "offset": 1725820,
+      "size": 16,
+      "japanese": "ゼファー",
+      "english": "Zephyr",
+      "before_hex": "835b83748340815b0000000000000000",
+      "after_hex": "82798285829082888299829200000000",
+      "source": "entity ID 0x023b; table slot 0x386C16; real target 0x136D4A"
+    },
+    {
+      "offset": 1725956,
+      "size": 16,
+      "japanese": "パンチョ",
+      "english": "Pancho",
+      "before_hex": "83708393836083870000000000000000",
+      "after_hex": "826f8281828e82838288828f00000000",
+      "source": "entity ID 0x0243; table slot 0x386C26; real target 0x136DA2"
+    },
+    {
+      "offset": 1730014,
+      "size": 16,
+      "japanese": "オラージュ",
+      "english": "Orage",
+      "before_hex": "83498389815b83578385000000000000",
+      "after_hex": "826e8292828182878285000000000000",
+      "source": "entity ID 0x022d; table slot 0x386BFA; real target 0x136CC6"
+    },
+    {
+      "offset": 1730496,
+      "size": 16,
+      "japanese": "パスクル",
+      "english": "Pask",
+      "before_hex": "83708358834e838b0000000000000000",
+      "after_hex": "826f82818293828b0000000000000000",
+      "source": "I02_TERM_030"
+    },
+    {
+      "offset": 1732858,
+      "size": 16,
+      "japanese": "スプリガン",
+      "english": "Spriggan",
+      "before_hex": "83588376838a834b8393000000000000",
+      "after_hex": "8272829082928289828782878281828e",
+      "source": "entity ID 0x01f8; table slot 0x386B90; real target 0x136A76"
+    },
+    {
+      "offset": 1733930,
+      "size": 16,
+      "japanese": "メケメケ",
+      "english": "Mekemeke",
+      "before_hex": "83818350838183500000000000000000",
+      "after_hex": "826c8285828b8285828d8285828b8285",
+      "source": "entity ID 0x0216; table slot 0x386BCC; real target 0x136BC8"
+    },
+    {
+      "offset": 1734282,
+      "size": 16,
+      "japanese": "ルルドガン",
+      "english": "Lourdes",
+      "before_hex": "838b838b8368834b8393000000000000",
+      "after_hex": "826b828f829582928284828582930000",
+      "source": "entity ID 0x0204; table slot 0x386BA8; real target 0x136AFA"
+    },
+    {
+      "offset": 1743154,
+      "size": 16,
+      "japanese": "ピッキオン",
+      "english": "Picchio",
+      "before_hex": "83738362834c83498393000000000000",
+      "after_hex": "826f82898283828382888289828f0000",
+      "source": "entity ID 0x0227; table slot 0x386BEE; real target 0x136C84"
+    },
+    {
+      "offset": 1749102,
+      "size": 16,
+      "japanese": "ラーズール",
+      "english": "Lazur",
+      "before_hex": "8389815b8359815b838b000000000000",
+      "after_hex": "826b8281829a82958292000000000000",
+      "source": "entity ID 0x0224; table slot 0x386BE8; real target 0x136C64"
+    },
+    {
+      "offset": 1750046,
+      "size": 16,
+      "japanese": "ケミスガン",
+      "english": "Chemis",
+      "before_hex": "8350837e8358834b8393000000000000",
+      "after_hex": "826282888285828d8289829300000000",
+      "source": "entity ID 0x01ea; table slot 0x386B74; real target 0x38FE2A"
+    },
+    {
+      "offset": 1771502,
+      "size": 16,
+      "japanese": "バルビーン",
+      "english": "Barby",
+      "before_hex": "836f838b8372815b8393000000000000",
+      "after_hex": "82618281829282828299000000000000",
+      "source": "entity ID 0x0244; table slot 0x386C28; real target 0x136DAC"
+    },
+    {
+      "offset": 1775662,
+      "size": 16,
+      "japanese": "ボイジャー",
+      "english": "Voyager",
+      "before_hex": "837b834383578383815b000000000000",
+      "after_hex": "8275828f829982818287828582920000",
+      "source": "entity ID 0x0222; table slot 0x386BE4; real target 0x136C4E"
+    },
+    {
+      "offset": 1776654,
+      "size": 16,
+      "japanese": "エンゴルン",
+      "english": "Engol",
+      "before_hex": "834783938353838b8393000000000000",
+      "after_hex": "8264828e8287828f828c000000000000",
+      "source": "entity ID 0x0201; table slot 0x386BA2; real target 0x136ADA"
+    },
+    {
+      "offset": 1787348,
+      "size": 16,
+      "japanese": "ジムス",
+      "english": "Jimusu",
+      "before_hex": "83578380835800000000000000000000",
+      "after_hex": "82698289828d82958293829500000000",
+      "source": "NEW_EDITORIAL_ROMANIZATION"
+    },
+    {
+      "offset": 1788758,
+      "size": 16,
+      "japanese": "ラドルース",
+      "english": "Ladru",
+      "before_hex": "83898368838b815b8358000000000000",
+      "after_hex": "826b8281828482928295000000000000",
+      "source": "I02_TERM_043"
+    },
+    {
+      "offset": 1789412,
+      "size": 16,
+      "japanese": "ライム・ケロ",
+      "english": "LimeKero",
+      "before_hex": "83898343838081458350838d00000000",
+      "after_hex": "826b8289828d8285826a82858292828f",
+      "source": "entity ID 0x01e5; table slot 0x386B6A; real target 0x38FDE2; I02_TERM_044 approved 8-glyph display"
+    },
+    {
+      "offset": 1790714,
+      "size": 16,
+      "japanese": "デデークン",
+      "english": "Dede",
+      "before_hex": "83668366815b834e8393000000000000",
+      "after_hex": "82638285828482850000000000000000",
+      "source": "entity ID 0x0228; table slot 0x386BF0; real target 0x136C90"
+    },
+    {
+      "offset": 1790814,
+      "size": 16,
+      "japanese": "ランバーン",
+      "english": "Lumber",
+      "before_hex": "83898393836f815b8393000000000000",
+      "after_hex": "826b8295828d82828285829200000000",
+      "source": "entity ID 0x0203; table slot 0x386BA6; real target 0x136AEE"
+    },
+    {
+      "offset": 1791534,
+      "size": 16,
+      "japanese": "スパークン",
+      "english": "Spark",
+      "before_hex": "83588370815b834e8393000000000000",
+      "after_hex": "8272829082818292828b000000000000",
+      "source": "entity ID 0x01f3; table slot 0x386B86; real target 0x38FEB2"
+    },
+    {
+      "offset": 1791648,
+      "size": 16,
+      "japanese": "ペペークン",
+      "english": "Pepe",
+      "before_hex": "83798379815b834e8393000000000000",
+      "after_hex": "826f8285829082850000000000000000",
+      "source": "entity ID 0x023f; table slot 0x386C1E; real target 0x136D7C"
+    },
+    {
+      "offset": 1801482,
+      "size": 16,
+      "japanese": "ティラワカミ",
+      "english": "Tirawaka",
+      "before_hex": "836583428389838f834a837e00000000",
+      "after_hex": "827382898292828182978281828b8281",
+      "source": "I02_TERM_001; actor ID0014; inline JP at1B7D32"
+    },
+    {
+      "offset": 1801900,
+      "size": 16,
+      "japanese": "ホーン",
+      "english": "Hrn",
+      "before_hex": "837a815b839300000000000000000000",
+      "after_hex": "82678292828e00000000000000000000",
+      "source": "I02_TERM_186"
+    },
+    {
+      "offset": 1807754,
+      "size": 16,
+      "japanese": "ヴーガーン",
+      "english": "Vuga",
+      "before_hex": "8394815b834b815b8393000000000000",
+      "after_hex": "82758295828782810000000000000000",
+      "source": "entity ID 0x01e4; table slot 0x386B68; real target 0x38FDD8"
+    },
+    {
+      "offset": 1808024,
+      "size": 16,
+      "japanese": "ホーミィン",
+      "english": "Homie",
+      "before_hex": "837a815b837e83428393000000000000",
+      "after_hex": "8267828f828d82898285000000000000",
+      "source": "entity ID 0x0214; table slot 0x386BC8; real target 0x136BB4"
+    },
+    {
+      "offset": 1818306,
+      "size": 16,
+      "japanese": "メタリコン",
+      "english": "Metalico",
+      "before_hex": "8381835e838a83528393000000000000",
+      "after_hex": "826c828582948281828c82898283828f",
+      "source": "entity ID 0x020f; table slot 0x386BBE; real target 0x38FF5A"
+    },
+    {
+      "offset": 1818926,
+      "size": 16,
+      "japanese": "キューティー",
+      "english": "Cutie",
+      "before_hex": "834c8385815b83658342815b00000000",
+      "after_hex": "82628295829482898285000000000000",
+      "source": "entity ID 0x022f; table slot 0x386BFE; real target 0x136CD6"
+    },
+    {
+      "offset": 1819376,
+      "size": 16,
+      "japanese": "メアキーン",
+      "english": "Mare",
+      "before_hex": "83818341834c815b8393000000000000",
+      "after_hex": "826c8281829282850000000000000000",
+      "source": "entity ID 0x021a; table slot 0x386BD4; real target 0x136BFA"
+    },
+    {
+      "offset": 1820670,
+      "size": 16,
+      "japanese": "シールーン",
+      "english": "Seal",
+      "before_hex": "8356815b838b815b8393000000000000",
+      "after_hex": "827282858281828c0000000000000000",
+      "source": "entity ID 0x0210; table slot 0x386BC0; real target 0x136B8C"
+    },
+    {
+      "offset": 1821288,
+      "size": 16,
+      "japanese": "ウィーヴン",
+      "english": "Weave",
+      "before_hex": "83458342815b83948393000000000000",
+      "after_hex": "82768285828182968285000000000000",
+      "source": "entity ID 0x024c; table slot 0x386C38; real target 0x136E06"
+    },
+    {
+      "offset": 1828186,
+      "size": 16,
+      "japanese": "ウィッチャー",
+      "english": "Witcher",
+      "before_hex": "83458342836283608383815b00000000",
+      "after_hex": "82768289829482838288828582920000",
+      "source": "entity ID 0x0272; table slot 0x386C84; real target 0x136F9C"
+    },
+    {
+      "offset": 1828486,
+      "size": 16,
+      "japanese": "ダムダムン",
+      "english": "Dumdum",
+      "before_hex": "835f8380835f83808393000000000000",
+      "after_hex": "82638295828d82848295828d00000000",
+      "source": "entity ID 0x025b; table slot 0x386C56; real target 0x136E9E"
+    },
+    {
+      "offset": 1828834,
+      "size": 16,
+      "japanese": "レイヴンン",
+      "english": "Raven",
+      "before_hex": "838c8343839483938393000000000000",
+      "after_hex": "8271828182968285828e000000000000",
+      "source": "entity ID 0x01f5; table slot 0x386B8A; real target 0x38FEC8"
+    },
+    {
+      "offset": 1831392,
+      "size": 16,
+      "japanese": "ブッカブー",
+      "english": "Bukkaboo",
+      "before_hex": "83758362834a8375815b000000000000",
+      "after_hex": "82618295828b828b82818282828f828f",
+      "source": "entity ID 0x0209; table slot 0x386BB2; real target 0x136B30"
+    },
+    {
+      "offset": 1831516,
+      "size": 16,
+      "japanese": "モズィーン",
+      "english": "Mozi",
+      "before_hex": "838283598342815b8393000000000000",
+      "after_hex": "826c828f829a82890000000000000000",
+      "source": "entity ID 0x024a; table slot 0x386C34; real target 0x136DF2"
+    },
+    {
+      "offset": 1832196,
+      "size": 16,
+      "japanese": "えいへい",
+      "english": "Guard",
+      "before_hex": "82a682a282d682a20000000000000000",
+      "after_hex": "82668295828182928284000000000000",
+      "source": "ROOT_APPROVED_Guard_0x365C9A"
+    },
+    {
+      "offset": 1834520,
+      "size": 16,
+      "japanese": "クリム・アー",
+      "english": "Crim A",
+      "before_hex": "834e838a838081458341815b00000000",
+      "after_hex": "826282928289828d8140826000000000",
+      "source": "entity ID 0x0263; table slot 0x386C66; real target 0x136F06"
+    },
+    {
+      "offset": 1834632,
+      "size": 16,
+      "japanese": "リンネルド",
+      "english": "Rinne",
+      "before_hex": "838a8393836c838b8368000000000000",
+      "after_hex": "82718289828e828e8285000000000000",
+      "source": "entity ID 0x01e9; table slot 0x386B72; real target 0x38FE1E"
+    },
+    {
+      "offset": 1834842,
+      "size": 16,
+      "japanese": "モーラルド",
+      "english": "Morald",
+      "before_hex": "8382815b8389838b8368000000000000",
+      "after_hex": "826c828f82928281828c828400000000",
+      "source": "entity ID 0x024b; table slot 0x386C36; real target 0x136DFC"
+    },
+    {
+      "offset": 1841900,
+      "size": 16,
+      "japanese": "ライノット",
+      "english": "Reinot",
+      "before_hex": "83898343836d83628367000000000000",
+      "after_hex": "827182858289828e828f829400000000",
+      "source": "entity ID 0x020e; table slot 0x386BBC; real target 0x136B74"
+    },
+    {
+      "offset": 1843422,
+      "size": 16,
+      "japanese": "イリアーン",
+      "english": "Iria",
+      "before_hex": "8343838a8341815b8393000000000000",
+      "after_hex": "82688292828982810000000000000000",
+      "source": "entity ID 0x0226; table slot 0x386BEC; real target 0x136C7C"
+    },
+    {
+      "offset": 1843626,
+      "size": 16,
+      "japanese": "キッチキコッチキ",
+      "english": "Kitchiki",
+      "before_hex": "834c83628360834c835283628360834c",
+      "after_hex": "826a82898294828382888289828b8289",
+      "source": "entity ID 0x01ed; table slot 0x386B7A; real target 0x38FE50; I02_TERM_067 approved 8-glyph display"
+    },
+    {
+      "offset": 1853236,
+      "size": 16,
+      "japanese": "ハーベルン",
+      "english": "Habel",
+      "before_hex": "836e815b8378838b8393000000000000",
+      "after_hex": "8267828182828285828c000000000000",
+      "source": "entity ID 0x027b; table slot 0x386C96; real target 0x136FF8"
+    },
+    {
+      "offset": 1853622,
+      "size": 16,
+      "japanese": "アージェス",
+      "english": "Arges",
+      "before_hex": "8341815b835783468358000000000000",
+      "after_hex": "82608292828782858293000000000000",
+      "source": "entity ID 0x01eb; table slot 0x386B76; real target 0x38FE38"
+    },
+    {
+      "offset": 1855272,
+      "size": 16,
+      "japanese": "ピコットン",
+      "english": "Picot",
+      "before_hex": "83738352836283678393000000000000",
+      "after_hex": "826f82898283828f8294000000000000",
+      "source": "entity ID 0x0241; table slot 0x386C22; real target 0x136D90"
+    },
+    {
+      "offset": 1856206,
+      "size": 16,
+      "japanese": "メローーン",
+      "english": "Mellow",
+      "before_hex": "8381838d815b815b8393000000000000",
+      "after_hex": "826c8285828c828c828f829700000000",
+      "source": "entity ID 0x022c; table slot 0x386BF8; real target 0x136CBC"
+    },
+    {
+      "offset": 1857448,
+      "size": 16,
+      "japanese": "ヴァウルド",
+      "english": "Vauld",
+      "before_hex": "839483408345838b8368000000000000",
+      "after_hex": "827582818295828c8284000000000000",
+      "source": "entity ID 0x01f9; table slot 0x386B92; real target 0x136A84"
+    },
+    {
+      "offset": 1858074,
+      "size": 16,
+      "japanese": "エミュール",
+      "english": "Emule",
+      "before_hex": "8347837e8385815b838b000000000000",
+      "after_hex": "8264828d8295828c8285000000000000",
+      "source": "entity ID 0x01ec; table slot 0x386B78; real target 0x38FE44"
+    },
+    {
+      "offset": 1858180,
+      "size": 16,
+      "japanese": "ポーチュン",
+      "english": "Pochun",
+      "before_hex": "837c815b836083858393000000000000",
+      "after_hex": "826f828f828382888295828e00000000",
+      "source": "entity ID 0x0212; table slot 0x386BC4; real target 0x136B9E"
+    },
+    {
+      "offset": 1858358,
+      "size": 16,
+      "japanese": "アルルルン",
+      "english": "Arururu",
+      "before_hex": "8341838b838b838b8393000000000000",
+      "after_hex": "82608292829582928295829282950000",
+      "source": "entity ID 0x01f7; table slot 0x386B8E; real target 0x38FEE4"
+    },
+    {
+      "offset": 1861992,
+      "size": 16,
+      "japanese": "プッカーン",
+      "english": "Pukka",
+      "before_hex": "83768362834a815b8393000000000000",
+      "after_hex": "826f8295828b828b8281000000000000",
+      "source": "entity ID 0x0208; table slot 0x386BB0; real target 0x136B24"
+    },
+    {
+      "offset": 1863358,
+      "size": 16,
+      "japanese": "リリアンン",
+      "english": "Lillian",
+      "before_hex": "838a838a834183938393000000000000",
+      "after_hex": "826b8289828c828c82898281828e0000",
+      "source": "entity ID 0x01e8; table slot 0x386B70; real target 0x38FE0E"
+    },
+    {
+      "offset": 1864486,
+      "size": 16,
+      "japanese": "オデオンン",
+      "english": "Odeon",
+      "before_hex": "83498366834983938393000000000000",
+      "after_hex": "826e82848285828f828e000000000000",
+      "source": "entity ID 0x01f0; table slot 0x386B80; real target 0x38FE88"
+    },
+    {
+      "offset": 1866672,
+      "size": 16,
+      "japanese": "キルミスター",
+      "english": "KillMstr",
+      "before_hex": "834c838b837e8358835e815b00000000",
+      "after_hex": "826a8289828c828c826c829382948292",
+      "source": "entity ID 0x0254; table slot 0x386C48; real target 0x136E4E; I02_TERM_079 approved 8-glyph display"
+    },
+    {
+      "offset": 1866780,
+      "size": 16,
+      "japanese": "ピピンンン",
+      "english": "Pipin",
+      "before_hex": "83738373839383938393000000000000",
+      "after_hex": "826f828982908289828e000000000000",
+      "source": "entity ID 0x026c; table slot 0x386C78; real target 0x136F5E"
+    },
+    {
+      "offset": 1880244,
+      "size": 16,
+      "japanese": "シーハンター",
+      "english": "Sheehan",
+      "before_hex": "8356815b836e8393835e815b00000000",
+      "after_hex": "827282888285828582888281828e0000",
+      "source": "entity ID 0x01f6; table slot 0x386B8C; real target 0x38FED4"
+    },
+    {
+      "offset": 1882700,
+      "size": 16,
+      "japanese": "サンディター",
+      "english": "Sandy",
+      "before_hex": "8354839383668342835e815b00000000",
+      "after_hex": "82728281828e82848299000000000000",
+      "source": "entity ID 0x022e; table slot 0x386BFC; real target 0x136CCE"
+    },
+    {
+      "offset": 1883700,
+      "size": 16,
+      "japanese": "ヴァルナック",
+      "english": "Valnac",
+      "before_hex": "83948340838b83698362834e00000000",
+      "after_hex": "82758281828c828e8281828300000000",
+      "source": "entity ID 0x01fe; table slot 0x386B9C; real target 0x136ABA"
+    },
+    {
+      "offset": 1884062,
+      "size": 16,
+      "japanese": "アンジー",
+      "english": "Angi",
+      "before_hex": "834183938357815b0000000000000000",
+      "after_hex": "8260828e828782890000000000000000",
+      "source": "I02_TERM_085"
+    },
+    {
+      "offset": 1885012,
+      "size": 16,
+      "japanese": "アイシアック",
+      "english": "Aisia",
+      "before_hex": "83418343835683418362834e00000000",
+      "after_hex": "82608289829382898281000000000000",
+      "source": "entity ID 0x026e; table slot 0x386C7C; real target 0x136F70"
+    },
+    {
+      "offset": 1892616,
+      "size": 16,
+      "japanese": "グリップター",
+      "english": "Grip",
+      "before_hex": "834f838a83628376835e815b00000000",
+      "after_hex": "82668292828982900000000000000000",
+      "source": "entity ID 0x01ee; table slot 0x386B7C; real target 0x38FE72"
+    },
+    {
+      "offset": 1892820,
+      "size": 16,
+      "japanese": "フィルボルグス",
+      "english": "Firbolgs",
+      "before_hex": "83748342838b837b838b834f83580000",
+      "after_hex": "8265828982928282828f828c82878293",
+      "source": "entity ID 0x020c; table slot 0x386BB8; real target 0x136B56"
+    },
+    {
+      "offset": 1894018,
+      "size": 16,
+      "japanese": "ザックスター",
+      "english": "Zack",
+      "before_hex": "83558362834e8358835e815b00000000",
+      "after_hex": "827982818283828b0000000000000000",
+      "source": "entity ID 0x01f4; table slot 0x386B88; real target 0x38FEBE"
+    },
+    {
+      "offset": 1894496,
+      "size": 16,
+      "japanese": "エルノリアー",
+      "english": "Elnoria",
+      "before_hex": "8347838b836d838a8341815b00000000",
+      "after_hex": "8264828c828e828f8292828982810000",
+      "source": "entity ID 0x0276; table slot 0x386C8C; real target 0x136FC6"
+    },
+    {
+      "offset": 1897952,
+      "size": 16,
+      "japanese": "アップルター",
+      "english": "Apple",
+      "before_hex": "834183628376838b835e815b00000000",
+      "after_hex": "826082908290828c8285000000000000",
+      "source": "entity ID 0x026f; table slot 0x386C7E; real target 0x136F7A"
+    },
+    {
+      "offset": 1899796,
+      "size": 16,
+      "japanese": "ランチスター",
+      "english": "Ranch",
+      "before_hex": "8389839383608358835e815b00000000",
+      "after_hex": "82718281828e82838288000000000000",
+      "source": "entity ID 0x0269; table slot 0x386C72; real target 0x136F44"
+    },
+    {
+      "offset": 1900252,
+      "size": 16,
+      "japanese": "シャイニーー",
+      "english": "Shiny",
+      "before_hex": "835683838343836a815b815b00000000",
+      "after_hex": "827282888289828e8299000000000000",
+      "source": "entity ID 0x0238; table slot 0x386C10; real target 0x136D2A"
+    },
+    {
+      "offset": 1900366,
+      "size": 16,
+      "japanese": "グリゴリター",
+      "english": "Grigori",
+      "before_hex": "834f838a8353838a835e815b00000000",
+      "after_hex": "8266829282898287828f829282890000",
+      "source": "entity ID 0x01fa; table slot 0x386B94; real target 0x136A8E"
+    },
+    {
+      "offset": 1908660,
+      "size": 16,
+      "japanese": "ホライズン",
+      "english": "Horizon",
+      "before_hex": "837a8389834383598393000000000000",
+      "after_hex": "8267828f82928289829a828f828e0000",
+      "source": "entity ID 0x01f1; table slot 0x386B82; real target 0x38FE94"
+    },
+    {
+      "offset": 1908898,
+      "size": 16,
+      "japanese": "ピーポーン",
+      "english": "Peepo",
+      "before_hex": "8373815b837c815b8393000000000000",
+      "after_hex": "826f828582858290828f000000000000",
+      "source": "entity ID 0x0242; table slot 0x386C24; real target 0x136D9A"
+    },
+    {
+      "offset": 1909136,
+      "size": 16,
+      "japanese": "ファインン",
+      "english": "Fine",
+      "before_hex": "83748340834383938393000000000000",
+      "after_hex": "82658289828e82850000000000000000",
+      "source": "entity ID 0x0220; table slot 0x386BE0; real target 0x136C3E"
+    },
+    {
+      "offset": 1909244,
+      "size": 16,
+      "japanese": "ルゼルーン",
+      "english": "Ruzel",
+      "before_hex": "838b835b838b815b8393000000000000",
+      "after_hex": "82718295829a8285828c000000000000",
+      "source": "entity ID 0x0219; table slot 0x386BD2; real target 0x136BF0"
+    },
+    {
+      "offset": 1909738,
+      "size": 16,
+      "japanese": "ケルロンン",
+      "english": "Kerlon",
+      "before_hex": "8350838b838d83938393000000000000",
+      "after_hex": "826a82858292828c828f828e00000000",
+      "source": "entity ID 0x0202; table slot 0x386BA4; real target 0x136AE4"
+    },
+    {
+      "offset": 1909850,
+      "size": 16,
+      "japanese": "チルドーン",
+      "english": "Chirudo",
+      "before_hex": "8360838b8368815b8393000000000000",
+      "after_hex": "826282888289829282958284828f0000",
+      "source": "entity ID 0x0261; table slot 0x386C62; real target 0x136EEC"
+    },
+    {
+      "offset": 1915502,
+      "size": 16,
+      "japanese": "セルヴァン",
+      "english": "Selva",
+      "before_hex": "835a838b839483408393000000000000",
+      "after_hex": "82728285828c82968281000000000000",
+      "source": "entity ID 0x0258; table slot 0x386C50; real target 0x136E80"
+    },
+    {
+      "offset": 1917614,
+      "size": 16,
+      "japanese": "ドランクン",
+      "english": "Drunk",
+      "before_hex": "836883898393834e8393000000000000",
+      "after_hex": "826382928295828e828b000000000000",
+      "source": "entity ID 0x025c; table slot 0x386C58; real target 0x136EAC"
+    },
+    {
+      "offset": 1917718,
+      "size": 16,
+      "japanese": "ソール・ドゥー",
+      "english": "Sol Deux",
+      "before_hex": "835c815b838b814583688344815b0000",
+      "after_hex": "8272828f828c81408263828582958298",
+      "source": "entity ID 0x022b; table slot 0x386BF6; real target 0x136CAA"
+    },
+    {
+      "offset": 1926792,
+      "size": 16,
+      "japanese": "ローンーン",
+      "english": "Roan",
+      "before_hex": "838d815b8393815b8393000000000000",
+      "after_hex": "8271828f8281828e0000000000000000",
+      "source": "entity ID 0x022a; table slot 0x386BF4; real target 0x136CA2"
+    },
+    {
+      "offset": 1927110,
+      "size": 16,
+      "japanese": "ヤモックン",
+      "english": "Yamock",
+      "before_hex": "838483828362834e8393000000000000",
+      "after_hex": "82788281828d828f8283828b00000000",
+      "source": "entity ID 0x0217; table slot 0x386BCE; real target 0x136BD8"
+    },
+    {
+      "offset": 1927854,
+      "size": 16,
+      "japanese": "ジュジュン",
+      "english": "Juju",
+      "before_hex": "83578385835783858393000000000000",
+      "after_hex": "82698295828a82950000000000000000",
+      "source": "entity ID 0x0257; table slot 0x386C4E; real target 0x136E76"
+    },
+    {
+      "offset": 1933122,
+      "size": 16,
+      "japanese": "ノッカーン",
+      "english": "Knocker",
+      "before_hex": "836d8362834a815b8393000000000000",
+      "after_hex": "826a828e828f8283828b828582920000",
+      "source": "entity ID 0x0200; table slot 0x386BA0; real target 0x136ACE"
+    },
+    {
+      "offset": 1934256,
+      "size": 16,
+      "japanese": "チョコチョコ",
+      "english": "ChocoCho",
+      "before_hex": "83608387835283608387835200000000",
+      "after_hex": "82628288828f8283828f82628288828f",
+      "source": "entity ID 0x025d; table slot 0x386C5A; real target 0x136EB6; I02_TERM_110 approved 8-glyph display"
+    },
+    {
+      "offset": 1934716,
+      "size": 16,
+      "japanese": "リオスーン",
+      "english": "Rios",
+      "before_hex": "838a83498358815b8393000000000000",
+      "after_hex": "82718289828f82930000000000000000",
+      "source": "entity ID 0x021b; table slot 0x386BD6; real target 0x136C00"
+    },
+    {
+      "offset": 1934822,
+      "size": 16,
+      "japanese": "レモンーン",
+      "english": "Lemon",
+      "before_hex": "838c83828393815b8393000000000000",
+      "after_hex": "826b8285828d828f828e000000000000",
+      "source": "entity ID 0x0221; table slot 0x386BE2; real target 0x136C46"
+    },
+    {
+      "offset": 1937970,
+      "size": 16,
+      "japanese": "トペークン",
+      "english": "To",
+      "before_hex": "83678379815b834e8393000000000000",
+      "after_hex": "8273828f000000000000000000000000",
+      "source": "entity ID 0x0250; table slot 0x386C40; real target 0x38FF6C"
+    },
+    {
+      "offset": 1938376,
+      "size": 16,
+      "japanese": "ベルフェゴー",
+      "english": "Belphego",
+      "before_hex": "8378838b837483468353815b00000000",
+      "after_hex": "82618285828c8290828882858287828f",
+      "source": "I02_TERM_114"
+    },
+    {
+      "offset": 1939634,
+      "size": 16,
+      "japanese": "ミューズン",
+      "english": "Muse",
+      "before_hex": "837e8385815b83598393000000000000",
+      "after_hex": "826c8295829382850000000000000000",
+      "source": "entity ID 0x021f; table slot 0x386BDE; real target 0x136C36"
+    },
+    {
+      "offset": 1939984,
+      "size": 16,
+      "japanese": "ゲンマクン",
+      "english": "Genma",
+      "before_hex": "83518393837d834e8393000000000000",
+      "after_hex": "82668285828e828d8281000000000000",
+      "source": "entity ID 0x0234; table slot 0x386C08; real target 0x136D02"
+    },
+    {
+      "offset": 1947382,
+      "size": 16,
+      "japanese": "ソール・アン",
+      "english": "Sol Ann",
+      "before_hex": "835c815b838b81458341839300000000",
+      "after_hex": "8272828f828c81408260828e828e0000",
+      "source": "entity ID 0x027c; table slot 0x386C98; real target 0x137002"
+    },
+    {
+      "offset": 1947548,
+      "size": 16,
+      "japanese": "マーヤクン",
+      "english": "Maya",
+      "before_hex": "837d815b8384834e8393000000000000",
+      "after_hex": "826c8281829982810000000000000000",
+      "source": "entity ID 0x026d; table slot 0x386C7A; real target 0x136F68"
+    },
+    {
+      "offset": 1951264,
+      "size": 16,
+      "japanese": "ファビット",
+      "english": "Fabit",
+      "before_hex": "83748340837283628367000000000000",
+      "after_hex": "82658281828282898294000000000000",
+      "source": "entity ID 0x0267; table slot 0x386C6E; real target 0x136F30"
+    },
+    {
+      "offset": 1995544,
+      "size": 16,
+      "japanese": "ポコ",
+      "english": "Poco",
+      "before_hex": "837c8352000000000000000000000000",
+      "after_hex": "826f828f8283828f0000000000000000",
+      "source": "ROOT_VERIFIED_DIALOGUE_0x1E714E_0x1E74BC_MISSION_0x36518C"
+    },
+    {
+      "offset": 1998902,
+      "size": 16,
+      "japanese": "ピボットン",
+      "english": "Pivot",
+      "before_hex": "8373837b836283678393000000000000",
+      "after_hex": "826f82898296828f8294000000000000",
+      "source": "entity ID 0x01fb; table slot 0x386B96; real target 0x136A9A"
+    },
+    {
+      "offset": 1999652,
+      "size": 16,
+      "japanese": "ブラウンン",
+      "english": "Brown",
+      "before_hex": "83758389834583938393000000000000",
+      "after_hex": "82618292828f8297828e000000000000",
+      "source": "entity ID 0x020b; table slot 0x386BB6; real target 0x136B4C"
+    },
+    {
+      "offset": 2002220,
+      "size": 16,
+      "japanese": "ユッキーン",
+      "english": "Yukki",
+      "before_hex": "83868362834c815b8393000000000000",
+      "after_hex": "82788295828b828b8289000000000000",
+      "source": "entity ID 0x0218; table slot 0x386BD0; real target 0x136BE4"
+    },
+    {
+      "offset": 2005112,
+      "size": 16,
+      "japanese": "シーザンン",
+      "english": "Seazan",
+      "before_hex": "8356815b835583938393000000000000",
+      "after_hex": "827282858281829a8281828e00000000",
+      "source": "entity ID 0x0236; table slot 0x386C0C; real target 0x136D16"
+    },
+    {
+      "offset": 2005422,
+      "size": 16,
+      "japanese": "ガンジェン",
+      "english": "Ganje",
+      "before_hex": "834b8393835783468393000000000000",
+      "after_hex": "82668281828e828a8285000000000000",
+      "source": "entity ID 0x0252; table slot 0x386C44; real target 0x136E36"
+    },
+    {
+      "offset": 2005670,
+      "size": 16,
+      "japanese": "いんぎまる",
+      "english": "Ingimaru",
+      "before_hex": "82a282f182ac82dc82e9000000000000",
+      "after_hex": "8268828e82878289828d828182928295",
+      "source": "entity ID 0x0247; table slot 0x386C2E; real target 0x136DD0"
+    },
+    {
+      "offset": 2007482,
+      "size": 16,
+      "japanese": "コモコモン",
+      "english": "Komokomo",
+      "before_hex": "83528382835283828393000000000000",
+      "after_hex": "826a828f828d828f828b828f828d828f",
+      "source": "entity ID 0x0255; table slot 0x386C4A; real target 0x136E5C"
+    },
+    {
+      "offset": 2007590,
+      "size": 16,
+      "japanese": "チコリーン",
+      "english": "Chicory",
+      "before_hex": "83608352838a815b8393000000000000",
+      "after_hex": "8262828882898283828f829282990000",
+      "source": "entity ID 0x0278; table slot 0x386C90; real target 0x136FDC"
+    },
+    {
+      "offset": 2008666,
+      "size": 16,
+      "japanese": "スウィート",
+      "english": "Sweet",
+      "before_hex": "835883458342815b8367000000000000",
+      "after_hex": "82728297828582858294000000000000",
+      "source": "entity ID 0x0277; table slot 0x386C8E; real target 0x136FD2"
+    },
+    {
+      "offset": 2008774,
+      "size": 16,
+      "japanese": "キララーン",
+      "english": "Kirara",
+      "before_hex": "834c83898389815b8393000000000000",
+      "after_hex": "826a8289829282818292828100000000",
+      "source": "entity ID 0x027f; table slot 0x386C9E; real target 0x13702C"
+    },
+    {
+      "offset": 2008876,
+      "size": 16,
+      "japanese": "ユギカーン",
+      "english": "Yugi",
+      "before_hex": "8386834d834a815b8393000000000000",
+      "after_hex": "82788295828782890000000000000000",
+      "source": "entity ID 0x0268; table slot 0x386C70; real target 0x136F3A"
+    },
+    {
+      "offset": 2013776,
+      "size": 16,
+      "japanese": "ボーハンン",
+      "english": "Bohan",
+      "before_hex": "837b815b836e83938393000000000000",
+      "after_hex": "8261828f82888281828e000000000000",
+      "source": "entity ID 0x0213; table slot 0x386BC6; real target 0x136BAA"
+    },
+    {
+      "offset": 2018650,
+      "size": 16,
+      "japanese": "クインーン",
+      "english": "Quinn",
+      "before_hex": "834e83438393815b8393000000000000",
+      "after_hex": "827082958289828e828e000000000000",
+      "source": "entity ID 0x0231; table slot 0x386C02; real target 0x136CE8"
+    },
+    {
+      "offset": 2027868,
+      "size": 16,
+      "japanese": "ガジゴジン",
+      "english": "Gajigoji",
+      "before_hex": "834b8357835383578393000000000000",
+      "after_hex": "82668281828a82898287828f828a8289",
+      "source": "entity ID 0x0251; table slot 0x386C42; real target 0x136E26"
+    },
+    {
+      "offset": 2027972,
+      "size": 16,
+      "japanese": "プリズモン",
+      "english": "Prismo",
+      "before_hex": "8376838a835983828393000000000000",
+      "after_hex": "826f829282898293828d828f00000000",
+      "source": "entity ID 0x0240; table slot 0x386C20; real target 0x136D84"
+    },
+    {
+      "offset": 2028374,
+      "size": 16,
+      "japanese": "ビブラーン",
+      "english": "Bibler",
+      "before_hex": "837283758389815b8393000000000000",
+      "after_hex": "826182898282828c8285829200000000",
+      "source": "entity ID 0x023e; table slot 0x386C1C; real target 0x136D70"
+    },
+    {
+      "offset": 2030502,
+      "size": 16,
+      "japanese": "チャムーン",
+      "english": "Cham",
+      "before_hex": "836083838380815b8393000000000000",
+      "after_hex": "826282888281828d0000000000000000",
+      "source": "entity ID 0x025e; table slot 0x386C5C; real target 0x136EC8"
+    },
+    {
+      "offset": 2030834,
+      "size": 16,
+      "japanese": "せりカーン",
+      "english": "Seri",
+      "before_hex": "82b982e8834a815b8393000000000000",
+      "after_hex": "82728285829282890000000000000000",
+      "source": "entity ID 0x0237; table slot 0x386C0E; real target 0x136D22"
+    },
+    {
+      "offset": 2030946,
+      "size": 16,
+      "japanese": "パルパッコ",
+      "english": "Palpacco",
+      "before_hex": "8370838b837083628352000000000000",
+      "after_hex": "826f8281828c8290828182838283828f",
+      "source": "entity ID 0x0245; table slot 0x386C2A; real target 0x136DB6"
+    },
+    {
+      "offset": 2032932,
+      "size": 16,
+      "japanese": "レクリーン",
+      "english": "Rek",
+      "before_hex": "838c834e838a815b8393000000000000",
+      "after_hex": "82718285828b00000000000000000000",
+      "source": "entity ID 0x026a; table slot 0x386C74; real target 0x136F4C"
+    },
+    {
+      "offset": 2033724,
+      "size": 16,
+      "japanese": "リーハン",
+      "english": "Riha",
+      "before_hex": "838a815b836e83930000000000000000",
+      "after_hex": "82718289828882810000000000000000",
+      "source": "I02_TERM_143"
+    },
+    {
+      "offset": 2036368,
+      "size": 16,
+      "japanese": "サフラーン",
+      "english": "Safra",
+      "before_hex": "835483748389815b8393000000000000",
+      "after_hex": "82728281828682928281000000000000",
+      "source": "entity ID 0x026b; table slot 0x386C76; real target 0x136F54"
+    },
+    {
+      "offset": 2036904,
+      "size": 16,
+      "japanese": "クシュラン",
+      "english": "Kushra",
+      "before_hex": "834e8356838583898393000000000000",
+      "after_hex": "826a8295829382888292828100000000",
+      "source": "entity ID 0x0265; table slot 0x386C6A; real target 0x136F1A"
+    },
+    {
+      "offset": 2042446,
+      "size": 16,
+      "japanese": "チョチョポロン",
+      "english": "ChochoPo",
+      "before_hex": "8360838783608387837c838d83930000",
+      "after_hex": "82628288828f82838288828f826f828f",
+      "source": "entity ID 0x025f; table slot 0x386C5E; real target 0x136ED0; I02_TERM_147 approved 8-glyph display"
+    },
+    {
+      "offset": 2043090,
+      "size": 16,
+      "japanese": "ぎんがーン",
+      "english": "Ginga",
+      "before_hex": "82ac82f182aa815b8393000000000000",
+      "after_hex": "82668289828e82878281000000000000",
+      "source": "entity ID 0x0233; table slot 0x386C06; real target 0x136CFA"
+    },
+    {
+      "offset": 2043796,
+      "size": 16,
+      "japanese": "ジールーン",
+      "english": "Jiru",
+      "before_hex": "8357815b838b815b8393000000000000",
+      "after_hex": "82698289829282950000000000000000",
+      "source": "entity ID 0x0249; table slot 0x386C32; real target 0x136DEA"
+    },
+    {
+      "offset": 2046128,
+      "size": 16,
+      "japanese": "アーピーン",
+      "english": "Arpi",
+      "before_hex": "8341815b8373815b8393000000000000",
+      "after_hex": "82608292829082890000000000000000",
+      "source": "entity ID 0x0270; table slot 0x386C80; real target 0x136F84"
+    },
+    {
+      "offset": 2047148,
+      "size": 16,
+      "japanese": "ライム・ライ",
+      "english": "Lime Rai",
+      "before_hex": "83898343838081458389834300000000",
+      "after_hex": "826b8289828d82858140827182818289",
+      "source": "entity ID 0x027e; table slot 0x386C9C; real target 0x13701E"
+    },
+    {
+      "offset": 2047766,
+      "size": 16,
+      "japanese": "マロスーン",
+      "english": "Maros",
+      "before_hex": "837d838d8358815b8393000000000000",
+      "after_hex": "826c82818292828f8293000000000000",
+      "source": "entity ID 0x0274; table slot 0x386C88; real target 0x136FB2"
+    },
+    {
+      "offset": 2057414,
+      "size": 16,
+      "japanese": "ヤパニンン",
+      "english": "Yapanin",
+      "before_hex": "83848370836a83938393000000000000",
+      "after_hex": "8278828182908281828e8289828e0000",
+      "source": "entity ID 0x0279; table slot 0x386C92; real target 0x136FE8"
+    },
+    {
+      "offset": 2057666,
+      "size": 16,
+      "japanese": "みづきクン",
+      "english": "Mizuki",
+      "before_hex": "82dd82c382ab834e8393000000000000",
+      "after_hex": "826c8289829a8295828b828900000000",
+      "source": "entity ID 0x023c; table slot 0x386C18; real target 0x136D58"
+    },
+    {
+      "offset": 2060908,
+      "size": 16,
+      "japanese": "かなみクン",
+      "english": "Kanami",
+      "before_hex": "82a982c882dd834e8393000000000000",
+      "after_hex": "826a8281828e8281828d828900000000",
+      "source": "entity ID 0x0207; table slot 0x386BAE; real target 0x136B1A"
+    },
+    {
+      "offset": 2061328,
+      "size": 16,
+      "japanese": "ゆきかぜン",
+      "english": "Yukikaze",
+      "before_hex": "82e482ab82a982ba8393000000000000",
+      "after_hex": "82788295828b8289828b8281829a8285",
+      "source": "entity ID 0x021d; table slot 0x386BDA; real target 0x136C18"
+    },
+    {
+      "offset": 2070106,
+      "size": 16,
+      "japanese": "ビーンズ",
+      "english": "Beans",
+      "before_hex": "8372815b839383590000000000000000",
+      "after_hex": "826182858281828e8293000000000000",
+      "source": "I02_TERM_159"
+    },
+    {
+      "offset": 2071010,
+      "size": 16,
+      "japanese": "みことクン",
+      "english": "Mikoto",
+      "before_hex": "82dd82b182c6834e8393000000000000",
+      "after_hex": "826c8289828b828f8294828f00000000",
+      "source": "entity ID 0x021c; table slot 0x386BD8; real target 0x136C0A"
+    },
+    {
+      "offset": 2071336,
+      "size": 16,
+      "japanese": "こはるクン",
+      "english": "Koharu",
+      "before_hex": "82b182cd82e9834e8393000000000000",
+      "after_hex": "826a828f828882818292829500000000",
+      "source": "entity ID 0x023a; table slot 0x386C14; real target 0x136D3E"
+    },
+    {
+      "offset": 2076010,
+      "size": 16,
+      "japanese": "クリム・ベー",
+      "english": "Crim B",
+      "before_hex": "834e838a838081458378815b00000000",
+      "after_hex": "826282928289828d8140826100000000",
+      "source": "entity ID 0x0256; table slot 0x386C4C; real target 0x136E6A"
+    },
+    {
+      "offset": 2076136,
+      "size": 16,
+      "japanese": "ゴスボロン",
+      "english": "Gosboro",
+      "before_hex": "83538358837b838d8393000000000000",
+      "after_hex": "8266828f82938282828f8292828f0000",
+      "source": "entity ID 0x0253; table slot 0x386C46; real target 0x136E40"
+    },
+    {
+      "offset": 2076252,
+      "size": 16,
+      "japanese": "チョップン",
+      "english": "Chop",
+      "before_hex": "83608387836283768393000000000000",
+      "after_hex": "82628288828f82900000000000000000",
+      "source": "entity ID 0x01fc; table slot 0x386B98; real target 0x136AA6"
+    },
+    {
+      "offset": 2076766,
+      "size": 16,
+      "japanese": "リムナーン",
+      "english": "Limna",
+      "before_hex": "838a83808369815b8393000000000000",
+      "after_hex": "826b8289828d828e8281000000000000",
+      "source": "entity ID 0x01e7; table slot 0x386B6E; real target 0x38FE02"
+    },
+    {
+      "offset": 2076868,
+      "size": 16,
+      "japanese": "スナフーン",
+      "english": "Snuff",
+      "before_hex": "835883698374815b8393000000000000",
+      "after_hex": "8272828e829582868286000000000000",
+      "source": "entity ID 0x01fd; table slot 0x386B9A; real target 0x136AAE"
+    },
+    {
+      "offset": 2076970,
+      "size": 16,
+      "japanese": "タムタムン",
+      "english": "Tamtam",
+      "before_hex": "835e8380835e83808393000000000000",
+      "after_hex": "82738281828d82948281828d00000000",
+      "source": "entity ID 0x025a; table slot 0x386C54; real target 0x136E94"
+    },
+    {
+      "offset": 2078034,
+      "size": 16,
+      "japanese": "ガイゴール",
+      "english": "Gaigor",
+      "before_hex": "834b83438353815b838b000000000000",
+      "after_hex": "8266828182898287828f829200000000",
+      "source": "entity ID 0x01e2; table slot 0x386B64; real target 0x38FDB8"
+    },
+    {
+      "offset": 2079122,
+      "size": 16,
+      "japanese": "ノアノアン",
+      "english": "Noanoa",
+      "before_hex": "836d8341836d83418393000000000000",
+      "after_hex": "826d828f8281828e828f828100000000",
+      "source": "entity ID 0x0262; table slot 0x386C64; real target 0x136EFA"
+    },
+    {
+      "offset": 2079734,
+      "size": 16,
+      "japanese": "ミラーガン",
+      "english": "Miraga",
+      "before_hex": "837e8389815b834b8393000000000000",
+      "after_hex": "826c8289829282818287828100000000",
+      "source": "entity ID 0x021e; table slot 0x386BDC; real target 0x136C2A"
+    },
+    {
+      "offset": 2079838,
+      "size": 16,
+      "japanese": "エスピスック",
+      "english": "Espis",
+      "before_hex": "83478358837383588362834e00000000",
+      "after_hex": "82648293829082898293000000000000",
+      "source": "entity ID 0x0275; table slot 0x386C8A; real target 0x136FBC"
+    },
+    {
+      "offset": 2080454,
+      "size": 16,
+      "japanese": "ウーファン",
+      "english": "Ufa",
+      "before_hex": "8345815b837483408393000000000000",
+      "after_hex": "82748286828100000000000000000000",
+      "source": "entity ID 0x024e; table slot 0x386C3C; real target 0x136E16"
+    },
+    {
+      "offset": 2080806,
+      "size": 16,
+      "japanese": "チェックン",
+      "english": "Check",
+      "before_hex": "836083468362834e8393000000000000",
+      "after_hex": "8262828882858283828b000000000000",
+      "source": "entity ID 0x0229; table slot 0x386BF2; real target 0x136C98"
+    },
+    {
+      "offset": 2097692,
+      "size": 16,
+      "japanese": "ストラムン",
+      "english": "Stram",
+      "before_hex": "83588367838983808393000000000000",
+      "after_hex": "8272829482928281828d000000000000",
+      "source": "entity ID 0x0239; table slot 0x386C12; real target 0x136D34"
+    },
+    {
+      "offset": 2097802,
+      "size": 16,
+      "japanese": "ボーマンン",
+      "english": "Bowman",
+      "before_hex": "837b815b837d83938393000000000000",
+      "after_hex": "8261828f8297828d8281828e00000000",
+      "source": "entity ID 0x0215; table slot 0x386BCA; real target 0x136BBE"
+    },
+    {
+      "offset": 2097906,
+      "size": 16,
+      "japanese": "ウリルロート",
+      "english": "Urilrote",
+      "before_hex": "8345838a838b838d815b836700000000",
+      "after_hex": "827482928289828c8292828f82948285",
+      "source": "entity ID 0x01e3; table slot 0x386B66; real target 0x38FDC6"
+    },
+    {
+      "offset": 2098024,
+      "size": 16,
+      "japanese": "ヴァイカート",
+      "english": "Vaikart",
+      "before_hex": "839483408343834a815b836700000000",
+      "after_hex": "827582818289828b8281829282940000",
+      "source": "entity ID 0x0248; table slot 0x386C30; real target 0x136DDC"
+    },
+    {
+      "offset": 2099990,
+      "size": 16,
+      "japanese": "シルキーン",
+      "english": "Silky",
+      "before_hex": "8356838b834c815b8393000000000000",
+      "after_hex": "82728289828c828b8299000000000000",
+      "source": "entity ID 0x0235; table slot 0x386C0A; real target 0x136D0C"
+    },
+    {
+      "offset": 2100094,
+      "size": 16,
+      "japanese": "ワンダーン",
+      "english": "Wonder",
+      "before_hex": "838f8393835f815b8393000000000000",
+      "after_hex": "8276828f828e82848285829200000000",
+      "source": "entity ID 0x0246; table slot 0x386C2C; real target 0x136DC6"
+    },
+    {
+      "offset": 2100334,
+      "size": 16,
+      "japanese": "ペペカーン",
+      "english": "Pepe",
+      "before_hex": "83798379834a815b8393000000000000",
+      "after_hex": "826f8285829082850000000000000000",
+      "source": "entity ID 0x023f; table slot 0x386C1E; real target 0x136D7C"
+    },
+    {
+      "offset": 2100864,
+      "size": 16,
+      "japanese": "ウィスピー",
+      "english": "Wispy",
+      "before_hex": "8345834283588373815b000000000000",
+      "after_hex": "82768289829382908299000000000000",
+      "source": "entity ID 0x024d; table slot 0x386C3A; real target 0x136E0C"
+    },
+    {
+      "offset": 2101940,
+      "size": 16,
+      "japanese": "ムータンン",
+      "english": "Mutan",
+      "before_hex": "8380815b835e83938393000000000000",
+      "after_hex": "826c829582948281828e000000000000",
+      "source": "entity ID 0x01ff; table slot 0x386B9E; real target 0x136AC6"
+    },
+    {
+      "offset": 2102106,
+      "size": 16,
+      "japanese": "ナゼトーン",
+      "english": "Nazeto",
+      "before_hex": "8369835b8367815b8393000000000000",
+      "after_hex": "826d8281829a82858294828f00000000",
+      "source": "entity ID 0x0260; table slot 0x386C60; real target 0x136EE0"
+    },
+    {
+      "offset": 2118332,
+      "size": 16,
+      "japanese": "ホーン",
+      "english": "Hrn",
+      "before_hex": "837a815b839300000000000000000000",
+      "after_hex": "82678292828e00000000000000000000",
+      "source": "I02_TERM_186"
+    },
+    {
+      "offset": 2121768,
+      "size": 16,
+      "japanese": "エクレアン",
+      "english": "Eclair",
+      "before_hex": "8347834e838c83418393000000000000",
+      "after_hex": "82648283828c82818289829200000000",
+      "source": "entity ID 0x0273; table slot 0x386C86; real target 0x136FA6"
+    },
+    {
+      "offset": 2121872,
+      "size": 16,
+      "japanese": "グリームン",
+      "english": "Gleam",
+      "before_hex": "834f838a815b83808393000000000000",
+      "after_hex": "8266828c82858281828d000000000000",
+      "source": "entity ID 0x0264; table slot 0x386C68; real target 0x136F12"
+    },
+    {
+      "offset": 1801522,
+      "size": 10,
+      "japanese": "ティラワカ",
+      "english": "Tiraw",
+      "before_hex": "836583428389838f834a",
+      "after_hex": "82738289829282818297",
+      "source": "Real OP0022 operand terminated by next opcode001C, not strict21000000 grammar; handler3564 stops CP932 copy when word<8140; distinct from181"
+    }
+  ],
+  "name_metadata_preserved": true,
+  "no_code_or_pointer_changes": true
+}

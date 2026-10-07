@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "buy",
+    "captured_frames": 18,
+    "all_images_byte_identical_to_F36": true,
+    "selector_injection": false
+  },
+  {
+    "mode": "sell",
+    "captured_frames": 18,
+    "all_images_byte_identical_to_F36": true,
+    "selector_injection": false
+  }
+]

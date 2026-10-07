@@ -1,7 +1,0 @@
-FRAME f=240 cpu=9000:0176 region=006E scene=006E script=00:0000 mode=0000 video=0000
-SYNTHETIC_NAME D181 Aura; fullwidth CP932; not acquired pet
-SYNTHETIC_NATIVE_EVENT_COROUTINE f=320 cpu=9000:0176 region=006E scene=006E script=19:1DF8 mode=0000 video=0000
-FRAME f=480 cpu=9000:0176 region=006E scene=006E script=19:1DFA mode=0000 video=0000
-FRAME f=720 cpu=9000:0176 region=006E scene=006E script=19:1DFA mode=0000 video=0000
-FINAL f=900 cpu=9000:0176 region=006E scene=006E script=19:1DFA mode=0000 video=0000
-RESULT redirected=true credits=false finished=false stable=0

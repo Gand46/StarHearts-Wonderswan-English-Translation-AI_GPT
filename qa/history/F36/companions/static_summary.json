@@ -1,0 +1,33 @@
+{
+  "rom_sha256": "6198444ae2e18467c7fd2c44eb8d32888b662ba06a35625cdf3282ecd7e16084",
+  "count": 181,
+  "id_table_linked": 164,
+  "exceptions": 17,
+  "consumer_proven": 181,
+  "guarded_code_ranges": {
+    "0x393182": "f831",
+    "0x3931f8": "9ada0e009083c61a",
+    "0x3973c1": "bb0000b9080090268b400689416283c302e2f4",
+    "0x391f9f": "bb0000b9080090268b400689416283c302e2f4",
+    "0x39e929": "837d6200747306568bf783c66233c08ec0bfa0739adeb700a0",
+    "0x394228": "2de001",
+    "0x39424a": "606b0080",
+    "0x3ab7e4": "bd0000b90800"
+  },
+  "new_editorial": [
+    "0x1B45D4",
+    "0x1BF504",
+    "0x1E7318"
+  ],
+  "extra_op22": [
+    {
+      "offset": "0x1B7D32",
+      "japanese": "ティラワカ",
+      "english": "Tiraw",
+      "expected_before_hex": "836583428389838f834a",
+      "after_hex": "82738289829282818297",
+      "following_control_hex": "1c003c00",
+      "evidence": "Real OP0022 operand terminated by next opcode001C, not strict21000000 grammar; handler3564 stops CP932 copy when word<8140; distinct from181"
+    }
+  ]
+}
